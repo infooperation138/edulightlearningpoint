@@ -423,16 +423,10 @@ font-size:22px;
 
 .hero-bg{
     position: relative;
-    background:
-    linear-gradient(rgba(255,255,255,0.55), rgba(255,255,255,0.55)),
-    url("../images/hero-bg.jpg");
-
+    background: linear-gradient(rgba(255,255,255,0.88), rgba(255,255,255,0.88)),
+    url('../images/hero-bg.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
-
-    min-height: 700px;
-
-    display: flex;
-    align-items: center;
+    padding: 90px 0;
 }
