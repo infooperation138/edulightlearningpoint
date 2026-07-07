@@ -421,18 +421,18 @@ font-size:22px;
    HERO BACKGROUND
 =========================== */
 
-.hero-bg{
-    position: relative;
-    background:
-    linear-gradient(rgba(255,255,255,0.55), rgba(255,255,255,0.55)),
-    url("../images/hero-bg.jpg");
+.hero{
+    padding:80px 0;
+    background:#ffffff;
+}
 
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-
-    min-height: 700px;
-
-    display: flex;
-    align-items: center;
+.hero-content{
+    background:url("../images/hero-bg.jpg") no-repeat center center;
+    background-size:cover;
+    border-radius:20px;
+    padding:60px;
+    min-height:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
