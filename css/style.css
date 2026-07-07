@@ -368,3 +368,27 @@ font-size:22px;
 }
 
 }
+.feature-box{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    transition:.3s;
+    height:100%;
+}
+
+.feature-box:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.feature-box i{
+    font-size:50px;
+    color:#0B5ED7;
+    margin-bottom:20px;
+}
+
+.feature-box h4{
+    font-weight:700;
+    margin-bottom:15px;
+}
