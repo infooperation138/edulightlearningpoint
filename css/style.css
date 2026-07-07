@@ -430,3 +430,18 @@ font-size:22px;
     background-repeat: no-repeat;
     padding: 90px 0;
 }
+.university-card{
+    border-radius:18px;
+    transition:.3s;
+}
+
+.university-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15)!important;
+}
+
+.university-logo{
+    width:130px;
+    height:80px;
+    object-fit:contain;
+}
