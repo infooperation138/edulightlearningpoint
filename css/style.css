@@ -469,3 +469,30 @@ TOP BAR
 .nav-link:hover{
     color:#0d6efd!important;
 }
+/* ==========================
+CALL BUTTON
+========================== */
+
+.call-btn{
+    position:fixed;
+    right:25px;
+    bottom:100px;
+    width:65px;
+    height:65px;
+    background:#0d6efd;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    text-decoration:none;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+    z-index:999;
+    transition:.3s;
+}
+
+.call-btn:hover{
+    color:#fff;
+    transform:scale(1.1);
+}
