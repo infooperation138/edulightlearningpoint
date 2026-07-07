@@ -417,3 +417,16 @@ font-size:22px;
     transform:scale(1.1);
     color:#fff;
 }
+/* ===========================
+   HERO BACKGROUND
+=========================== */
+
+.hero-bg{
+    position: relative;
+    background: linear-gradient(rgba(255,255,255,0.88), rgba(255,255,255,0.88)),
+    url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 90px 0;
+}
