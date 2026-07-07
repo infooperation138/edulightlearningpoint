@@ -162,13 +162,13 @@ View Universities
 Apply Now
 </h3>
 
-<form>
+<form id="admissionForm">
 
-<input type="text" class="form-control mb-3" placeholder="Full Name">
+<input type="text" class="form-control mb-3" name="name" placeholder="Full Name" required>
 
-<input type="tel" class="form-control mb-3" placeholder="Mobile Number">
+<input type="tel" class="form-control mb-3" name="name" placeholder="Mobile Number" required>
 
-<input type="email" class="form-control mb-3" placeholder="Email Address">
+<input type="email" class="form-control mb-3" name="email" placeholder="Email Address" required>
 
 <select class="form-select mb-3">
 <option>Select Course</option>
@@ -186,7 +186,7 @@ Apply Now
 <option>M.Lib</option>
 </select>
 
-<select class="form-select mb-3">
+<select class="form-select mb-3" name="university" required>
 <option>Select University</option>
 <option>Mangalayatan University</option>
 <option>Amity University Online</option>
@@ -195,7 +195,9 @@ Apply Now
 <option>Subharti University</option>
 </select>
 
-<button class="btn btn-primary w-100">
+<button type="submit" class="btn btn-primary w-100">
+Apply Now
+</button>
 Apply For Free Counselling
 </button>
 
