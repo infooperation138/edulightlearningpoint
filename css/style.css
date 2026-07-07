@@ -426,13 +426,10 @@ font-size:22px;
     background:#ffffff;
 }
 
-.hero-content{
-    background:url("../images/hero-bg.jpg") no-repeat center center;
-    background-size:cover;
+.hero-form{
+    background:rgba(255,255,255,.92);
+    backdrop-filter:blur(12px);
     border-radius:20px;
-    padding:60px;
-    min-height:500px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+    padding:30px;
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
 }
