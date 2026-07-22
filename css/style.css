@@ -595,3 +595,12 @@ transform:translateY(-5px);
 .card{
     border-radius:18px;
 }
+.university-card h6 {
+    font-size: 15px;
+    font-weight: 600;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
