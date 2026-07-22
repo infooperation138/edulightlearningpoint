@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://infooperation138.github.io/edulightlearningpoint/sitemap.xml
