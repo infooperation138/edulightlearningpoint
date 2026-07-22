@@ -661,9 +661,9 @@ transform:translateY(-5px);
 }
 
 .brand-subtitle{
-    font-size:18px;
-    font-weight:500;
+    font-size:22px;
+    font-weight:600;
     color:#000000;
     line-height:1;
-    margin-top:-4px;
+    margin-top:0px;
 }
