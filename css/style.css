@@ -669,3 +669,12 @@ transform:translateY(-5px);
     line-height:1;
     margin-top:0px;
 }
+
+.feature-box{
+    transition:all .35s ease;
+}
+
+.feature-box:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+}
