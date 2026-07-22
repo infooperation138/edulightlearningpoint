@@ -27,7 +27,7 @@ body{
 }
 
 .navbar-brand{
-    font-size:28px;
+    font-size:32px;
     font-weight:700;
     color:#0B5ED7 !important;
 }
@@ -638,11 +638,11 @@ transform:translateY(-5px);
 
 .navbar-brand h5{
     margin:0;
-    font-size:30px;
+    font-size:36px;
     font-weight:700;
 }
 
 .navbar-brand small{
     font-size:18px;
-    color:#666;
+    color:#500;
 }
