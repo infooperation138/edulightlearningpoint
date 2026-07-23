@@ -394,30 +394,7 @@ font-size:22px;
     font-weight:700;
     margin-bottom:15px;
 }
-/* WhatsApp Floating Button */
 
-.whatsapp{
-    position:fixed;
-    bottom:25px;
-    right:25px;
-    width:65px;
-    height:65px;
-    background:#25D366;
-    color:#fff;
-    border-radius:50%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:32px;
-    text-decoration:none;
-    box-shadow:0 8px 20px rgba(0,0,0,.25);
-    z-index:999;
-    transition:.3s;
-}
-
-.whatsapp:hover{
-    transform:scale(1.1);
-    color:#fff;
 }
 /* ===========================
    HERO BACKGROUND
@@ -432,20 +409,7 @@ font-size:22px;
     background-repeat: no-repeat;
     padding: 90px 0;
 }
-.university-card{
-    border-radius:18px;
-    transition:.3s;
-}
 
-.university-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 20px 40px rgba(0,0,0,.15)!important;
-}
-
-.university-logo{
-    width:130px;
-    height:80px;
-    object-fit:contain;
 }
 /* ==========================
 TOP BAR
@@ -595,38 +559,6 @@ transform:translateY(-5px);
 
 }
 
-.university-card{
-    background:#fff;
-    border-radius:15px;
-    padding:20px 15px;
-    text-align:center;
-    box-shadow:0 4px 15px rgba(0,0,0,0.08);
-    transition:0.3s;
-    height:100%;
-}
-
-.university-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 10px 25px rgba(0,0,0,0.15);
-}
-
-.university-card img{
-    height:70px;
-    width:auto;
-    object-fit:contain;
-    margin-bottom:15px;
-}
-
-.university-card h6{
-    font-size:15px;
-    font-weight:600;
-    margin:0;
-    min-height:40px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
 .navbar-brand{
     display:flex;
     align-items:center;
@@ -668,25 +600,6 @@ transform:translateY(-5px);
     color:#000000;
     line-height:1;
     margin-top:0px;
-}
-
-.feature-box{
-    transition:all .35s ease;
-}
-
-.feature-box:hover{
-    transform:translateY(-10px);
-    box-shadow:0 20px 40px rgba(0,0,0,.12);
-}
-
-.navbar .nav-link{
-    font-weight:600;
-    margin:0 8px;
-    transition:0.3s;
-}
-
-.navbar .nav-link:hover{
-    color:#0d6efd !important;
 }
 
 .navbar .btn{
