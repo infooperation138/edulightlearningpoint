@@ -175,38 +175,81 @@ body{
    UNIVERSITY CARD
 =========================== */
 
+/* =========================
+UNIVERSITY CARD
+========================= */
+
 .university-card{
-
+    border-radius:18px;
     background:#fff;
-
-    border-radius:15px;
-
-    padding:25px;
-
+    padding:22px;
+    transition:.3s;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
     text-align:center;
-
-    transition:.4s;
-
-    border:1px solid #eee;
-
+    height:100%;
 }
 
 .university-card:hover{
-
-    transform:translateY(-10px);
-
-    box-shadow:0 15px 30px rgba(0,0,0,.08);
-
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
 }
 
-.university-card img{
-
-    width:120px;
-
-    margin-bottom:15px;
-
+.university-logo{
+    width:180px;
+    height:75px;
+    object-fit:contain;
+    margin:auto;
 }
 
+.university-card h4{
+    font-size:22px;
+    font-weight:700;
+    margin-top:20px;
+    margin-bottom:12px;
+}
+
+.university-card p{
+    font-size:15px;
+    color:#666;
+    min-height:70px;
+    margin-bottom:20px;
+}
+
+.card-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.btn-apply{
+    background:#198754;
+    color:#fff;
+    border-radius:10px;
+    font-weight:600;
+    padding:10px;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.btn-apply:hover{
+    background:#157347;
+    color:#fff;
+}
+
+.btn-details{
+    border:2px solid #0d6efd;
+    color:#0d6efd;
+    border-radius:10px;
+    font-weight:600;
+    padding:10px;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.btn-details:hover{
+    background:#0d6efd;
+    color:#fff;
+}
 /* ===========================
    FEATURE BOX
 =========================== */
