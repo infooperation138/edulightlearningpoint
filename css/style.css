@@ -218,22 +218,25 @@ UNIVERSITY CARD
 /* ===== Premium Card Buttons ===== */
 
 .card-buttons{
+    margin-top:15px;
     display:flex;
-    gap:10px;
     justify-content:center;
-    margin-top:18px;
+    gap:8px;
+    flex-wrap:wrap;
+}
+
 }
 
 .btn-apply,
 .btn-details{
-    flex:1;
-    text-align:center;
-    padding:10px 14px;
-    border-radius:10px;
-    font-size:14px;
+    display:inline-block;
+    padding:8px 14px;
+    border-radius:8px;
+    font-size:13px;
     font-weight:600;
     text-decoration:none;
-    transition:all .3s ease;
+    transition:.3s;
+}
 }
 
 .btn-apply{
