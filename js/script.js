@@ -45,3 +45,33 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
+// =============================
+// HOME PAGE UNIVERSITY SEARCH
+// =============================
+
+const searchInput = document.getElementById("searchUniversity");
+
+if (searchInput) {
+
+    searchInput.addEventListener("keyup", function () {
+
+        let value = this.value.toLowerCase();
+
+        document.querySelectorAll(".university-card").forEach(function(card){
+
+            let name = card.querySelector("h6").textContent.toLowerCase();
+
+            let column = card.parentElement;
+
+            if(name.includes(value)){
+                column.style.display = "";
+            }else{
+                column.style.display = "none";
+            }
+
+        });
+
+    });
+
+}
