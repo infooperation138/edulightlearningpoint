@@ -362,8 +362,6 @@ margin-top:40px;
 
 }
 
-}
-
 @media(max-width:576px){
 
 .hero h1{
@@ -386,7 +384,6 @@ font-size:22px;
 
 }
 
-}
 .feature-box{
     background:#fff;
     padding:30px;
@@ -412,7 +409,6 @@ font-size:22px;
     margin-bottom:15px;
 }
 
-}
 /* ===========================
    HERO BACKGROUND
 =========================== */
@@ -424,10 +420,9 @@ font-size:22px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 90px 0;
+    padding: 35px 0 60px;
 }
 
-}
 /* ==========================
 TOP BAR
 ========================== */
