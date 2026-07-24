@@ -194,20 +194,6 @@ body{
     box-shadow:0 20px 45px rgba(0,0,0,.15);
 }
 
-.logo-box{
-    height:95px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-bottom:18px;
-}
-
-.logo-box img{
-    max-width:150px;
-    max-height:70px;
-    object-fit:contain;
-}
-
 .university-card h6{
     font-size:17px;
     font-weight:700;
