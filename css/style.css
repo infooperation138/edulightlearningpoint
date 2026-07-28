@@ -365,6 +365,52 @@ img{
 }
 
 /* ===========================
+UNIVERSITY INFO
+=========================== */
+
+.university-card{
+    text-decoration:none;
+    color:#222;
+    cursor:pointer;
+}
+
+.university-card:hover{
+    color:#222;
+    text-decoration:none;
+}
+
+.university-state{
+    font-size:14px;
+    color:#666;
+    margin:8px 0;
+    font-weight:500;
+}
+
+.university-mode{
+    display:inline-block;
+    margin-top:8px;
+    padding:6px 14px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:600;
+}
+
+.online{
+    background:#e8f5e9;
+    color:#198754;
+}
+
+.distance{
+    background:#e3f2fd;
+    color:#0d6efd;
+}
+
+.online-distance{
+    background:#fff3cd;
+    color:#b45309;
+}
+
+/* ===========================
    FEATURE BOX
 =========================== */
 
