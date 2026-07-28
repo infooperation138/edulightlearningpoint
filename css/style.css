@@ -723,4 +723,14 @@ UNIVERSITY INFO
 
 }
 
+/* Desktop - 5 cards per row */
+
+@media (min-width:992px){
+
+.university-grid .col-lg-3{
+    width:20%;
+    flex:0 0 20%;
+    max-width:20%;
+}
+
 }
