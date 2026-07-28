@@ -733,4 +733,8 @@ UNIVERSITY INFO
     max-width:20%;
 }
 
+/* Hero Form Up */
+
+.hero .card{
+    margin-top: -30px;
 }
