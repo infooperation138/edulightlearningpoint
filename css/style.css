@@ -1,8 +1,14 @@
-/* ===========================
+/* ==========================================
    EDULIGHT LEARNING POINT
-=========================== */
+   STYLE.CSS (PART 1)
+========================================== */
 
+/* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ===========================
+   RESET
+=========================== */
 
 *{
     margin:0;
@@ -10,10 +16,47 @@
     box-sizing:border-box;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
     font-family:'Poppins',sans-serif;
     background:#f8f9fc;
     color:#222;
+    overflow-x:hidden;
+}
+
+/* ===========================
+   COMMON
+=========================== */
+
+a{
+    text-decoration:none;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+.container{
+    max-width:1320px;
+}
+
+/* ===========================
+   TOP BAR
+=========================== */
+
+.top-bar{
+    background:#0d6efd;
+    color:#fff;
+    font-size:14px;
+    padding:8px 0;
+}
+
+.top-bar i{
+    margin-right:6px;
 }
 
 /* ===========================
@@ -22,25 +65,52 @@ body{
 
 .navbar{
     background:#fff;
-    padding:15px 0;
-    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    padding:10px 0;
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
 }
 
 .navbar-brand{
-    font-size:32px;
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.navbar-brand img{
+    width:75px;
+    border-radius:12px;
+}
+
+.brand-title{
+    font-size:34px;
     font-weight:700;
-    color:#0B5ED7 !important;
+    color:#0d6efd;
+    margin:0;
+    line-height:1;
+}
+
+.brand-subtitle{
+    font-size:20px;
+    font-weight:600;
+    color:#222;
+    margin:0;
+    line-height:1;
 }
 
 .nav-link{
-    color:#333 !important;
-    margin-left:20px;
-    font-weight:500;
+    font-weight:600;
+    margin-left:18px;
+    color:#222 !important;
     transition:.3s;
 }
 
 .nav-link:hover{
-    color:#0B5ED7 !important;
+    color:#0d6efd !important;
+}
+
+.navbar .btn{
+    border-radius:30px;
+    padding:10px 24px;
+    font-weight:600;
 }
 
 /* ===========================
@@ -48,155 +118,187 @@ body{
 =========================== */
 
 .hero{
+    padding:25px 0;
+}
 
-    padding:20px 0;
+.hero-bg{
 
-    min-height:85vh;
+    background:
+    linear-gradient(rgba(255,255,255,.90),
+    rgba(255,255,255,.90)),
+    url("../images/hero-bg.jpg");
 
-    display:flex;
-
-    align-items:center;
-
-    background:linear-gradient(135deg,#ffffff,#eef5ff);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 
 }
 
 .hero h1{
 
-    font-size:46px;
-
+    font-size:48px;
     font-weight:800;
-
-    line-height:56px;
+    line-height:60px;
+    margin-bottom:15px;
 
 }
 
 .hero p{
 
+    font-size:17px;
     color:#666;
 
+}
+
+.hero .badge{
+
     font-size:18px;
-
-    margin-bottom:30px;
-
-}
-
-.btn-primary{
-
-    background:#0B5ED7;
-
-    border:none;
-
-    padding:14px 35px;
-
-    border-radius:8px;
+    border-radius:40px;
 
 }
 
-.btn-primary:hover{
+.trust-box{
 
-    background:#083b92;
+    background:#fff;
+    border-radius:15px;
+    padding:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:.3s;
 
 }
 
-.btn-outline-primary{
+.trust-box:hover{
 
-    padding:14px 35px;
+    transform:translateY(-6px);
 
-    border-radius:8px;
+}
+
+.trust-box h3{
+
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:4px;
+
+}
+
+.trust-box small{
+
+    color:#555;
 
 }
 
 /* ===========================
-   ADMISSION FORM
+   HERO FORM
 =========================== */
 
-.card{
+.hero .card{
 
     border:none;
-
-    border-radius:18px;
-
-    box-shadow:0 20px 45px rgba(0,0,0,.08);
-
-    padding:20px !important;
+    border-radius:20px;
+    padding:22px;
+    box-shadow:0 18px 45px rgba(0,0,0,.12);
 
 }
 
-.card h3{
+.hero .card h3{
 
-    color:#082A5E;
-
+    font-size:28px;
     font-weight:700;
+    color:#ff7a00;
 
 }
 
-.card h3{
-
-    font-size:26px;
-
-}
-
-.card p{
+.hero .card p{
 
     font-size:14px;
-
-    margin-bottom:12px !important;
+    margin-bottom:15px !important;
 
 }
+
+/* ===========================
+   FORM
+=========================== */
 
 .form-control,
 .form-select{
 
-    height:42px;
-
-    border-radius:8px;
-
-    margin-bottom:8px;
-
+    height:45px;
+    border-radius:10px;
+    margin-bottom:10px;
     font-size:14px;
 
 }
 
 .form-control:focus,
-
 .form-select:focus{
 
-    border-color:#0B5ED7;
-
+    border-color:#0d6efd;
     box-shadow:none;
 
 }
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.btn-primary{
+
+    background:#0d6efd;
+    border:none;
+    border-radius:10px;
+    height:46px;
+    font-weight:600;
+    transition:.3s;
+
+}
+
+.btn-primary:hover{
+
+    background:#084db6;
+
+}
+
+.btn-outline-primary{
+
+    border-radius:10px;
+    font-weight:600;
+
+}
+
+.btn-success{
+
+    border-radius:30px;
+
+}
+
+/* ==========================================
+   EDULIGHT LEARNING POINT
+   STYLE.CSS (PART 2)
+========================================== */
 
 /* ===========================
    SECTION TITLE
 =========================== */
 
 .section-title{
-
     text-align:center;
-
     margin-bottom:50px;
-
 }
 
 .section-title h2{
-
     font-size:40px;
-
     font-weight:700;
-
+    color:#082A5E;
 }
 
 .section-title p{
-
     color:#666;
-
+    font-size:17px;
 }
 
-/*==============================
- PREMIUM UNIVERSITY CARD
-==============================*/
+/* ===========================
+   UNIVERSITY CARD
+=========================== */
 
 .university-card{
     background:#fff;
@@ -206,16 +308,26 @@ body{
     display:flex;
     flex-direction:column;
     text-align:center;
-    border:1px solid #e8e8e8;
-    box-shadow:0 8px 25px rgba(0,0,0,.06);
+    border:1px solid #ececec;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
     transition:.35s;
 }
 
+.university-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 40px rgba(0,0,0,.15);
+}
+
 .university-logo{
-    width:100%;
     height:70px;
     object-fit:contain;
     margin-bottom:15px;
+}
+
+.university-card h6{
+    font-size:17px;
+    font-weight:700;
+    min-height:48px;
 }
 
 .card-buttons{
@@ -224,21 +336,21 @@ body{
     gap:10px;
 }
 
-.card-buttons{
-    display:flex;
-    gap:10px;
-}
-
 .card-buttons .btn{
     flex:1;
+    padding:10px;
     border-radius:10px;
     font-size:14px;
     font-weight:600;
-    padding:10px 0;
 }
 
 .btn-apply{
     background:#198754;
+    color:#fff;
+}
+
+.btn-apply:hover{
+    background:#157347;
     color:#fff;
 }
 
@@ -247,247 +359,172 @@ body{
     color:#fff;
 }
 
+.btn-details:hover{
+    background:#084db6;
+    color:#fff;
+}
+
 /* ===========================
    FEATURE BOX
 =========================== */
 
 .feature-box{
+
     background:#fff;
-    border-radius:15px;
-    padding:25px 20px;
+    padding:28px 22px;
+    border-radius:18px;
     text-align:center;
-    box-shadow:0 5px 15px rgba(0,0,0,0.08);
-    transition:all .3s ease;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.35s;
     height:100%;
+
 }
 
 .feature-box:hover{
+
     transform:translateY(-8px);
-    box-shadow:0 12px 25px rgba(0,0,0,0.15);
+
+}
+
+.feature-box i{
+
+    font-size:50px;
+    color:#0d6efd;
+    margin-bottom:18px;
+
 }
 
 .feature-box h4{
-    color:#0d6efd;
+
+    font-size:22px;
     font-weight:700;
-    margin-bottom:12px;
+    margin-bottom:10px;
+
 }
 
 .feature-box p{
-    color:#666;
-    font-size:14px;
-    min-height:45px;
-}
 
-.feature-box .btn{
-    border-radius:30px;
-    padding:8px 18px;
+    color:#666;
+
 }
 
 /* ===========================
    FOOTER
 =========================== */
 
-footer{
+.footer{
 
-    background:#082A5E;
-
+    background:#0f172a;
     color:#fff;
-
     padding:70px 0 20px;
 
 }
 
-footer h5{
+.footer h4,
+.footer h5{
 
     margin-bottom:20px;
+    color:#fff;
 
 }
 
-footer a{
+.footer p{
 
-    color:#ddd;
-
-    text-decoration:none;
-
-    display:block;
-
-    margin-bottom:10px;
+    color:#cbd5e1;
 
 }
 
-footer a:hover{
+.footer ul{
 
-    color:#FDB913;
+    list-style:none;
+    padding:0;
+
+}
+
+.footer ul li{
+
+    margin-bottom:12px;
+
+}
+
+.footer ul li a{
+
+    color:#cbd5e1;
+    transition:.3s;
+
+}
+
+.footer ul li a:hover{
+
+    color:#fff;
+    padding-left:6px;
+
+}
+
+.social-icon{
+
+    width:42px;
+    height:42px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    background:#1e293b;
+    color:#fff;
+    margin-right:10px;
+    transition:.3s;
+
+}
+
+.social-icon:hover{
+
+    background:#0d6efd;
+    color:#fff;
+    transform:translateY(-5px);
 
 }
 
 /* ===========================
-   WHATSAPP BUTTON
+   WHATSAPP
 =========================== */
 
 .whatsapp{
 
     position:fixed;
-
     bottom:20px;
-
     right:20px;
-
     width:60px;
-
     height:60px;
-
     background:#25D366;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    z-index:999;
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+
+}
+
+.whatsapp:hover{
 
     color:#fff;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    border-radius:50%;
-
-    font-size:28px;
-
-    text-decoration:none;
-
-    box-shadow:0 10px 25px rgba(0,0,0,.25);
-
-    z-index:999;
+    transform:scale(1.08);
 
 }
 
 /* ===========================
-   RESPONSIVE
+   CALL BUTTON
 =========================== */
-
-@media(max-width:992px){
-
-.hero{
-
-text-align:center;
-
-}
-
-.hero h1{
-
-font-size:40px;
-
-line-height:55px;
-
-}
-
-.card{
-
-margin-top:40px;
-
-}
-
-@media(max-width:576px){
-
-.hero h1{
-
-font-size:30px;
-
-line-height:42px;
-
-}
-
-.hero{
-
-padding:60px 0;
-
-}
-
-.navbar-brand{
-
-font-size:22px;
-
-}
-
-.feature-box{
-    background:#fff;
-    padding:30px;
-    border-radius:15px;
-    text-align:center;
-    transition:.3s;
-    height:100%;
-}
-
-.feature-box:hover{
-    transform:translateY(-8px);
-    box-shadow:0 10px 30px rgba(0,0,0,.1);
-}
-
-.feature-box i{
-    font-size:50px;
-    color:#0B5ED7;
-    margin-bottom:20px;
-}
-
-.feature-box h4{
-    font-weight:700;
-    margin-bottom:15px;
-}
-
-/* ===========================
-   HERO BACKGROUND
-=========================== */
-
-.hero-bg{
-    position: relative;
-    background: linear-gradient(rgba(255,255,255,0.88), rgba(255,255,255,0.88)),
-    url('../images/hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 25px 0 60px;
-}
-
-/* ==========================
-TOP BAR
-========================== */
-
-.top-bar{
-    font-size:14px;
-}
-
-.top-bar i{
-    margin-right:5px;
-}
-
-.navbar{
-    padding:8px 0 !important;
-    min-height:70px;
-}
-
-.navbar-brand img{
-    height:55px;
-    width:auto;
-    border-radius:10px;
-}
-
-.nav-link{
-    font-weight:600;
-    margin-left:10px;
-}
-
-.nav-link:hover{
-    color:#0d6efd!important;
-}
-
-/* ==========================
-CALL BUTTON
-========================== */
 
 .call-btn{
+
     position:fixed;
-    right:25px;
-    bottom:100px;
-    width:65px;
-    height:65px;
+    right:20px;
+    bottom:95px;
+    width:60px;
+    height:60px;
     background:#0d6efd;
     color:#fff;
     border-radius:50%;
@@ -495,158 +532,143 @@ CALL BUTTON
     justify-content:center;
     align-items:center;
     font-size:28px;
-    text-decoration:none;
-    box-shadow:0 10px 25px rgba(0,0,0,.25);
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
     z-index:999;
-    transition:.3s;
+
 }
 
 .call-btn:hover{
+
     color:#fff;
-    transform:scale(1.1);
-}
-.trust-box{
-    transition:.3s;
-}
-
-.trust-box:hover{
-    transform:translateY(-5px);
-}
-/* ==========================
-FOOTER
-========================== */
-
-.footer{
-
-background:#0f172a;
+    transform:scale(1.08);
 
 }
 
-.footer h4,
-.footer h5{
+/* ===========================
+   RESPONSIVE
+=========================== */
 
-color:#fff;
-margin-bottom:20px;
+@media(max-width:991px){
 
-}
+.hero{
 
-.footer p{
-
-color:#cbd5e1;
-
-}
-
-.footer ul{
-
-padding:0;
+    text-align:center;
+    padding:40px 0;
 
 }
 
-.footer ul li{
+.hero h1{
 
-margin-bottom:10px;
-
-}
-
-.footer ul li a{
-
-color:#cbd5e1;
-
-text-decoration:none;
-
-transition:.3s;
+    font-size:36px;
+    line-height:46px;
 
 }
 
-.footer ul li a:hover{
+.hero .card{
 
-color:#fff;
+    margin-top:35px;
 
-padding-left:5px;
-
-}
-
-.social-icon{
-
-width:42px;
-
-height:42px;
-
-display:inline-flex;
-
-justify-content:center;
-
-align-items:center;
-
-background:#1e293b;
-
-border-radius:50%;
-
-color:#fff;
-
-margin-right:10px;
-
-text-decoration:none;
-
-transition:.3s;
-
-}
-
-.social-icon:hover{
-
-background:#2563eb;
-
-color:#fff;
-
-transform:translateY(-5px);
-
-}
-
-.navbar-brand{
-    display:flex;
-    align-items:center;
-    gap:12px;
-}
-
-.site-logo{
-    width:80px;
-    height:auto;
-}
-
-.navbar-brand h5{
-    font-size: 34px;
-    font-weight: 700;
-    margin: 0;
-    line-height: 1;
-}
-
-.navbar-brand small{
-    font-size: 16px;
-    font-weight: 500;
-    margin: 0;
-    line-height: 1;
-    display: block;
-    margin-top: -3px;
 }
 
 .brand-title{
-    font-size:36px;
-    font-weight:700;
-    color:#0d6efd;
-    line-height:1;
-    margin:0;
+
+    font-size:28px;
+
 }
 
 .brand-subtitle{
-    font-size:22px;
-    font-weight:600;
-    color:#000000;
-    line-height:1;
-    margin-top:0px;
+
+    font-size:17px;
+
 }
 
-.navbar .btn{
-    border-radius:30px;
-    padding:10px 22px;
-    font-weight:600;
+}
+
+@media(max-width:768px){
+
+.hero{
+
+    padding:30px 0;
+
+}
+
+.hero h1{
+
+    font-size:30px;
+    line-height:40px;
+
+}
+
+.hero .badge{
+
+    font-size:15px;
+
+}
+
+.trust-box{
+
+    padding:12px;
+
+}
+
+.trust-box h3{
+
+    font-size:20px;
+
+}
+
+.hero .card{
+
+    padding:18px;
+
+}
+
+.form-control,
+.form-select{
+
+    height:42px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.navbar-brand img{
+
+    width:60px;
+
+}
+
+.brand-title{
+
+    font-size:24px;
+
+}
+
+.brand-subtitle{
+
+    font-size:15px;
+
+}
+
+.hero{
+
+    padding:25px 0;
+
+}
+
+.hero h1{
+
+    font-size:26px;
+    line-height:34px;
+
+}
+
+.section-title h2{
+
+    font-size:30px;
+
+}
+
 }
