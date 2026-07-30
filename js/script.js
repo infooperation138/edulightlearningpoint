@@ -12,151 +12,117 @@ console.log("Edulight Learning Point Loaded");
 
 const universityData = {
 
-"Amity University (Online)": {
-UG:["BBA","BCA","B.Com","BA"],
-PG:["MBA","MCA","M.Com","MA"]
+"Amity University (Online)":{
+
+UG:{
+
+"BBA":["General"],
+
+"BCA":["Computer Applications"],
+
+"B.Com":["General"],
+
+"BA":[
+"General",
+"English",
+"Hindi",
+"Political Science",
+"Economics"
+]
+
 },
 
-"Amrita University (Online)": {
-UG:["BBA","BCA","B.Com","BA","B.Sc"],
-PG:["MBA","MCA","M.Com","MA","M.Sc"]
-},
+PG:{
 
-"Mangalayatan University (Online & Distance)": {
-UG:["BA","BBA","BCA","B.Com","B.Sc","B.Lib"],
-PG:["MBA","MCA","MA","M.Com","M.Sc","M.Lib"]
-},
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"Human Resource Management",
+"Business Analytics",
+"Digital Marketing",
+"Information Technology"
+],
 
-"Jain University (Online)": {
-UG:["BA","BBA","BCA","B.Com"],
-PG:["MBA","MCA","MA","M.Com"]
-},
+"MCA":[
+"Cloud Computing",
+"Cyber Security",
+"Artificial Intelligence"
+],
 
-"Jamia Hamdard (Distance)": {
-UG:["BA","B.Com"],
-PG:["MA","M.Com"]
-},
+"M.Com":["General"],
 
-"LPU (Online)": {
-UG:["BA","BBA","BCA","B.Com"],
-PG:["MBA","MCA","MA","M.Com"]
-},
+"MA":[
+"Hindi",
+"English",
+"Political Science",
+"Economics"
+]
 
-"Subharti University (Distance)": {
-UG:["BA","BBA","BCA","B.Com","B.Sc","B.Lib"],
-PG:["MBA","MCA","MA","M.Com","M.Sc","M.Lib"]
-},
-
-"NMIMS (ONLINE)": {
-UG:["BBA","B.Com"],
-PG:["MBA"]
-},
-
-"Shoolini University (Online & Distance)": {
-UG:["BBA","BCA","B.Sc"],
-PG:["MBA","MCA","M.Sc"]
-},
-
-"Galgotias University (Online)": {
-UG:["BA","BBA","BCA","B.Com"],
-PG:["MBA","MCA","M.Com"]
-},
-
-"Manipal University Jaipur (Online)": {
-UG:["BBA","BCA","B.Com"],
-PG:["MBA","MCA","M.Com"]
-},
-
-"Sharda University (Online)": {
-UG:["BA","BBA","BCA","B.Com"],
-PG:["MBA","MCA","M.Com"]
-},
-
-"SRM University (Online)": {
-UG:["BBA","BCA"],
-PG:["MBA","MCA"]
-},
-
-"Chandigarh University (online)": {
-UG:["BA","BBA","BCA","B.Com"],
-PG:["MBA","MCA","M.Com"]
-},
-
-"Andhra University (Online)": {
-UG:["BA","B.Com"],
-PG:["MBA","MA","M.Com"]
-},
-
-"Parul University (Online)": {
-UG:["BA","BBA","BCA","B.Com"],
-PG:["MBA","MCA","M.Com"]
-},
-
-"UPES University (Online)": {
-UG:["BBA","BCA","B.Com"],
-PG:["MBA","MCA"]
-},
-
-"Sikkim Manipal University (Online)": {
-UG:["BA","B.Com"],
-PG:["MBA","MA","M.Com"]
-},
-
-"Mizoram University (Online)": {
-UG:["BA","B.Com"],
-PG:["MA","M.Com"]
-},
-
-"Alliance University (Online)": {
-UG:["BBA","BCA","B.Com"],
-PG:["MBA","MCA"]
-},
-
-"DY Patil University Mumbai (Online)": {
-UG:["BBA","BCA","B.Com"],
-PG:["MBA","MCA","M.Com"]
-},
-
-"DY Patil University Pune (Online)": {
-UG:["BBA","BCA","B.Com"],
-PG:["MBA","MCA","M.Com"]
 }
 
-};
+},
 
+// =====================================
 
-// =========================
-// STREAM DATABASE
-// =========================
+"Amrita University (Online)":{
 
-const streams = {
+UG:{
+
+"BBA":["General"],
+
+"BCA":["Computer Applications"],
+
+"B.Com":["General"],
+
+"BA":[
+"General",
+"English",
+"Hindi"
+],
+
+"B.Sc":[
+"PCM",
+"PCB"
+]
+
+},
+
+PG:{
 
 "MBA":[
 "Marketing Management",
 "Finance Management",
 "Human Resource Management",
 "Operations Management",
-"Business Analytics",
-"Digital Marketing",
-"Information Technology",
-"Data Science",
-"Artificial Intelligence"
+"Business Analytics"
 ],
 
 "MCA":[
-"Computer Applications",
-"Cloud Computing",
-"Cyber Security",
-"Machine Learning"
+"Artificial Intelligence",
+"Cloud Computing"
 ],
 
-"BCA":[
-"Computer Applications"
+"M.Com":["General"],
+
+"MA":[
+"English",
+"Hindi"
 ],
 
-"BBA":[
-"General"
-],
+"M.Sc":[
+"Mathematics",
+"Physics"
+]
+
+}
+
+},
+
+// =====================================
+
+"Mangalayatan University (Online & Distance)":{
+
+UG:{
 
 "BA":[
 "General",
@@ -165,10 +131,42 @@ const streams = {
 "Political Science",
 "Economics",
 "Sociology",
-"History",
-"Education",
-"Public Administration",
-"Journalism & Mass Communication"
+"History"
+],
+
+"BBA":["General"],
+
+"BCA":["Computer Applications"],
+
+"B.Com":["General"],
+
+"B.Sc":[
+"PCM",
+"PCB",
+"ZBC"
+],
+
+"B.Lib":[
+"Library Science"
+]
+
+},
+
+PG:{
+
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"Human Resource Management",
+"Information Technology",
+"Operations Management",
+"Business Analytics"
+],
+
+"MCA":[
+"Artificial Intelligence",
+"Cyber Security",
+"Cloud Computing"
 ],
 
 "MA":[
@@ -177,25 +175,10 @@ const streams = {
 "Political Science",
 "Economics",
 "Sociology",
-"History",
-"Education",
-"Public Administration",
-"Journalism & Mass Communication"
+"History"
 ],
 
-"B.Com":[
-"General"
-],
-
-"M.Com":[
-"General"
-],
-
-"B.Sc":[
-"PCM",
-"PCB",
-"ZBC"
-],
+"M.Com":["General"],
 
 "M.Sc":[
 "Mathematics",
@@ -203,14 +186,596 @@ const streams = {
 "Chemistry"
 ],
 
-"B.Lib":[
-"Library Science"
-],
-
 "M.Lib":[
 "Library Science"
 ]
 
+}
+
+},
+
+// =====================================
+
+"Jain University (Online)":{
+
+UG:{
+
+"BBA":["General"],
+
+"BCA":["Computer Applications"],
+
+"B.Com":["General"],
+
+"BA":[
+"General",
+"English"
+]
+
+},
+
+PG:{
+
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"Human Resource Management",
+"Business Analytics",
+"International Finance",
+"Digital Marketing"
+],
+
+"MCA":[
+"Artificial Intelligence",
+"Cloud Computing"
+],
+
+"M.Com":["General"],
+
+"MA":[
+"English"
+]
+
+}
+
+},
+
+// =====================================
+
+"Jamia Hamdard (Distance)":{
+
+UG:{
+
+"BA":[
+"General"
+],
+
+"B.Com":[
+"General"
+]
+
+},
+
+PG:{
+
+"MA":[
+"Hindi",
+"English"
+],
+
+"M.Com":[
+"General"
+]
+
+}
+
+},
+
+// =====================================
+
+"LPU (Online)":{
+
+UG:{
+
+"BBA":["General"],
+
+"BCA":["Computer Applications"],
+
+"B.Com":["General"],
+
+"BA":[
+"General",
+"English"
+]
+
+},
+
+PG:{
+
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"Human Resource Management",
+"Business Analytics",
+"Data Science",
+"Digital Marketing"
+],
+
+"MCA":[
+"Artificial Intelligence",
+"Cyber Security",
+"Cloud Computing"
+],
+
+"M.Com":[
+"General"
+],
+
+"MA":[
+"English"
+]
+
+},
+
+// =====================================
+
+"Subharti University (Distance)":{
+
+UG:{
+
+"BA":["General","Hindi","English","Political Science","History"],
+
+"BBA":["General"],
+
+"BCA":["Computer Applications"],
+
+"B.Com":["General"],
+
+"B.Sc":["PCM","PCB","ZBC"],
+
+"B.Lib":["Library Science"]
+
+},
+
+PG:{
+
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"Human Resource Management",
+"Information Technology"
+],
+
+"MCA":[
+"Artificial Intelligence",
+"Cyber Security"
+],
+
+"MA":[
+"Hindi",
+"English",
+"Political Science",
+"History"
+],
+
+"M.Com":["General"],
+
+"M.Sc":[
+"Mathematics",
+"Chemistry"
+],
+
+"M.Lib":["Library Science"]
+
+}
+
+},
+
+// =====================================
+
+"NMIMS (ONLINE)":{
+
+UG:{
+
+"BBA":["General"],
+
+"B.Com":["General"]
+
+},
+
+PG:{
+
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"Business Analytics",
+"Human Resource Management"
+]
+
+}
+
+},
+
+// =====================================
+
+"Shoolini University (Online & Distance)":{
+
+UG:{
+
+"BBA":["General"],
+
+"BCA":["Computer Applications"]
+
+},
+
+PG:{
+
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"HR Management",
+"Business Analytics"
+],
+
+"MCA":[
+"Artificial Intelligence",
+"Cloud Computing"
+],
+
+"M.Sc":[
+"Mathematics",
+"Data Science"
+]
+
+}
+
+},
+
+// =====================================
+
+"Galgotias University (Online)":{
+
+UG:{
+
+"BA":["General"],
+
+"BBA":["General"],
+
+"BCA":["Computer Applications"],
+
+"B.Com":["General"]
+
+},
+
+PG:{
+
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"Human Resource Management",
+"Business Analytics",
+"Operations Management"
+],
+
+"MCA":[
+"Artificial Intelligence",
+"Cloud Computing"
+],
+
+"M.Com":["General"]
+
+}
+
+},
+
+// =====================================
+
+"Manipal University Jaipur (Online)":{
+
+UG:{
+
+"BBA":["General"],
+
+"BCA":["Computer Applications"],
+
+"B.Com":["General"]
+
+},
+
+PG:{
+
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"HR Management",
+"Business Analytics",
+"Data Science"
+],
+
+"MCA":[
+"Artificial Intelligence",
+"Cyber Security"
+],
+
+"M.Com":["General"]
+
+}
+
+},
+
+// =====================================
+
+"Sharda University (Online)":{
+
+UG:{
+
+"BA":["General"],
+
+"BBA":["General"],
+
+"BCA":["Computer Applications"],
+
+"B.Com":["General"]
+
+},
+
+PG:{
+
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"Human Resource Management",
+"Business Analytics"
+],
+
+"MCA":[
+"Artificial Intelligence",
+"Cloud Computing"
+],
+
+"M.Com":["General"]
+
+}
+
+},
+
+// =====================================
+
+"Chandigarh University (online)":{
+
+UG:{
+
+"BA":["General"],
+
+"BBA":["General"],
+
+"BCA":["Computer Applications"],
+
+"B.Com":["General"]
+
+},
+
+PG:{
+
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"HR Management",
+"Business Analytics",
+"International Business"
+],
+
+"MCA":[
+"Artificial Intelligence",
+"Cyber Security"
+],
+
+"M.Com":["General"]
+
+}
+
+},  
+
+// =====================================
+
+"SRM University (Online)":{
+
+UG:{
+"BBA":["General"],
+"BCA":["Computer Applications"]
+},
+
+PG:{
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"Human Resource Management",
+"Business Analytics"
+],
+
+"MCA":[
+"Artificial Intelligence",
+"Cloud Computing"
+]
+}
+
+},
+
+// =====================================
+
+"Parul University (Online)":{
+
+UG:{
+"BA":["General"],
+"BBA":["General"],
+"BCA":["Computer Applications"],
+"B.Com":["General"]
+},
+
+PG:{
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"Human Resource Management",
+"Business Analytics",
+"Hospital Management"
+],
+
+"MCA":[
+"Artificial Intelligence",
+"Cyber Security"
+],
+
+"M.Com":["General"]
+}
+
+},
+
+// =====================================
+
+"Andhra University (Online)":{
+
+UG:{
+"BA":["General"],
+"B.Com":["General"]
+},
+
+PG:{
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"Human Resource Management"
+],
+
+"MA":[
+"English",
+"Hindi",
+"Economics"
+],
+
+"M.Com":["General"]
+}
+
+},
+
+// =====================================
+
+"UPES Online":{
+
+UG:{
+"BBA":["General"],
+"BCA":["Computer Applications"]
+},
+
+PG:{
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"Business Analytics",
+"Oil & Gas Management"
+],
+
+"MCA":[
+"Artificial Intelligence",
+"Cloud Computing"
+]
+}
+
+},
+
+// =====================================
+
+"Sikkim Manipal University (Online)":{
+
+UG:{
+"BA":["General"],
+"B.Com":["General"]
+},
+
+PG:{
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"HR Management"
+],
+
+"MA":[
+"English",
+"Political Science"
+],
+
+"M.Com":["General"]
+}
+
+},
+
+// =====================================
+
+"Mizoram University (Online)":{
+
+UG:{
+"BA":["General"]
+},
+
+PG:{
+"MA":[
+"English",
+"Political Science",
+"History"
+]
+}
+
+},
+
+// =====================================
+
+"DY Patil University Mumbai (Online)":{
+
+UG:{
+"BBA":["General"],
+"BCA":["Computer Applications"]
+},
+
+PG:{
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"Human Resource Management",
+"Healthcare Management"
+],
+
+"MCA":[
+"Artificial Intelligence",
+"Cloud Computing"
+]
+}
+
+},
+
+// =====================================
+
+"DY Patil University Pune (Online)":{
+
+UG:{
+"BBA":["General"],
+"BCA":["Computer Applications"]
+},
+
+PG:{
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"Business Analytics",
+"Hospital Management"
+],
+
+"MCA":[
+"Artificial Intelligence",
+"Cyber Security"
+]
+}
+
+},
+ 
 };
 
 // ======================================
@@ -288,29 +853,32 @@ course.innerHTML +=
 // COURSE CHANGE
 // =========================
 
-course.addEventListener("change", function(){
+if(course){
 
-stream.innerHTML =
-'<option value="">Select Stream / Specialization</option>';
+course.addEventListener("change",function(){
 
-const streamList = streams[this.value];
+stream.innerHTML='<option value="">Select Stream / Specialization</option>';
 
-if(!streamList){
+if(
+universityData[university.value] &&
+universityData[university.value][category.value] &&
+universityData[university.value][category.value][this.value]
+){
 
-return;
+let list =
+universityData[university.value][category.value][this.value];
+
+list.forEach(function(item){
+
+stream.innerHTML+=`<option>${item}</option>`;
+
+});
 
 }
 
-streamList.forEach(function(item){
-
-stream.innerHTML +=
-`<option value="${item}">${item}</option>`;
-
 });
 
-});
-
-});
+}
 
 // ======================================
 // PART 3
