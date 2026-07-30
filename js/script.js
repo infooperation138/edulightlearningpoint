@@ -99,7 +99,7 @@ PG:["MBA","MCA","M.Com"]
 
 const streams = {
 
-MBA:[
+"MBA":[
 "Marketing Management",
 "Finance Management",
 "Human Resource Management",
@@ -111,22 +111,22 @@ MBA:[
 "Artificial Intelligence"
 ],
 
-MCA:[
+"MCA":[
 "Computer Applications",
 "Cloud Computing",
 "Cyber Security",
 "Machine Learning"
 ],
 
-BCA:[
+"BCA":[
 "Computer Applications"
 ],
 
-BBA:[
+"BBA":[
 "General"
 ],
 
-BA:[
+"BA":[
 "General",
 "Hindi",
 "English",
@@ -139,7 +139,7 @@ BA:[
 "Journalism & Mass Communication"
 ],
 
-MA:[
+"MA":[
 "Hindi",
 "English",
 "Political Science",
@@ -151,27 +151,21 @@ MA:[
 "Journalism & Mass Communication"
 ],
 
-B.Com:["General"],
+"B.Com":["General"],
 
-M.Com:["General"],
+"M.Com":["General"],
 
-B.Sc:[
+"B.Sc":[
 "PCM",
 "PCB",
 "ZBC"
 ],
 
-M.Sc:[
-"Mathematics",
-"Physics",
-"Chemistry"
-],
+"M.Sc":["Mathematics","Physics","Chemistry"],
 
-B.Lib:[
-"Library Science"
-],
+"B.Lib":["Library Science"],
 
-M.Lib:[
+"M.Lib":[
 "Library Science"
 ]
 
