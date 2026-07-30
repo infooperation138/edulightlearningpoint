@@ -1,15 +1,21 @@
-// ================================
+// ======================================
 // EDULIGHT LEARNING POINT
-// script.js
-// ================================
+// PART 1
+// University Database
+// ======================================
 
 console.log("Edulight Learning Point Loaded");
 
-// ================================
-// UNIVERSITY DATA
-// ================================
+// =========================
+// UNIVERSITY DATABASE
+// =========================
 
 const universityData = {
+
+"Amity University (Online)": {
+UG:["BBA","BCA","B.Com","BA"],
+PG:["MBA","MCA","M.Com","MA"]
+},
 
 "Amrita University (Online)": {
 UG:["BBA","BCA","B.Com","BA","B.Sc"],
@@ -19,11 +25,6 @@ PG:["MBA","MCA","M.Com","MA","M.Sc"]
 "Mangalayatan University (Online & Distance)": {
 UG:["BA","BBA","BCA","B.Com","B.Sc","B.Lib"],
 PG:["MBA","MCA","MA","M.Com","M.Sc","M.Lib"]
-},
-
-"Amity University (Online)": {
-UG:["BA","BBA","BCA","B.Com"],
-PG:["MBA","MCA","MA","M.Com"]
 },
 
 "Jain University (Online)": {
@@ -52,7 +53,7 @@ PG:["MBA"]
 },
 
 "Shoolini University (Online & Distance)": {
-UG:["BBA","BCA"],
+UG:["BBA","BCA","B.Sc"],
 PG:["MBA","MCA","M.Sc"]
 },
 
@@ -89,13 +90,44 @@ PG:["MBA","MA","M.Com"]
 "Parul University (Online)": {
 UG:["BA","BBA","BCA","B.Com"],
 PG:["MBA","MCA","M.Com"]
+},
+
+"UPES University (Online)": {
+UG:["BBA","BCA","B.Com"],
+PG:["MBA","MCA"]
+},
+
+"Sikkim Manipal University (Online)": {
+UG:["BA","B.Com"],
+PG:["MBA","MA","M.Com"]
+},
+
+"Mizoram University (Online)": {
+UG:["BA","B.Com"],
+PG:["MA","M.Com"]
+},
+
+"Alliance University (Online)": {
+UG:["BBA","BCA","B.Com"],
+PG:["MBA","MCA"]
+},
+
+"DY Patil University Mumbai (Online)": {
+UG:["BBA","BCA","B.Com"],
+PG:["MBA","MCA","M.Com"]
+},
+
+"DY Patil University Pune (Online)": {
+UG:["BBA","BCA","B.Com"],
+PG:["MBA","MCA","M.Com"]
 }
 
 };
 
-// ================================
-// STREAMS
-// ================================
+
+// =========================
+// STREAM DATABASE
+// =========================
 
 const streams = {
 
@@ -151,9 +183,13 @@ const streams = {
 "Journalism & Mass Communication"
 ],
 
-"B.Com":["General"],
+"B.Com":[
+"General"
+],
 
-"M.Com":["General"],
+"M.Com":[
+"General"
+],
 
 "B.Sc":[
 "PCM",
@@ -161,9 +197,15 @@ const streams = {
 "ZBC"
 ],
 
-"M.Sc":["Mathematics","Physics","Chemistry"],
+"M.Sc":[
+"Mathematics",
+"Physics",
+"Chemistry"
+],
 
-"B.Lib":["Library Science"],
+"B.Lib":[
+"Library Science"
+],
 
 "M.Lib":[
 "Library Science"
@@ -171,155 +213,176 @@ const streams = {
 
 };
 
-// ================================
-// DOM READY
-// ================================
+// ======================================
+// PART 2
+// FILTER LOGIC
+// ======================================
 
-document.addEventListener("DOMContentLoaded",function(){
+document.addEventListener("DOMContentLoaded", function () {
 
-const form=document.getElementById("admissionForm");
+const university = document.getElementById("university");
+const category = document.getElementById("category");
+const course = document.getElementById("course");
+const stream = document.getElementById("stream");
 
-const university=document.querySelector('[name="university"]');
-const category=document.getElementById("category");
-const course=document.getElementById("course");
-const stream=document.getElementById("stream");
-
-// ================================
+// =========================
 // UNIVERSITY CHANGE
-// ================================
+// =========================
 
-if(university){
+university.addEventListener("change", function () {
 
-university.addEventListener("change",function(){
+category.selectedIndex = 0;
 
-category.selectedIndex=0;
+course.innerHTML =
+'<option value="">Select Course</option>';
 
-course.innerHTML='<option value="">Select Course</option>';
-
-stream.innerHTML='<option value="">Select Stream / Specialization</option>';
+stream.innerHTML =
+'<option value="">Select Stream / Specialization</option>';
 
 });
 
-}
-
-// ================================
+// =========================
 // CATEGORY CHANGE
-// ================================
+// =========================
 
-if(category){
+category.addEventListener("change", function () {
 
-category.addEventListener("change",function(){
+course.innerHTML =
+'<option value="">Select Course</option>';
 
-course.innerHTML='<option value="">Select Course</option>';
+stream.innerHTML =
+'<option value="">Select Stream / Specialization</option>';
 
-stream.innerHTML='<option value="">Select Stream / Specialization</option>';
+if (university.value === "") {
 
-if(university.value==""){
+alert("Please select University first.");
 
-alert("Please Select University First");
-
-category.selectedIndex=0;
+category.selectedIndex = 0;
 
 return;
 
 }
 
-const list=universityData[university.value][category.value];
+const uni = universityData[university.value];
 
-list.forEach(function(item){
+if (!uni) {
 
-course.innerHTML+=`<option value="${item}">${item}</option>`;
+console.log("University Not Found");
 
-});
-
-});
+return;
 
 }
 
-// ================================
+const courseList = uni[category.value];
+
+courseList.forEach(function(item){
+
+course.innerHTML +=
+`<option value="${item}">${item}</option>`;
+
+});
+
+});
+
+// =========================
 // COURSE CHANGE
-// ================================
+// =========================
 
-if(course){
+course.addEventListener("change", function(){
 
-course.addEventListener("change",function(){
+stream.innerHTML =
+'<option value="">Select Stream / Specialization</option>';
 
-stream.innerHTML='<option value="">Select Stream / Specialization</option>';
+const streamList = streams[this.value];
 
-if(streams[this.value]){
+if(!streamList){
 
-streams[this.value].forEach(function(item){
-
-stream.innerHTML+=`<option>${item}</option>`;
-
-});
+return;
 
 }
 
+streamList.forEach(function(item){
+
+stream.innerHTML +=
+`<option value="${item}">${item}</option>`;
+
 });
 
-}
+});
 
-// ================================
-// FORM SUBMIT
-// ================================
+});
 
-if(form){
+// ======================================
+// PART 3
+// GOOGLE SHEET SUBMIT
+// ======================================
 
-form.addEventListener("submit",function(e){
+document.addEventListener("DOMContentLoaded", function () {
+
+const form = document.getElementById("admissionForm");
+
+if (!form) return;
+
+form.addEventListener("submit", function (e) {
 
 e.preventDefault();
 
-const data={
+const data = {
 
-name:form.elements["name"].value,
-
-mobile:form.elements["mobile"].value,
-
-email:form.elements["email"].value,
-
-university:form.elements["university"].value,
-
-category:category.value,
-
-course:course.value,
-
-stream:stream.value
+name: form.name.value,
+mobile: form.mobile.value,
+email: form.email.value,
+university: form.university.value,
+category: form.category.value,
+course: form.course.value,
+stream: form.stream.value
 
 };
 
-fetch("https://script.google.com/macros/s/AKfycbyeehpAweTytrnjV4QRJtmxCeeFAacv4hdDxM-1Ub227UyLeBCwYu3WF5YwgFmwcsE/exec",{
+fetch("https://script.google.com/macros/s/AKfycbyeehpAweTytrnjV4QRJtmxCeeFAacv4hdDxM-1Ub227UyLeBCwYu3WF5YwgFmwcsE/exec", {
 
-method:"POST",
+method: "POST",
 
-body:JSON.stringify(data)
+headers: {
+"Content-Type": "application/json"
+},
+
+body: JSON.stringify(data)
 
 })
 
-.then(res=>res.json())
+.then(res => res.json())
 
-.then(result=>{
+.then(result => {
 
 document.getElementById("successMessage").classList.remove("d-none");
 
 form.reset();
 
-course.innerHTML='<option value="">Select Course</option>';
+// Reset dropdowns
 
-stream.innerHTML='<option value="">Select Stream / Specialization</option>';
+document.getElementById("course").innerHTML =
+'<option value="">Select Course</option>';
+
+document.getElementById("stream").innerHTML =
+'<option value="">Select Stream / Specialization</option>';
+
+setTimeout(function(){
+
+document.getElementById("successMessage").classList.add("d-none");
+
+},5000);
 
 })
 
-.catch(err=>{
+.catch(error=>{
 
-console.error(err);
+console.log(error);
 
 alert("Something went wrong!");
 
 });
 
 });
-
-}
 
 });
