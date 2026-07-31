@@ -838,7 +838,7 @@ return;
 
 }
 
-const courseList = uni[category.value];
+const courseList = Object.keys(uni[category.value]);
 
 courseList.forEach(function(item){
 
@@ -846,7 +846,7 @@ course.innerHTML +=
 `<option value="${item}">${item}</option>`;
 
 });
-
+ 
 });
 
 // =========================
