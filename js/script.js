@@ -14,11 +14,14 @@ const universityData = {
 "Amrita University (Online)":{
 
 UG:{
-"BBA":["General"],
-"BCA":["Computer Applications"],
+"BBA":[
+"General Management",
+"Digital Marketing",
+"FinTech & Banking",
+"International Finance (Accredited by ACCA)",
+"Data Analytics",
+"Computer Applications",
 "B.Com":["General"],
-"BA":["English","Hindi","Political Science"],
-"B.Sc":["PCM","PCB"]
 },
 
 PG:{
@@ -27,26 +30,91 @@ PG:{
 "Finance Management",
 "Human Resource Management",
 "Business Analytics",
-"Operations Management"
+"Operations Management",
+"International Finance & Accounting",
+"FinTech",
+"Artificial Intelligence",
+"General Management",
+"ESG (Environmental, Social & Governance)",
 ],
 
 "MCA":[
 "Artificial Intelligence",
 "Cyber Security",
+"AI & Machine Learning",
 "Cloud Computing"
 ],
 
-"M.Com":["General"],
+"M.Com":[
+ "General",
+ "Finance & Accounting"],
+
+}
+
+},
+
+// =========================================
+
+"Mangalayatan University (Online)":{
+
+UG:{
+"BA":["General"],
+
+"BBA":["General"],
+
+"BCA":[
+"General"],
+
+"Diploma":[
+"DCA",
+"DBA",
+"Art & Humanities",
+"JMC",
+"Commerce & Business Studies
+]
+
+},
+
+PG:{
+
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"Human Resource Management",
+"Operations Management",
+ ],
+ 
+ "MBA Plus":[
+ "Digital Marketing",
+ "Supply Chain Management",
+"Business Analytics",
+"Information Technology"
+],
+
+"MCA":[
+"General"
+],
 
 "MA":[
 "English",
-"Hindi",
-"Political Science"
+"Political Science",
+"Education",
+"Public Administration",
+"JMC"
+],
+
+ "PG Diploma":[
+"Computer Applcation",
+"JMC",
+"Business Management"
+ ],
+
+"M.Com":[
+"General"
 ],
 
 "M.Sc":[
-"Mathematics",
-"Physics"
+"Mathematics"
 ]
 
 }
@@ -55,22 +123,12 @@ PG:{
 
 // =========================================
 
-"Mangalayatan University (Online & Distance)":{
+"Mangalayatan University (Distance)":{
 
 UG:{
 "BA":[
-"English",
-"Hindi",
-"Political Science",
-"Economics",
-"History"
-],
-
-"BBA":["General"],
-
-"BCA":[
-"Computer Applications"
-],
+"General"
+"JMC"],
 
 "B.Com":["General"],
 
@@ -93,30 +151,16 @@ PG:{
 "Finance Management",
 "Human Resource Management",
 "Operations Management",
-"Business Analytics",
-"Information Technology"
-],
-
-"MCA":[
-"Artificial Intelligence",
-"Machine Learning",
-"Cyber Security"
+"Tourism & Hospitality Management"
 ],
 
 "MA":[
-"English",
-"Hindi",
-"Political Science",
+"Sociology",
 "Economics",
 "History"
 ],
 
-"M.Com":[
-"General"
-],
-
 "M.Sc":[
-"Mathematics",
 "Chemistry",
 "Physics"
 ],
@@ -128,7 +172,7 @@ PG:{
 }
 
 },
-
+ 
 // =========================================
 
 "Amity University (Online)":{
