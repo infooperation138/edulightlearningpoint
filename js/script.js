@@ -258,12 +258,13 @@ PG:{
 
 UG:{
 "BBA":["General"],
-"BCA":["General"],
+"BCA":["General"]
+},
 
 PG:{
 "MBA":["General"]
 }
- 
+
 },
 
 // =========================================
@@ -298,6 +299,8 @@ PG:{
 ],
 
 "Diploma":["Business Administration","Computer Application"]
+
+}
 
 },
 
