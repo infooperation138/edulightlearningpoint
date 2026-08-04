@@ -740,3 +740,67 @@ UNIVERSITY INFO
 }
 
 }
+
+/* ======================================
+   Admission Form Premium Design
+====================================== */
+
+.admission-form-box{
+
+    width:390px;
+    max-width:390px;
+
+    background:#ffffff;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+
+    position:sticky;
+
+    top:90px;
+
+    margin-left:auto;
+
+}
+
+.admission-form-box .form-control,
+.admission-form-box .form-select{
+
+    height:45px;
+
+    border-radius:8px;
+
+    font-size:14px;
+
+}
+
+.admission-form-box .btn{
+
+    height:46px;
+
+    font-size:16px;
+
+    border-radius:8px;
+
+}
+
+@media(max-width:991px){
+
+.admission-form-box{
+
+    width:100%;
+
+    max-width:100%;
+
+    position:relative;
+
+    top:0;
+
+    margin-top:30px;
+
+}
+
+}
