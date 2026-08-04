@@ -22,7 +22,7 @@ UG:{
 "Data Analytics",
 "Computer Applications"],
  
-"B.Com":["General"],
+"B.Com":["General"]
 },
 
 PG:{
@@ -36,7 +36,7 @@ PG:{
 "FinTech",
 "Artificial Intelligence",
 "General Management",
-"ESG (Environmental, Social & Governance)",
+"ESG (Environmental, Social & Governance)"
 ],
 
 "MCA":[
@@ -201,7 +201,6 @@ PG:{
 "FinTech & AI",
 "Machine Learning & AI",
 "Cyber Security",
-"Software Engineering",
 "Blockchain Technology & Management"
 ],
 
@@ -259,7 +258,10 @@ PG:{
 
 UG:{
 "BBA":["General"],
-"BCA":["General"]
+"BCA":["General"],
+
+PG:{
+"MBA":["General"]
 }
  
 },
@@ -295,10 +297,7 @@ PG:{
 "Political Science","History","Sociology"
 ],
 
-Diploma:{
 "Diploma":["Business Administration","Computer Application"]
- 
-}
 
 },
 
