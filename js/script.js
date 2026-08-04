@@ -20,7 +20,8 @@ UG:{
 "FinTech & Banking",
 "International Finance (Accredited by ACCA)",
 "Data Analytics",
-"Computer Applications",
+"Computer Applications"],
+ 
 "B.Com":["General"],
 },
 
@@ -70,7 +71,7 @@ UG:{
 "DBA",
 "Art & Humanities",
 "JMC",
-"Commerce & Business Studies
+"Commerce & Business Studies"
 ]
 
 },
@@ -81,7 +82,7 @@ PG:{
 "Marketing Management",
 "Finance Management",
 "Human Resource Management",
-"Operations Management",
+"Operations Management"
  ],
  
  "MBA Plus":[
@@ -127,7 +128,7 @@ PG:{
 
 UG:{
 "BA":[
-"General"
+"General",
 "JMC"],
 
 "B.Com":["General"],
