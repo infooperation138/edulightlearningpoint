@@ -179,31 +179,37 @@ PG:{
 "Amity University (Online)":{
 
 UG:{
-"BBA":["General"],
-"BCA":["Computer Applications"],
-"B.Com":["General"],
-"BA":["English","Psychology"]
+"BBA":["General","Data Analytics","Travel & Tourism Management"],
+"BCA":["Data Science","Data Engineering","Financial Technology & AI","Data Analytics","Cloud Security","Software Engineering"],
+"B.Com":["General","Hons","International Finance & Accounting"],
+"BA":["General","Hindi","Tamil","Kannada","Telugu","Hindi","Sociology","Political Science","English","Economics"]
 },
 
 PG:{
 "MBA":[
-"Marketing Management",
-"Finance Management",
-"HR Management",
+"Data Science",
 "Business Analytics",
-"Digital Marketing"
+"International Finance",
+"General Management",
+"Digital Marketing Management",
+"Hospital & Healthcare Management",
+"Dual Specialization"
 ],
 
 "MCA":[
 "Software Engineering",
-"Cloud Computing"
+"FinTech & AI",
+"Machine Learning & AI",
+"Cyber Security",
+"Software Engineering",
+"Blockchain Technology & Management"
 ],
 
-"M.Com":["General"],
+"M.Com":["Financial Management"],
 
 "MA":[
-"Journalism",
-"Public Policy"
+"JMC",
+"Public Policy & Governance"
 ]
 
 }
@@ -252,21 +258,10 @@ PG:{
 "Jamia Hamdard (Distance)":{
 
 UG:{
-"BA":["General"],
-"B.Com":["General"]
-},
-
-PG:{
-"MA":[
-"English",
-"Hindi"
-],
-
-"M.Com":[
-"General"
-]
+"BBA":["General"],
+"BCA":["General"]
 }
-
+ 
 },
 
 // =========================================
@@ -274,37 +269,35 @@ PG:{
 "LPU (Online)":{
 
 UG:{
-"BBA":["General"],
-"BCA":["Computer Applications"],
+"BBA":["BBA"],
+"BCA":["BCA"],
 "B.Com":["General"],
 "BA":[
-"English",
-"Political Science"
+"BA"
 ]
 },
 
 PG:{
 "MBA":[
-"Marketing Management",
-"Finance Management",
-"Human Resource Management",
-"Business Analytics",
-"Digital Marketing",
-"International Business"
+"MBA"
 ],
 
 "MCA":[
-"Artificial Intelligence",
-"Cyber Security",
-"Cloud Computing"
+"MCA"
 ],
-
+ 
 "M.Com":["General"],
+
+"M.Sc":["Economics","Mathematics"],
 
 "MA":[
 "English",
-"Political Science"
-]
+"Political Science","History","Sociology"
+],
+
+Diploma:{
+"Diploma":["Business Administration","Computer Application"]
+ 
 }
 
 },
