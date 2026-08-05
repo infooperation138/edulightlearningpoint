@@ -225,7 +225,99 @@ UGC | AICTE | NAAC
 
 <div class="sticky-form">
 
-<div id="admissionFormContainer">
+<div class="admission-card">
+
+<h3 class="text-center mb-2">
+Apply for Admission
+</h3>
+
+<p class="text-center text-muted mb-4">
+Get Free Admission Counselling
+</p>
+
+<form id="admissionForm">
+
+<input
+type="text"
+class="form-control mb-3"
+name="name"
+placeholder="Full Name"
+required>
+
+<input
+type="tel"
+class="form-control mb-3"
+name="mobile"
+placeholder="Mobile Number"
+required>
+
+<input
+type="email"
+class="form-control mb-3"
+name="email"
+placeholder="Email Address"
+required>
+
+<input
+type="text"
+class="form-control mb-3"
+id="selectedUniversity"
+readonly>
+
+<select
+id="category"
+name="category"
+class="form-select mb-3"
+required>
+
+<option value="">
+Select Category
+</option>
+
+<option value="UG">
+UG
+</option>
+
+<option value="PG">
+PG
+</option>
+
+</select>
+
+<select
+id="course"
+name="course"
+class="form-select mb-3"
+required>
+
+<option value="">
+Select Course
+</option>
+
+</select>
+
+<select
+id="stream"
+name="stream"
+class="form-select mb-3"
+required>
+
+<option value="">
+Select Stream
+</option>
+
+</select>
+
+<button
+class="btn btn-primary w-100">
+
+Apply Now
+
+</button>
+
+</form>
+
+</div>
 
 <!-- Dynamic Form -->
 
