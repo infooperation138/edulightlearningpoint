@@ -83,3 +83,58 @@ margin-bottom:12px;
 font-size:17px;
 
 }
+
+/* ==============================
+   ADMISSION FORM
+==============================*/
+
+.sticky-form{
+
+position:sticky;
+
+top:90px;
+
+}
+
+.admission-card{
+
+background:#fff;
+
+padding:25px;
+
+border-radius:18px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
+.admission-card h3{
+
+font-size:26px;
+
+font-weight:700;
+
+}
+
+.admission-card .form-control,
+.admission-card .form-select{
+
+height:50px;
+
+border-radius:10px;
+
+font-size:15px;
+
+}
+
+.admission-card .btn{
+
+height:52px;
+
+font-size:17px;
+
+font-weight:600;
+
+border-radius:10px;
+
+}
