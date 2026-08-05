@@ -874,3 +874,29 @@ color:inherit;
 display:block;
 
 }
+
+/* ==============================
+   UNIVERSITY HEADER
+============================== */
+
+.university-header{
+
+background:#ffffff;
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+margin-bottom:30px;
+
+}
+
+.university-logo{
+
+max-width:140px;
+
+height:auto;
+
+}
