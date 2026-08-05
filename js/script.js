@@ -1033,6 +1033,43 @@ this.value=this.value.replace(/[^A-Za-z ]/g,"");
 }
 
 // =========================================
+// UNIVERSITY COURSE CARDS
+// =========================================
+
+const courseList = document.getElementById("courseList");
+
+if (courseList && universityData["Mangalayatan University (Online)"]) {
+
+    let html = "";
+
+    const data = universityData["Mangalayatan University (Online)"];
+
+    Object.keys(data.UG).forEach(course => {
+
+        html += `
+        <div class="card mb-3 shadow-sm">
+            <div class="card-body">
+                <h5>${course}</h5>
+                <small>${data.UG[course].join(", ")}</small>
+            </div>
+        </div>`;
+    });
+
+    Object.keys(data.PG).forEach(course => {
+
+        html += `
+        <div class="card mb-3 shadow-sm">
+            <div class="card-body">
+                <h5>${course}</h5>
+                <small>${data.PG[course].join(", ")}</small>
+            </div>
+        </div>`;
+    });
+
+    courseList.innerHTML = html;
+}
+ 
+// =========================================
 // END OF SCRIPT
 // =========================================
 
