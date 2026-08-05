@@ -804,3 +804,73 @@ UNIVERSITY INFO
 }
 
 }
+
+/* =========================================
+   UNIVERSITIES PAGE
+========================================= */
+
+.university-card{
+
+background:#ffffff;
+
+border-radius:15px;
+
+padding:25px;
+
+text-align:center;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+transition:.3s;
+
+height:100%;
+
+cursor:pointer;
+
+border:1px solid #ececec;
+
+}
+
+.university-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 40px rgba(0,0,0,.15);
+
+}
+
+.university-card img{
+
+width:110px;
+
+height:110px;
+
+object-fit:contain;
+
+margin-bottom:18px;
+
+}
+
+.university-card h5{
+
+font-size:18px;
+
+font-weight:700;
+
+color:#222;
+
+line-height:28px;
+
+margin-bottom:0;
+
+}
+
+.university-card a{
+
+text-decoration:none;
+
+color:inherit;
+
+display:block;
+
+}
