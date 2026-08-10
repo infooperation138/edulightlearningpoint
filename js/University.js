@@ -170,20 +170,16 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 
 
-    // =====================================
-    // FORM UNIVERSITY
-    // =====================================
+   // =====================================
+// SET UNIVERSITY FOR COURSE / STREAM
+// =====================================
 
-    const selectedUniversity =
-    document.getElementById("selectedUniversity");
+const universityInput =
+document.getElementById("university");
 
-    if(selectedUniversity){
+if(universityInput){
 
-        selectedUniversity.value =
-        currentUniversity.name;
+    universityInput.value =
+    currentUniversity.name;
 
-    }
-
-});
-
-
+}
