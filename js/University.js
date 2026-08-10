@@ -183,3 +183,89 @@ if(universityInput){
     currentUniversity.name;
 
 }
+
+// =========================================
+// UNIVERSITY-WISE COURSE CARDS
+// =========================================
+
+const universityCourses =
+document.getElementById("universityCourses");
+
+if (
+    universityCourses &&
+    currentUniversity &&
+    typeof universityData !== "undefined"
+) {
+
+    const data =
+        universityData[currentUniversity.name];
+
+    if (data) {
+
+        let html = "";
+
+        // ==============================
+        // UG COURSES
+        // ==============================
+
+        if (data.UG) {
+
+            Object.keys(data.UG).forEach(function(course){
+
+                const streams = data.UG[course];
+
+                html += `
+                <div class="course-card">
+
+                    <h5>${course}</h5>
+
+                    <small>
+                        ${streams.join(" • ")}
+                    </small>
+
+                </div>
+                `;
+
+            });
+
+        }
+
+
+        // ==============================
+        // PG COURSES
+        // ==============================
+
+        if (data.PG) {
+
+            Object.keys(data.PG).forEach(function(course){
+
+                const streams = data.PG[course];
+
+                html += `
+                <div class="course-card">
+
+                    <h5>${course}</h5>
+
+                    <small>
+                        ${streams.join(" • ")}
+                    </small>
+
+                </div>
+                `;
+
+            });
+
+        }
+
+
+        universityCourses.innerHTML = html;
+
+    } else {
+
+        universityCourses.innerHTML =
+        "<p class='text-muted'>Course information will be updated soon.</p>";
+
+    }
+
+}
+});
