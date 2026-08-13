@@ -32,7 +32,7 @@ const universityPages = {
     },
 
     "lpu": {
-    name: "LPU (Online)",
+    name: "LPU",
     logo: "images/universities/lpu.png",
     tagline: "UGC Approved Online Degree Programs",
     location: "Jalandhar, Punjab",
