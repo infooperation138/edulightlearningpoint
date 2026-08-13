@@ -78,19 +78,41 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
     // =====================================
-    // UNIVERSITY NAME
-    // =====================================
+// SET CURRENT UNIVERSITY
+// =====================================
 
-    const universityName =
-    document.getElementById("universityName");
+const universityInput =
+document.getElementById("university");
 
-    if(universityName){
+if(universityInput){
 
-        universityName.textContent =
-        currentUniversity.name;
+    // Remove existing options
+    universityInput.innerHTML = "";
 
-    }
+    // Create current university option
+    const option =
+    document.createElement("option");
 
+    option.value =
+    currentUniversity.name;
+
+    option.textContent =
+    currentUniversity.name;
+
+    option.selected = true;
+
+    universityInput.appendChild(option);
+
+    // Set university value
+    universityInput.value =
+    currentUniversity.name;
+
+    // Trigger change event
+    universityInput.dispatchEvent(
+        new Event("change", { bubbles: true })
+    );
+
+}
 
     // =====================================
     // UNIVERSITY LOGO
