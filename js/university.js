@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 
 
-   // =====================================
+  // =====================================
 // SET UNIVERSITY FOR COURSE / STREAM
 // =====================================
 
@@ -179,8 +179,50 @@ document.getElementById("university");
 
 if(universityInput){
 
+    // Check whether university option already exists
+    let optionExists = false;
+
+    for(let i = 0; i < universityInput.options.length; i++){
+
+        if(
+            universityInput.options[i].value ===
+            currentUniversity.name
+        ){
+
+            optionExists = true;
+            break;
+
+        }
+
+    }
+
+
+    // Add university option if it does not exist
+    if(!optionExists){
+
+        const option =
+        document.createElement("option");
+
+        option.value =
+        currentUniversity.name;
+
+        option.textContent =
+        currentUniversity.name;
+
+        universityInput.appendChild(option);
+
+    }
+
+
+    // Select current university
     universityInput.value =
     currentUniversity.name;
+
+
+    // Trigger university change
+    universityInput.dispatchEvent(
+        new Event("change", { bubbles:true })
+    );
 
 }
 
