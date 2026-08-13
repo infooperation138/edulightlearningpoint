@@ -31,14 +31,14 @@ const universityPages = {
         approval: "UGC Entitled"
     },
 
-    "lpu-online": {
-        name: "LPU (Online)",
-        logo: "images/universities/lpu.png",
-        tagline: "UGC Entitled Online Degree Programs",
-        location: "Phagwara, Punjab",
-        mode: "Online Education",
-        approval: "UGC Entitled"
-    }
+    "lpu": {
+    name: "LPU (Online)",
+    logo: "images/universities/lpu.png",
+    tagline: "UGC Approved Online Degree Programs",
+    location: "Jalandhar, Punjab",
+    mode: "Online Education",
+    approval: "UGC Entitled"
+},
 
 };
 
