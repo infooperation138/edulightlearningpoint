@@ -32,15 +32,16 @@ const universityPages = {
     },
 
     "lpu": {
-    name: "LPU (Online)",
-    logo: "images/universities/lpu.png",
-    tagline: "UGC Approved Online Degree Programs",
-    location: "Jalandhar, Punjab",
-    mode: "Online Education",
-    approval: "UGC Entitled"
-},
+        name: "LPU (Online)",
+        logo: "images/universities/lpu.png",
+        tagline: "UGC Approved Online Degree Programs",
+        location: "Jalandhar, Punjab",
+        mode: "Online Education",
+        approval: "UGC Entitled"
+    }
 
 };
+
 
 // =========================================
 // UNIVERSITY COURSE DATABASE
@@ -105,34 +106,38 @@ const universityData = {
 
 };
 
+
 // =========================================
 // FIND CURRENT UNIVERSITY
 // =========================================
 
 const currentPage =
-window.location.pathname
-.split("/")
-.pop()
-.replace(".html","");
+    window.location.pathname
+    .split("/")
+    .pop()
+    .replace(".html", "");
 
 
 // =========================================
-// CURRENT UNIVERSITY DATA
+// CURRENT UNIVERSITY
 // =========================================
 
 const currentUniversity =
-universityPages[currentPage];
+    universityPages[currentPage];
 
 
 // =========================================
 // DOM READY
 // =========================================
 
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function () {
 
-    if(!currentUniversity){
+    if (!currentUniversity) {
 
-        console.error("University data not found:", currentPage);
+        console.error(
+            "University data not found:",
+            currentPage
+        );
 
         return;
 
@@ -140,56 +145,61 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
     // =====================================
-// SET CURRENT UNIVERSITY
-// =====================================
+    // UNIVERSITY
+    // =====================================
 
-const universityInput =
-document.getElementById("university");
+    const universityInput =
+        document.getElementById("university");
 
-if(universityInput){
+    if (universityInput) {
 
-    // Remove existing options
-    universityInput.innerHTML = "";
+        universityInput.innerHTML = "";
 
-    // Create current university option
-    const option =
-    document.createElement("option");
+        const option =
+            document.createElement("option");
 
-    option.value =
-    currentUniversity.name;
+        option.value =
+            currentUniversity.name;
 
-    option.textContent =
-    currentUniversity.name;
+        option.textContent =
+            currentUniversity.name;
 
-    option.selected = true;
+        option.selected = true;
 
-    universityInput.appendChild(option);
+        universityInput.appendChild(option);
 
-    // Set university value
-    universityInput.value =
-    currentUniversity.name;
+    }
 
-    // Trigger change event
-    universityInput.dispatchEvent(
-        new Event("change", { bubbles: true })
-    );
-
-}
 
     // =====================================
     // UNIVERSITY LOGO
     // =====================================
 
     const universityLogo =
-    document.getElementById("universityLogo");
+        document.getElementById("universityLogo");
 
-    if(universityLogo){
+    if (universityLogo) {
 
         universityLogo.src =
-        currentUniversity.logo;
+            currentUniversity.logo;
 
         universityLogo.alt =
-        currentUniversity.name;
+            currentUniversity.name;
+
+    }
+
+
+    // =====================================
+    // UNIVERSITY NAME
+    // =====================================
+
+    const universityName =
+        document.getElementById("universityName");
+
+    if (universityName) {
+
+        universityName.textContent =
+            currentUniversity.name;
 
     }
 
@@ -199,12 +209,12 @@ if(universityInput){
     // =====================================
 
     const tagline =
-    document.getElementById("universityTagline");
+        document.getElementById("universityTagline");
 
-    if(tagline){
+    if (tagline) {
 
         tagline.textContent =
-        currentUniversity.tagline;
+            currentUniversity.tagline;
 
     }
 
@@ -214,12 +224,12 @@ if(universityInput){
     // =====================================
 
     const location =
-    document.getElementById("universityLocation");
+        document.getElementById("universityLocation");
 
-    if(location){
+    if (location) {
 
         location.textContent =
-        currentUniversity.location;
+            currentUniversity.location;
 
     }
 
@@ -229,12 +239,12 @@ if(universityInput){
     // =====================================
 
     const mode =
-    document.getElementById("universityMode");
+        document.getElementById("universityMode");
 
-    if(mode){
+    if (mode) {
 
         mode.textContent =
-        currentUniversity.mode;
+            currentUniversity.mode;
 
     }
 
@@ -244,97 +254,264 @@ if(universityInput){
     // =====================================
 
     const approval =
-    document.getElementById("universityApproval");
+        document.getElementById("universityApproval");
 
-    if(approval){
+    if (approval) {
 
         approval.textContent =
-        currentUniversity.approval;
+            currentUniversity.approval;
 
     }
 
-// =========================================
-// UNIVERSITY-WISE COURSE CARDS
-// =========================================
 
-const universityCourses =
-document.getElementById("universityCourses");
-
-if (
-    universityCourses &&
-    currentUniversity &&
-    typeof universityData !== "undefined"
-) {
+    // =====================================
+    // CURRENT UNIVERSITY COURSE DATA
+    // =====================================
 
     const data =
         universityData[currentUniversity.name];
 
-    if (data) {
 
-        let html = "";
+    // =====================================
+    // CATEGORY
+    // =====================================
 
-        // ==============================
-        // UG COURSES
-        // ==============================
+    const category =
+        document.getElementById("category");
 
-        if (data.UG) {
 
-            Object.keys(data.UG).forEach(function(course){
+    // =====================================
+    // COURSE
+    // =====================================
 
-                const streams = data.UG[course];
+    const course =
+        document.getElementById("course");
 
-                html += `
-                <div class="course-card">
 
-                    <h5>${course}</h5>
+    // =====================================
+    // STREAM
+    // =====================================
 
-                    <small>
-                        ${streams.join(" • ")}
-                    </small>
+    const stream =
+        document.getElementById("stream");
 
-                </div>
-                `;
+
+    // =====================================
+    // CATEGORY CHANGE
+    // =====================================
+
+    if (category && course && stream && data) {
+
+        category.addEventListener("change", function () {
+
+            course.innerHTML =
+                '<option value="">Select Course</option>';
+
+            stream.innerHTML =
+                '<option value="">Select Stream / Specialization</option>';
+
+
+            const selectedCategory =
+                this.value;
+
+
+            if (!selectedCategory ||
+                !data[selectedCategory]) {
+
+                return;
+
+            }
+
+
+            const courses =
+                data[selectedCategory];
+
+
+            Object.keys(courses).forEach(function (courseName) {
+
+                const option =
+                    document.createElement("option");
+
+                option.value =
+                    courseName;
+
+                option.textContent =
+                    courseName;
+
+                course.appendChild(option);
 
             });
 
-        }
+        });
 
 
-        // ==============================
-        // PG COURSES
-        // ==============================
+        // =====================================
+        // COURSE CHANGE
+        // =====================================
 
-        if (data.PG) {
+        course.addEventListener("change", function () {
 
-            Object.keys(data.PG).forEach(function(course){
+            stream.innerHTML =
+                '<option value="">Select Stream / Specialization</option>';
 
-                const streams = data.PG[course];
 
-                html += `
-                <div class="course-card">
+            const selectedCategory =
+                category.value;
 
-                    <h5>${course}</h5>
+            const selectedCourse =
+                this.value;
 
-                    <small>
-                        ${streams.join(" • ")}
-                    </small>
 
-                </div>
-                `;
+            if (!selectedCategory ||
+                !selectedCourse ||
+                !data[selectedCategory]) {
+
+                return;
+
+            }
+
+
+            const streams =
+                data[selectedCategory][selectedCourse];
+
+
+            if (!streams ||
+                streams.length === 0) {
+
+                const option =
+                    document.createElement("option");
+
+                option.value =
+                    "General";
+
+                option.textContent =
+                    "General";
+
+                stream.appendChild(option);
+
+                return;
+
+            }
+
+
+            streams.forEach(function (streamName) {
+
+                const option =
+                    document.createElement("option");
+
+                option.value =
+                    streamName;
+
+                option.textContent =
+                    streamName;
+
+                stream.appendChild(option);
 
             });
 
-        }
-
-
-        universityCourses.innerHTML = html;
-
-    } else {
-
-        universityCourses.innerHTML =
-        "<p class='text-muted'>Course information will be updated soon.</p>";
+        });
 
     }
 
-}
+
+    // =========================================
+    // UNIVERSITY COURSE CARDS
+    // =========================================
+
+    const universityCourses =
+        document.getElementById("universityCourses");
+
+
+    if (universityCourses && data) {
+
+        let html = "";
+
+
+        // =====================================
+        // UG
+        // =====================================
+
+        if (data.UG) {
+
+            Object.keys(data.UG).forEach(function (courseName) {
+
+                const streams =
+                    data.UG[courseName];
+
+
+                html += `
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="course-card">
+
+                        <h5>${courseName}</h5>
+
+                        <p>
+
+                            ${
+                                streams.length
+                                ? streams.join(" • ")
+                                : "General Program"
+                            }
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                `;
+
+            });
+
+        }
+
+
+        // =====================================
+        // PG
+        // =====================================
+
+        if (data.PG) {
+
+            Object.keys(data.PG).forEach(function (courseName) {
+
+                const streams =
+                    data.PG[courseName];
+
+
+                html += `
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="course-card">
+
+                        <h5>${courseName}</h5>
+
+                        <p>
+
+                            ${
+                                streams.length
+                                ? streams.join(" • ")
+                                : "General Program"
+                            }
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                `;
+
+            });
+
+        }
+
+
+        universityCourses.innerHTML =
+            html;
+
+    }
+
 });
