@@ -4,51 +4,38 @@
 
 const universityData = {
 
-    "LPU (Online)": {
+    "LPU (Online)":{
 
-        UG: {
+UG:{
+"BBA":["BBA"],
+"BCA":["BCA"],
+"B.Com":["General"],
+"BA":[
+"BA"
+]
+},
 
-            "BBA": [],
-            "BCA": [],
-            "BA": []
+PG:{
+"MBA":[
+"MBA"
+],
 
-        },
+"MCA":[
+"MCA"
+],
+ 
+"M.Com":["General"],
 
-        PG: {
+"M.Sc":["Economics","Mathematics"],
 
-            "MBA": [
-                "Human Resource Management",
-                "Finance",
-                "Marketing Management",
-                "Data Science",
-                "Operations Management",
-                "International Business",
-                "Information Technology",
-                "Digital Marketing",
-                "Business Analytics",
-                "Logistics and Supply Chain Management",
-                "Hospital and Healthcare Management",
-                "Banking and Financial Services"
-            ],
+"MA":[
+"English",
+"Political Science","History","Sociology"
+],
 
-            "MCA": [
-                "Machine Learning & AI",
-                "Data Science",
-                "Cybersecurity",
-                "Full Stack Web Development",
-                "AR/VR (Game Development)"
-            ],
+"Diploma":["Business Administration","Computer Application"]
 
-            "M.Com": [],
-            "M.Sc. Mathematics": [],
-            "M.Sc. Economics": [],
-            "M.A. English": [],
-            "M.A. History": [],
-            "M.A. Sociology": [],
-            "M.A. Political Science": []
+}
 
-        }
-
-    }
-
-};
+},
+    
