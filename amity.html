@@ -8,10 +8,10 @@
 <meta name="viewport"
 content="width=device-width, initial-scale=1.0">
 
-<title>Amity Online | Edulight Learning Point</title>
+<title>Amity University Online | Edulight Learning Point</title>
 
 <meta name="description"
-content="Amity Online degree programs with admission guidance and course information.">
+content="Amity University Online Degree Programs. Get admission guidance for Online UG and PG programs through Edulight Learning Point.">
 
 <link rel="preconnect"
 href="https://fonts.googleapis.com">
@@ -38,109 +38,189 @@ href="css/university.css">
 <body>
 
 
-<!-- =====================================================
-     HEADER
-===================================================== -->
+<!-- =========================================
+     NAVBAR
+========================================= -->
 
-<header class="amity-header">
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
 
 <div class="container">
 
-<div class="amity-header-inner">
+<a class="navbar-brand"
+href="index.html">
 
-<a href="index.html"
-class="lpu-brand">
-
-<img src="images/universities/amity.png"
-alt="Amity Online">
+Edulight
+<span>Learning Point</span>
 
 </a>
 
 
-<div class="amity-contact">
+<button
+class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#mainMenu">
 
-<span>📞</span>
+<span class="navbar-toggler-icon"></span>
 
-<strong>Admission Assistance</strong>
+</button>
 
-<a href="tel:+919999999999">
-Call Now
+
+<div
+class="collapse navbar-collapse"
+id="mainMenu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link"
+href="index.html">
+Home
 </a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link"
+href="universities.html">
+Universities
+</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link"
+href="#courses">
+Courses
+</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link"
+href="#about">
+About
+</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link"
+href="#contact">
+Contact
+</a>
+</li>
+
+</ul>
 
 </div>
 
 </div>
 
-</div>
-
-</header>
-
-
-<!-- =====================================================
-     DEADLINE BAR
-===================================================== -->
-
-<div class="lpu-deadline">
-
-🎓 Admissions Open 2026
-&nbsp; | &nbsp;
-Apply Now for Online Degree Programs
-
-</div>
+</nav>
 
 
 
-<!-- =====================================================
-     HERO
-===================================================== -->
+<!-- =========================================
+     HERO SECTION
+========================================= -->
 
-<section class="lpu-hero">
+<section class="amity-hero">
 
 <div class="container">
 
 <div class="row align-items-center g-5">
 
 
-<!-- ================= LEFT SIDE ================= -->
+<!-- LEFT SIDE -->
 
 <div class="col-lg-7">
 
-<div class="lpu-hero-content">
-
-
-<span class="lpu-admission-badge">
+<div class="amity-badge">
 
 🎓 Admissions Open 2026
 
-</span>
+</div>
 
 
-<h1>
+<div class="amity-logo-box">
 
-Build Your Career With
+<img
+id="universityLogo"
+src="images/universities/amity.png"
+alt="Amity University Online">
 
-<span>Amity Online</span>
+</div>
+
+
+<h1 id="universityName">
+
+Amity University (Online)
 
 </h1>
 
 
-<p class="lpu-hero-text">
+<p
+id="universityTagline"
+class="amity-tagline">
 
-Choose from Online Degree Programs and get
-professional admission guidance from
-Edulight Learning Point.
+UGC Entitled Online Degree Programs
 
 </p>
 
 
-<!-- BENEFITS -->
+<div class="amity-tags">
 
-<div class="lpu-benefits">
+<span>UGC Entitled</span>
+
+<span>NAAC Accredited</span>
+
+<span>Online Programs</span>
+
+</div>
 
 
-<div class="lpu-benefit">
+<div class="amity-info">
 
-<div class="lpu-benefit-icon">
+<div>
+
+📍
+<strong>Location:</strong>
+
+<span id="universityLocation">
+Noida, Uttar Pradesh
+</span>
+
+</div>
+
+
+<div>
+
+🎓
+<strong>Mode:</strong>
+
+<span id="universityMode">
+Online Education
+</span>
+
+</div>
+
+
+<div>
+
+🏆
+<strong>Approval:</strong>
+
+<span id="universityApproval">
+UGC Entitled
+</span>
+
+</div>
+
+</div>
+
+
+<div class="amity-highlights">
+
+<div class="highlight-box">
+
+<div class="highlight-icon">
 ✓
 </div>
 
@@ -157,10 +237,9 @@ Recognized Online Degree Programs
 </div>
 
 
+<div class="highlight-box">
 
-<div class="amity-benefit">
-
-<div class="amity-benefit-icon">
+<div class="highlight-icon">
 💻
 </div>
 
@@ -169,7 +248,7 @@ Recognized Online Degree Programs
 <strong>Online Learning</strong>
 
 <small>
-Flexible learning from anywhere
+Study from anywhere
 </small>
 
 </div>
@@ -177,10 +256,9 @@ Flexible learning from anywhere
 </div>
 
 
+<div class="highlight-box">
 
-<div class="amity-benefit">
-
-<div class="amity-benefit-icon">
+<div class="highlight-icon">
 📚
 </div>
 
@@ -189,7 +267,7 @@ Flexible learning from anywhere
 <strong>Digital Study Material</strong>
 
 <small>
-Access learning resources online
+Learn online anytime
 </small>
 
 </div>
@@ -197,10 +275,9 @@ Access learning resources online
 </div>
 
 
+<div class="highlight-box">
 
-<div class="amity-benefit">
-
-<div class="amity-benefit-icon">
+<div class="highlight-icon">
 💼
 </div>
 
@@ -209,83 +286,44 @@ Access learning resources online
 <strong>Career Support</strong>
 
 <small>
-Guidance for your career journey
+Guidance for your career
 </small>
 
 </div>
 
 </div>
 
-
-</div>
-
-
-<div class="lpu-stats">
-
-<div>
-
-<strong>UGC</strong>
-
-<small>Entitled</small>
-
-</div>
-
-
-<div>
-
-<strong>Online</strong>
-
-<small>Learning</small>
-
-</div>
-
-
-<div>
-
-<strong>2026</strong>
-
-<small>Admissions</small>
-
-</div>
-
-</div>
-
-
 </div>
 
 </div>
 
 
 
-<!-- ================= RIGHT SIDE FORM ================= -->
+<!-- RIGHT SIDE FORM -->
 
 <div class="col-lg-5">
-
 
 <div class="amity-admission-card">
 
 
-<div class="amity-form-heading">
-
-<span>Admission Open</span>
+<div class="admission-header">
 
 <h2>
-
 Apply for Admission
-
 </h2>
 
 <p>
-
 Get Free Admission Counselling
-
 </p>
 
 </div>
 
 
 
-<form id="admissionForm">
+<form
+id="admissionForm"
+action="#"
+method="POST">
 
 
 <!-- NAME -->
@@ -301,6 +339,7 @@ required>
 </div>
 
 
+
 <!-- MOBILE -->
 
 <div class="amity-input">
@@ -312,6 +351,7 @@ placeholder="Enter Mobile Number *"
 required>
 
 </div>
+
 
 
 <!-- EMAIL -->
@@ -327,6 +367,7 @@ required>
 </div>
 
 
+
 <!-- UNIVERSITY -->
 
 <div class="amity-input">
@@ -336,13 +377,17 @@ id="university"
 name="university"
 required>
 
-<option value="">
-Select University
+<option value="Amity University (Online)"
+selected>
+
+Amity University (Online)
+
 </option>
 
 </select>
 
 </div>
+
 
 
 <!-- CATEGORY -->
@@ -371,6 +416,7 @@ Postgraduate (PG)
 </div>
 
 
+
 <!-- COURSE -->
 
 <div class="amity-input">
@@ -387,6 +433,7 @@ Select Course
 </select>
 
 </div>
+
 
 
 <!-- STREAM -->
@@ -407,19 +454,19 @@ Select Stream / Specialization
 </div>
 
 
+
 <button
 type="submit"
-class="amity-submit">
+class="amity-apply-btn">
 
 Apply Now
 
 </button>
 
 
-<p class="amity-form-note">
+<p class="admission-note">
 
-🔒 Your information is safe and used only
-for admission counselling.
+🔒 Your information is safe and used only for admission counselling.
 
 </p>
 
@@ -438,148 +485,29 @@ for admission counselling.
 
 
 
-<!-- =====================================================
-     WHY CHOOSE LPU
-===================================================== -->
-
-<section class="amity-why">
-
-<div class="container">
-
-
-<div class="amity-section-title">
-
-<span>
-Why Choose Amity Online?
-</span>
-
-<h2>
-
-Advance Your Career With Online Education
-
-</h2>
-
-<p>
-
-Explore flexible online learning options designed
-for working professionals, students and career seekers.
-
-</p>
-
-</div>
-
-
-
-<div class="row g-4">
-
-
-<div class="col-md-3">
-
-<div class="amity-why-card">
-
-<div>🎓</div>
-
-<h4>UGC Entitled</h4>
-
-<p>
-Study through recognized online degree programs.
-</p>
-
-</div>
-
-</div>
-
-
-
-<div class="col-md-3">
-
-<div class="lpu-why-card">
-
-<div>💻</div>
-
-<h4>Flexible Learning</h4>
-
-<p>
-Learn from anywhere according to your schedule.
-</p>
-
-</div>
-
-</div>
-
-
-
-<div class="col-md-3">
-
-<div class="lpu-why-card">
-
-<div>📚</div>
-
-<h4>Digital Resources</h4>
-
-<p>
-Access online learning resources and study material.
-</p>
-
-</div>
-
-</div>
-
-
-
-<div class="col-md-3">
-
-<div class="amity-why-card">
-
-<div>💼</div>
-
-<h4>Career Support</h4>
-
-<p>
-Get guidance throughout your admission journey.
-</p>
-
-</div>
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-
-<!-- =====================================================
-     LPU COURSES
-===================================================== -->
+<!-- =========================================
+     COURSES SECTION
+========================================= -->
 
 <section
-class="amity-courses"
-id="courses">
+id="courses"
+class="amity-courses-section">
 
 <div class="container">
 
 
-<div class="amity-section-title">
+<div class="section-heading">
 
 <span>
-🎓 Amity Online Programs
+AMITY ONLINE PROGRAMS
 </span>
 
 <h2>
-
 Online Degree Courses
-
 </h2>
 
 <p>
-
-Explore the available LPU Online courses and
-specializations.
-
+Explore popular undergraduate and postgraduate programs.
 </p>
 
 </div>
@@ -587,12 +515,17 @@ specializations.
 
 <div
 id="universityCourses"
-class="row g-4">
+class="course-grid">
 
-<!-- Courses will load automatically -->
+<!-- Courses will load through university.js -->
+
+<div class="course-loading">
+
+Courses will be updated soon.
 
 </div>
 
+</div>
 
 </div>
 
@@ -600,11 +533,13 @@ class="row g-4">
 
 
 
-<!-- =====================================================
-     ABOUT
-===================================================== -->
+<!-- =========================================
+     ABOUT SECTION
+========================================= -->
 
-<section class="amity-about">
+<section
+id="about"
+class="amity-about-section">
 
 <div class="container">
 
@@ -613,69 +548,81 @@ class="row g-4">
 
 <div class="col-lg-6">
 
-<span class="amity-about-label">
-
-ABOUT AMITY ONLINE
-
-</span>
+<div class="about-label">
+ABOUT UNIVERSITY
+</div>
 
 <h2>
-
-Amity Online Education
-
+About Amity University Online
 </h2>
 
 <p>
 
-Amity Online provides flexible online learning options
-for students and working professionals. Students can
-explore undergraduate and postgraduate programs through
-online education.
+Amity University Online offers flexible online
+degree programs designed for students and working
+professionals.
 
 </p>
 
 <p>
 
-Edulight Learning Point provides admission guidance,
-course information and counselling support to help
-students choose a suitable program.
+Students can access digital learning resources,
+online classes and academic support while pursuing
+their degree from anywhere.
 
 </p>
 
+
+<div class="about-points">
+
+<div>
+✓ Flexible Online Learning
 </div>
 
+<div>
+✓ Digital Study Material
+</div>
+
+<div>
+✓ Experienced Faculty
+</div>
+
+<div>
+✓ Career & Placement Support
+</div>
+
+</div>
+
+</div>
 
 
 <div class="col-lg-6">
 
-<div class="amity-about-box">
+<div class="about-card">
 
 <h3>
-
-Start Your Admission Journey
-
+Why Choose Amity Online?
 </h3>
 
-<p>
+<div class="about-card-item">
+🎓 UGC Entitled Programs
+</div>
 
-Need help selecting a course or specialization?
+<div class="about-card-item">
+💻 Learn From Anywhere
+</div>
 
-Our admission counsellors can guide you through
-the available options.
+<div class="about-card-item">
+📚 Digital Learning Resources
+</div>
 
-</p>
-
-<a href="#admissionForm"
-class="amity-about-button">
-
-Get Free Counselling
-
-</a>
-
+<div class="about-card-item">
+💼 Career Support
 </div>
 
 </div>
 
+</div>
 
 </div>
 
@@ -685,36 +632,50 @@ Get Free Counselling
 
 
 
-<!-- =====================================================
-     FOOTER
-===================================================== -->
+<!-- =========================================
+     CONTACT
+========================================= -->
 
-<footer class="amity-footer">
+<section
+id="contact"
+class="amity-contact">
 
 <div class="container">
 
+<h2>
+Start Your Online Degree Journey
+</h2>
+
 <p>
-
-© 2026 Edulight Learning Point |
-Online & Distance Education Admission Guidance
-
+Get free admission counselling from Edulight Learning Point.
 </p>
+
+<a
+href="#admissionForm"
+class="contact-btn">
+
+Apply Now
+
+</a>
 
 </div>
 
-</footer>
+</section>
 
 
 
-<!-- =====================================================
+<!-- =========================================
      SCRIPTS
-===================================================== -->
+========================================= -->
 
-<script src="js/universityData.js"></script>
-     
 <script src="js/script.js"></script>
 
 <script src="js/university.js"></script>
+
+
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
 
 
 </body>
