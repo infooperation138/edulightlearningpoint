@@ -831,3 +831,580 @@ border-radius:10px;
     }
 
 }
+
+/* =========================================
+   AMITY UNIVERSITY PAGE
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background: #f7faff;
+    color: #20242d;
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: 800;
+    color: #1769ff !important;
+}
+
+.navbar-brand span {
+    color: #222;
+    font-weight: 600;
+    margin-left: 4px;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #222 !important;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: #1769ff !important;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.amity-hero {
+    padding: 60px 0 70px;
+    background:
+        linear-gradient(
+            135deg,
+            #f8fbff 0%,
+            #eef5ff 100%
+        );
+}
+
+
+/* =========================================
+   BADGE
+========================================= */
+
+.amity-badge {
+    display: inline-block;
+    background: linear-gradient(
+        135deg,
+        #ff8a00,
+        #ff6b00
+    );
+    color: white;
+    padding: 9px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.amity-logo-box {
+    width: 190px;
+    height: 90px;
+    background: white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+}
+
+.amity-logo-box img {
+    max-width: 100%;
+    max-height: 75px;
+    object-fit: contain;
+}
+
+
+/* =========================================
+   UNIVERSITY NAME
+========================================= */
+
+#universityName {
+    font-size: 48px;
+    line-height: 1.15;
+    font-weight: 800;
+    margin-bottom: 12px;
+    color: #171c27;
+}
+
+.amity-tagline {
+    font-size: 18px;
+    color: #5d6675;
+    margin-bottom: 20px;
+}
+
+
+/* =========================================
+   TAGS
+========================================= */
+
+.amity-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.amity-tags span {
+    padding: 6px 13px;
+    border-radius: 6px;
+    color: white;
+    background: #198754;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.amity-tags span:nth-child(2) {
+    background: #1769ff;
+}
+
+.amity-tags span:nth-child(3) {
+    background: #ffb000;
+    color: #222;
+}
+
+
+/* =========================================
+   UNIVERSITY INFO
+========================================= */
+
+.amity-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 28px;
+    font-size: 15px;
+}
+
+.amity-info strong {
+    margin-right: 5px;
+}
+
+.amity-info span {
+    color: #555;
+}
+
+
+/* =========================================
+   HIGHLIGHTS
+========================================= */
+
+.amity-highlights {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    max-width: 650px;
+}
+
+.highlight-box {
+    background: white;
+    border: 1px solid #e5eaf2;
+    border-radius: 14px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.04);
+}
+
+.highlight-icon {
+    width: 42px;
+    height: 42px;
+    background: #eef5ff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.highlight-box strong {
+    display: block;
+    font-size: 14px;
+}
+
+.highlight-box small {
+    display: block;
+    color: #777;
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+
+/* =========================================
+   ADMISSION CARD
+========================================= */
+
+.amity-admission-card {
+    background: #ffffff;
+    border-radius: 22px;
+    padding: 32px;
+    box-shadow:
+        0 20px 55px rgba(30, 50, 90, 0.14);
+    border: 1px solid #edf0f5;
+}
+
+
+/* =========================================
+   FORM HEADER
+========================================= */
+
+.admission-header {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.admission-header h2 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    color: #20242d;
+}
+
+.admission-header p {
+    margin: 7px 0 0;
+    color: #777;
+    font-size: 14px;
+}
+
+
+/* =========================================
+   FORM INPUT
+========================================= */
+
+.amity-input {
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.amity-input input,
+.amity-input select {
+    width: 100%;
+    height: 52px;
+    border: 1px solid #d8dee8;
+    border-radius: 9px;
+    background: white;
+    padding: 0 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: #333;
+    outline: none;
+    transition: 0.25s;
+}
+
+.amity-input input::placeholder {
+    color: #999;
+}
+
+.amity-input input:focus,
+.amity-input select:focus {
+    border-color: #1769ff;
+    box-shadow:
+        0 0 0 3px rgba(23,105,255,0.10);
+}
+
+
+/* =========================================
+   APPLY BUTTON
+========================================= */
+
+.amity-apply-btn {
+    width: 100%;
+    height: 53px;
+    border: none;
+    border-radius: 9px;
+    background:
+        linear-gradient(
+            135deg,
+            #1769ff,
+            #0757dc
+        );
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.amity-apply-btn:hover {
+    transform: translateY(-2px);
+    box-shadow:
+        0 10px 25px rgba(23,105,255,0.25);
+}
+
+
+/* =========================================
+   NOTE
+========================================= */
+
+.admission-note {
+    text-align: center;
+    font-size: 11px;
+    color: #777;
+    margin: 13px 0 0;
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   COURSES SECTION
+========================================= */
+
+.amity-courses-section {
+    padding: 80px 0;
+    background: white;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-heading span {
+    color: #1769ff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.section-heading h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 8px 0;
+}
+
+.section-heading p {
+    color: #777;
+    margin: 0;
+}
+
+
+/* =========================================
+   COURSE GRID
+========================================= */
+
+.course-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.course-card {
+    background: white;
+    border: 1px solid #e4e9f1;
+    border-radius: 15px;
+    padding: 22px;
+    min-height: 130px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+    transition: 0.25s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.09);
+}
+
+.course-card h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1769ff;
+}
+
+.course-card small {
+    color: #666;
+    line-height: 1.7;
+}
+
+.course-loading {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #777;
+}
+
+
+/* =========================================
+   ABOUT
+========================================= */
+
+.amity-about-section {
+    padding: 80px 0;
+    background: #f7faff;
+}
+
+.about-label {
+    color: #1769ff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.amity-about-section h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.amity-about-section p {
+    color: #626b78;
+    line-height: 1.8;
+}
+
+.about-points {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.about-points div {
+    background: white;
+    border-radius: 10px;
+    padding: 13px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #e5eaf2;
+}
+
+.about-card {
+    background: white;
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.07);
+}
+
+.about-card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-card-item {
+    padding: 16px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* =========================================
+   CONTACT
+========================================= */
+
+.amity-contact {
+    padding: 70px 20px;
+    text-align: center;
+    background:
+        linear-gradient(
+            135deg,
+            #0b4edb,
+            #1769ff
+        );
+    color: white;
+}
+
+.amity-contact h2 {
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.amity-contact p {
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 13px 30px;
+    border-radius: 8px;
+    background: white;
+    color: #1769ff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 991px) {
+
+    #universityName {
+        font-size: 38px;
+    }
+
+    .amity-admission-card {
+        margin-top: 20px;
+    }
+
+    .course-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .amity-hero {
+        padding: 35px 0 50px;
+    }
+
+    #universityName {
+        font-size: 32px;
+    }
+
+    .amity-tagline {
+        font-size: 15px;
+    }
+
+    .amity-highlights {
+        grid-template-columns: 1fr;
+    }
+
+    .amity-admission-card {
+        padding: 22px 18px;
+        border-radius: 16px;
+    }
+
+    .course-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-heading h2 {
+        font-size: 28px;
+    }
+
+    .amity-about-section h2 {
+        font-size: 28px;
+    }
+
+    .about-points {
+        grid-template-columns: 1fr;
+    }
+
+}
