@@ -13,7 +13,7 @@ const universityPages = {
         approval: "UGC Entitled"
     },
 
-    "amity-online": {
+    "amity": {
         name: "Amity University (Online)",
         logo: "images/universities/amity.png",
         tagline: "UGC Entitled Online Degree Programs",
