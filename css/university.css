@@ -832,917 +832,598 @@ border-radius:10px;
 
 }
 
-/* =========================================
-   AMITY PREMIUM UNIVERSITY TEMPLATE
-========================================= */
+/* =====================================================
+   AMITY MODERN UNIVERSITY PAGE
+   ===================================================== */
 
 * {
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
-    color: #182033;
-    background: #f7f9fc;
+    background: #f5f8ff;
+    color: #172033;
 }
 
 
-/* =========================================
+/* =====================================================
    NAVBAR
-========================================= */
+   ===================================================== */
 
-.amity-navbar {
-    background: rgba(255,255,255,0.96);
-    backdrop-filter: blur(12px);
-    border-bottom: 1px solid #edf0f5;
+.navbar {
+    background: #ffffff !important;
+    min-height: 68px;
+    border-bottom: 1px solid #e8edf5;
 }
 
-.amity-navbar .navbar-brand {
+.navbar-brand {
     font-size: 21px;
     font-weight: 700;
-    color: #202636;
+    letter-spacing: -0.3px;
 }
 
-.amity-navbar .navbar-brand span {
-    color: #1769ff;
-    font-weight: 800;
+.navbar-brand .text-primary {
+    color: #1267ff !important;
 }
 
-.amity-navbar .nav-link {
-    color: #343b4d;
+.nav-link {
     font-size: 14px;
     font-weight: 500;
-    margin-left: 18px;
+    color: #172033 !important;
+    margin-left: 22px;
+    transition: 0.25s;
 }
 
-.amity-navbar .nav-link:hover {
-    color: #1769ff;
+.nav-link:hover {
+    color: #1267ff !important;
 }
 
 
-/* =========================================
-   PREMIUM HERO
-========================================= */
+/* =====================================================
+   HERO
+   ===================================================== */
 
-.amity-premium-hero {
+.university-hero {
     position: relative;
+    min-height: 650px;
     overflow: hidden;
-    padding: 75px 0 85px;
+
     background:
         radial-gradient(
-            circle at 90% 10%,
-            rgba(23,105,255,0.12),
-            transparent 35%
+            circle at 90% 15%,
+            rgba(37, 112, 255, 0.18),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 10% 80%,
+            rgba(37, 112, 255, 0.08),
+            transparent 30%
         ),
         linear-gradient(
             135deg,
-            #f8fbff,
-            #eef4ff
+            #f8fbff 0%,
+            #eef4ff 55%,
+            #e5efff 100%
         );
+
+    padding: 70px 0 80px;
 }
 
-.amity-premium-hero::before {
+
+/* decorative circles */
+
+.university-hero::before {
     content: "";
     position: absolute;
-    width: 420px;
-    height: 420px;
+    width: 330px;
+    height: 330px;
+    border: 1px solid rgba(18, 103, 255, 0.10);
     border-radius: 50%;
-    border: 1px solid rgba(23,105,255,0.08);
-    right: -150px;
-    top: -150px;
+    right: -100px;
+    top: -100px;
 }
 
-.amity-premium-hero::after {
+.university-hero::after {
     content: "";
     position: absolute;
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
+    border: 1px solid rgba(18, 103, 255, 0.08);
     border-radius: 50%;
-    background: rgba(23,105,255,0.04);
     left: -100px;
     bottom: -100px;
 }
 
 
-/* =========================================
-   OPEN BADGE
-========================================= */
+/* =====================================================
+   HERO LEFT
+   ===================================================== */
 
-.amity-open-badge {
+.hero-left {
+    position: relative;
+    z-index: 2;
+    padding-right: 35px;
+}
+
+
+/* admission badge */
+
+.hero-badge {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
-    padding: 8px 17px;
+    gap: 7px;
+
+    padding: 9px 18px;
+    margin-bottom: 22px;
+
     border-radius: 30px;
-    background: #e9f1ff;
-    color: #1769ff;
+
+    background: #e8f1ff;
+    color: #1267ff;
+
     font-size: 13px;
     font-weight: 600;
-    margin-bottom: 24px;
-}
 
-.amity-open-badge span {
-    font-size: 10px;
-    color: #16a34a;
+    border: 1px solid #d5e5ff;
 }
 
 
-/* =========================================
-   LOGO
-========================================= */
+/* logo box */
 
-.amity-logo-premium {
-    width: 210px;
-    height: 95px;
-    padding: 12px 20px;
-    background: #fff;
-    border-radius: 16px;
+.hero-logo {
+    width: 190px;
+    height: 105px;
+
+    background: #ffffff;
+
+    border-radius: 18px;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow:
-        0 15px 35px rgba(25,50,90,0.08);
-    border: 1px solid #e8edf5;
+
+    padding: 15px;
+
     margin-bottom: 25px;
+
+    border: 1px solid #e4eaf3;
+
+    box-shadow:
+        0 12px 30px rgba(31, 65, 114, 0.08);
 }
 
-.amity-logo-premium img {
+.hero-logo img {
     max-width: 100%;
-    max-height: 70px;
+    max-height: 75px;
     object-fit: contain;
 }
 
 
-/* =========================================
-   UNIVERSITY TITLE
-========================================= */
+/* university name */
 
 #universityName {
-    font-size: clamp(38px, 5vw, 62px);
-    line-height: 1.08;
+    font-size: clamp(42px, 5vw, 68px);
+    line-height: 0.98;
+
     font-weight: 800;
-    letter-spacing: -1.5px;
+
+    letter-spacing: -2.5px;
+
+    max-width: 650px;
+
+    margin-bottom: 18px;
+
     color: #111827;
-    margin-bottom: 15px;
 }
 
-#universityName span {
-    color: #1769ff;
-}
 
-.amity-premium-tagline {
-    font-size: 19px;
-    color: #5c6678;
+/* tagline */
+
+#universityTagline {
+    font-size: 18px;
+    line-height: 1.7;
+
+    color: #53627a;
+
+    max-width: 650px;
+
     margin-bottom: 18px;
 }
 
-.amity-location {
-    font-size: 13px;
-    color: #687386;
-    margin-bottom: 22px;
+
+/* =====================================================
+   UNIVERSITY INFO
+   ===================================================== */
+
+.university-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 22px;
+
+    margin: 18px 0;
+}
+
+.university-info span {
+    color: #4c5b70;
+    font-size: 14px;
 }
 
 
-/* =========================================
+/* =====================================================
    BADGES
-========================================= */
+   ===================================================== */
 
-.amity-premium-badges {
+.university-badges {
     display: flex;
     flex-wrap: wrap;
-    gap: 9px;
+    gap: 10px;
+
+    margin-top: 20px;
+}
+
+.university-badges span {
+    background: #ffffff;
+
+    border: 1px solid #dce5f2;
+
+    padding: 9px 14px;
+
+    border-radius: 9px;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    color: #26364f;
+
+    box-shadow: 0 5px 15px rgba(25, 55, 100, 0.04);
+}
+
+
+/* =====================================================
+   DESCRIPTION
+   ===================================================== */
+
+.hero-description {
+    max-width: 620px;
+
+    color: #5b6880;
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    margin-top: 24px;
+}
+
+
+/* =====================================================
+   HERO STATS
+   ===================================================== */
+
+.hero-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    margin-top: 30px;
+}
+
+.hero-stat {
+    background: #ffffff;
+
+    border: 1px solid #e3eaf4;
+
+    border-radius: 13px;
+
+    padding: 13px 18px;
+
+    min-width: 135px;
+
+    box-shadow: 0 8px 20px rgba(32, 64, 110, 0.05);
+}
+
+.hero-stat strong {
+    display: block;
+
+    color: #1267ff;
+
+    font-size: 17px;
+}
+
+.hero-stat small {
+    color: #68758a;
+    font-size: 11px;
+}
+
+
+/* =====================================================
+   ADMISSION FORM
+   ===================================================== */
+
+.admission-card {
+    position: relative;
+    z-index: 3;
+
+    background: rgba(255, 255, 255, 0.97);
+
+    border-radius: 24px;
+
+    padding: 30px;
+
+    border: 1px solid #e2e8f2;
+
+    box-shadow:
+        0 25px 70px rgba(28, 61, 108, 0.14);
+
+    max-width: 500px;
+
+    margin-left: auto;
+}
+
+
+/* form heading */
+
+.admission-card h2 {
+    font-size: 27px;
+
+    font-weight: 700;
+
+    margin-bottom: 5px;
+
+    color: #172033;
+}
+
+.admission-card > p {
+    color: #7a879b;
+
+    font-size: 13px;
+
     margin-bottom: 22px;
 }
 
-.amity-premium-badges div {
-    padding: 7px 12px;
-    background: #fff;
-    border: 1px solid #dfe6f0;
-    border-radius: 7px;
-    color: #334155;
-    font-size: 12px;
-    font-weight: 600;
+
+/* =====================================================
+   FORM INPUTS
+   ===================================================== */
+
+.lpu-input {
+    margin-bottom: 13px;
 }
 
+.lpu-input input,
+.lpu-input select {
 
-/* =========================================
-   HERO DESCRIPTION
-========================================= */
-
-.amity-hero-description {
-    max-width: 650px;
-    color: #626d80;
-    line-height: 1.8;
-    font-size: 14px;
-    margin-bottom: 28px;
-}
-
-
-/* =========================================
-   HERO BUTTONS
-========================================= */
-
-.amity-hero-buttons {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-}
-
-.amity-primary-btn,
-.amity-secondary-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 13px 23px;
-    border-radius: 9px;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
-    transition: .25s ease;
-}
-
-.amity-primary-btn {
-    color: #fff;
-    background: linear-gradient(
-        135deg,
-        #1769ff,
-        #0756dd
-    );
-    box-shadow: 0 10px 25px rgba(23,105,255,.20);
-}
-
-.amity-primary-btn:hover {
-    color: #fff;
-    transform: translateY(-2px);
-}
-
-.amity-secondary-btn {
-    color: #1769ff;
-    background: #fff;
-    border: 1px solid #dbe4f1;
-}
-
-.amity-secondary-btn:hover {
-    color: #1769ff;
-    transform: translateY(-2px);
-}
-
-
-/* =========================================
-   PREMIUM FORM
-========================================= */
-
-.amity-premium-form {
-    position: relative;
-    z-index: 5;
-    background: rgba(255,255,255,.98);
-    padding: 30px;
-    border-radius: 22px;
-    border: 1px solid #e5eaf2;
-    box-shadow:
-        0 25px 65px rgba(22,45,85,.15);
-}
-
-
-/* FORM TOP */
-
-.form-top {
-    display: flex;
-    align-items: center;
-    gap: 13px;
-    margin-bottom: 23px;
-}
-
-.form-icon {
-    width: 48px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #edf4ff;
-    border-radius: 12px;
-    font-size: 23px;
-}
-
-.form-top h3 {
-    margin: 0;
-    font-size: 21px;
-    font-weight: 700;
-    color: #1b2333;
-}
-
-.form-top p {
-    margin: 3px 0 0;
-    color: #7a8495;
-    font-size: 12px;
-}
-
-
-/* =========================================
-   FIELDS
-========================================= */
-
-.amity-field {
-    margin-bottom: 12px;
-}
-
-.amity-field input,
-.amity-field select {
     width: 100%;
-    height: 51px;
-    padding: 0 15px;
-    border: 1px solid #dce2eb;
-    border-radius: 9px;
-    outline: none;
-    background: #fff;
-    color: #303846;
-    font-family: "Poppins", sans-serif;
-    font-size: 13px;
-    transition: .2s ease;
-}
 
-.amity-field input::placeholder {
-    color: #9aa3b2;
-}
-
-.amity-field input:focus,
-.amity-field select:focus {
-    border-color: #1769ff;
-    box-shadow:
-        0 0 0 3px rgba(23,105,255,.09);
-}
-
-
-/* =========================================
-   SUBMIT
-========================================= */
-
-.amity-submit-btn {
-    width: 100%;
     height: 52px;
-    border: 0;
-    border-radius: 9px;
-    color: #fff;
+
+    border: 1px solid #d9e1ec;
+
+    border-radius: 10px;
+
+    background: #ffffff;
+
+    padding: 0 15px;
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 13px;
+
+    color: #27344a;
+
+    outline: none;
+
+    transition: 0.25s;
+}
+
+.lpu-input input::placeholder {
+    color: #9aa6b8;
+}
+
+.lpu-input input:focus,
+.lpu-input select:focus {
+
+    border-color: #1267ff;
+
+    box-shadow:
+        0 0 0 4px rgba(18, 103, 255, 0.08);
+}
+
+
+/* =====================================================
+   APPLY BUTTON
+   ===================================================== */
+
+.admission-card button {
+
+    width: 100%;
+
+    min-height: 52px;
+
+    border: none;
+
+    border-radius: 10px;
+
     background:
         linear-gradient(
             135deg,
-            #1769ff,
-            #0756dd
+            #1267ff,
+            #0754dc
         );
+
+    color: #ffffff;
+
     font-family: "Poppins", sans-serif;
+
     font-size: 14px;
+
     font-weight: 600;
-    cursor: pointer;
-    margin-top: 4px;
-    transition: .25s ease;
-}
 
-.amity-submit-btn:hover {
-    transform: translateY(-2px);
+    margin-top: 5px;
+
     box-shadow:
-        0 10px 25px rgba(23,105,255,.25);
+        0 10px 22px rgba(18, 103, 255, 0.22);
+
+    transition: 0.25s;
 }
 
-.form-security {
-    text-align: center;
-    margin: 12px 0 0;
-    color: #8a93a1;
-    font-size: 10px;
+.admission-card button:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 14px 28px rgba(18, 103, 255, 0.28);
 }
 
 
-/* =========================================
-   TRUST STRIP
-========================================= */
+/* =====================================================
+   SECURITY TEXT
+   ===================================================== */
 
-.amity-trust-strip {
-    position: relative;
-    z-index: 10;
-    background: #fff;
-    border-bottom: 1px solid #e9edf3;
-    box-shadow: 0 5px 20px rgba(0,0,0,.03);
-}
-
-.trust-item {
-    min-height: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-right: 1px solid #edf0f4;
-}
-
-.trust-item strong {
-    color: #1769ff;
-    font-size: 22px;
-    font-weight: 800;
-}
-
-.trust-item span {
-    color: #707a8b;
+.admission-card .small {
     font-size: 11px;
+
+    color: #8995a8;
+
+    margin-top: 14px;
 }
 
 
-/* =========================================
-   SECTION TITLE
-========================================= */
+/* =====================================================
+   COURSE SECTION
+   ===================================================== */
 
-.amity-modern-courses {
-    padding: 90px 0;
-    background: #fff;
+#courses {
+    background: #ffffff;
+
+    padding: 80px 0;
 }
 
-.amity-section-title {
-    max-width: 720px;
-    margin: 0 auto 45px;
-    text-align: center;
+#courses h2 {
+    font-size: 40px;
+
+    font-weight: 750;
+
+    letter-spacing: -1px;
+
+    color: #172033;
 }
 
-.amity-section-title span,
-.about-mini-title {
-    display: inline-block;
-    color: #1769ff;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    margin-bottom: 10px;
-}
-
-.amity-section-title h2 {
-    margin: 0 0 10px;
-    font-size: 38px;
-    line-height: 1.2;
-    font-weight: 800;
-    color: #151b28;
-}
-
-.amity-section-title p {
-    color: #727c8d;
-    font-size: 14px;
-    margin: 0;
+#courses > .container > p {
+    color: #718096;
 }
 
 
-/* =========================================
-   COURSE GRID
-========================================= */
-
-.amity-course-grid {
-    display: grid;
-    grid-template-columns:
-        repeat(3, minmax(0, 1fr));
-    gap: 20px;
-}
+/* course cards */
 
 .course-card {
-    position: relative;
-    overflow: hidden;
-    padding: 25px;
-    min-height: 145px;
-    background: #fff;
-    border: 1px solid #e6eaf0;
-    border-radius: 16px;
-    box-shadow: 0 8px 25px rgba(20,35,65,.05);
-    transition: .25s ease;
-}
 
-.course-card::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 4px;
     height: 100%;
-    background: #1769ff;
+
+    background: #ffffff;
+
+    border: 1px solid #e4eaf2;
+
+    border-radius: 16px;
+
+    padding: 23px;
+
+    transition: 0.25s;
+
+    box-shadow:
+        0 8px 25px rgba(30, 60, 100, 0.05);
 }
 
 .course-card:hover {
-    transform: translateY(-6px);
+
+    transform: translateY(-5px);
+
+    border-color: #c8dcff;
+
     box-shadow:
-        0 18px 35px rgba(20,35,65,.10);
-    border-color: #d7e3f7;
+        0 18px 40px rgba(30, 70, 130, 0.10);
 }
 
 .course-card h5 {
-    color: #172033;
+
+    color: #1267ff;
+
     font-size: 18px;
+
     font-weight: 700;
-    margin-bottom: 9px;
+
+    margin-bottom: 10px;
 }
 
 .course-card small {
-    color: #727c8d;
-    line-height: 1.7;
-    font-size: 11px;
-}
 
-.course-loading {
-    grid-column: 1 / -1;
-    text-align: center;
-    color: #7a8494;
-}
+    color: #6d7b90;
 
-
-/* =========================================
-   WHY SECTION
-========================================= */
-
-.amity-why-section {
-    padding: 90px 0;
-    background: #f6f9fd;
-}
-
-.amity-why-section .amity-section-title {
-    margin: 0 0 30px;
-}
-
-.amity-why-section .amity-section-title h2 {
-    font-size: 40px;
-}
-
-.amity-feature-grid {
-    display: grid;
-    grid-template-columns:
-        repeat(2, minmax(0, 1fr));
-    gap: 14px;
-}
-
-.amity-feature {
-    padding: 20px;
-    background: #fff;
-    border: 1px solid #e7ebf2;
-    border-radius: 14px;
-    transition: .25s ease;
-}
-
-.amity-feature:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 28px rgba(20,35,65,.07);
-}
-
-.feature-icon {
-    width: 42px;
-    height: 42px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #edf4ff;
-    border-radius: 10px;
-    margin-bottom: 12px;
-    font-size: 20px;
-}
-
-.amity-feature h4 {
-    font-size: 15px;
-    font-weight: 700;
-    margin-bottom: 5px;
-}
-
-.amity-feature p {
-    margin: 0;
-    color: #788294;
-    font-size: 11px;
-    line-height: 1.6;
-}
-
-
-/* =========================================
-   VISUAL SIDE
-========================================= */
-
-.amity-about-visual {
-    position: relative;
-    min-height: 410px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.visual-circle {
-    position: absolute;
-    width: 330px;
-    height: 330px;
-    border-radius: 50%;
-    background:
-        linear-gradient(
-            135deg,
-            #eaf2ff,
-            #f8fbff
-        );
-}
-
-.visual-main-card {
-    position: relative;
-    z-index: 3;
-    width: 290px;
-    padding: 35px 25px;
-    text-align: center;
-    background: #fff;
-    border-radius: 20px;
-    box-shadow: 0 20px 50px rgba(20,40,75,.13);
-}
-
-.visual-main-card img {
-    max-width: 190px;
-    max-height: 75px;
-    object-fit: contain;
-    margin-bottom: 20px;
-}
-
-.visual-main-card h3 {
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 5px;
-}
-
-.visual-main-card p {
-    margin: 0;
-    color: #7a8494;
-    font-size: 11px;
-}
-
-.visual-card {
-    position: absolute;
-    z-index: 5;
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-    min-width: 150px;
-    padding: 14px 16px;
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 12px 30px rgba(20,40,75,.12);
-    font-size: 18px;
-}
-
-.visual-card strong {
     font-size: 12px;
-}
 
-.visual-card span {
-    font-size: 9px;
-    color: #7a8494;
-}
-
-.visual-card-one {
-    left: 10px;
-    top: 55px;
-}
-
-.visual-card-two {
-    right: 0;
-    bottom: 55px;
+    line-height: 1.7;
 }
 
 
-/* =========================================
-   ABOUT
-========================================= */
-
-.amity-about-modern {
-    padding: 90px 0;
-    background: #fff;
-}
-
-.amity-about-modern h2 {
-    max-width: 650px;
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 1.2;
-    margin-bottom: 20px;
-}
-
-.amity-about-modern p {
-    max-width: 650px;
-    color: #687385;
-    line-height: 1.9;
-    font-size: 14px;
-}
-
-.approval-card {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 20px;
-    margin-bottom: 14px;
-    background: #f8faff;
-    border: 1px solid #e5ebf4;
-    border-radius: 14px;
-}
-
-.approval-icon {
-    width: 48px;
-    height: 48px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #1769ff;
-    color: #fff;
-    border-radius: 12px;
-    font-size: 20px;
-}
-
-.approval-card h4 {
-    margin: 0 0 3px;
-    font-size: 15px;
-    font-weight: 700;
-}
-
-.approval-card p {
-    margin: 0;
-    font-size: 11px;
-    color: #7a8494;
-}
-
-
-/* =========================================
-   FINAL CTA
-========================================= */
-
-.amity-final-cta {
-    padding: 85px 20px;
-    background:
-        radial-gradient(
-            circle at 10% 50%,
-            rgba(255,255,255,.12),
-            transparent 30%
-        ),
-        linear-gradient(
-            135deg,
-            #0756dd,
-            #1769ff
-        );
-    color: #fff;
-    text-align: center;
-}
-
-.cta-content > span {
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    opacity: .8;
-}
-
-.cta-content h2 {
-    margin: 12px 0;
-    font-size: 40px;
-    font-weight: 800;
-}
-
-.cta-content p {
-    margin-bottom: 25px;
-    opacity: .9;
-    font-size: 14px;
-}
-
-.amity-cta-btn {
-    display: inline-flex;
-    padding: 13px 25px;
-    border-radius: 8px;
-    background: #fff;
-    color: #1769ff;
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: 700;
-    transition: .25s ease;
-}
-
-.amity-cta-btn:hover {
-    color: #1769ff;
-    transform: translateY(-2px);
-}
-
-
-/* =========================================
-   FOOTER
-========================================= */
-
-.amity-footer {
-    padding: 22px;
-    background: #111827;
-    color: #aeb6c4;
-    text-align: center;
-}
-
-.amity-footer p {
-    margin: 0;
-    font-size: 11px;
-}
-
-
-/* =========================================
-   TABLET
-========================================= */
+/* =====================================================
+   RESPONSIVE
+   ===================================================== */
 
 @media (max-width: 991px) {
 
-    .amity-premium-hero {
-        padding: 55px 0 65px;
+    .university-hero {
+        padding: 50px 0 60px;
+    }
+
+    .hero-left {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .admission-card {
+        margin: 0 auto;
+        max-width: 600px;
     }
 
     #universityName {
-        font-size: 45px;
-    }
-
-    .amity-premium-form {
-        margin-top: 15px;
-    }
-
-    .amity-course-grid {
-        grid-template-columns:
-            repeat(2, minmax(0, 1fr));
+        font-size: 48px;
     }
 
 }
 
 
-/* =========================================
-   MOBILE
-========================================= */
+@media (max-width: 576px) {
 
-@media (max-width: 767px) {
-
-    .amity-premium-hero {
-        padding: 40px 0 50px;
+    .university-hero {
+        padding: 35px 15px 50px;
     }
 
     #universityName {
-        font-size: 36px;
-        letter-spacing: -1px;
+        font-size: 38px;
+        letter-spacing: -1.5px;
     }
 
-    .amity-premium-tagline {
-        font-size: 16px;
+    #universityTagline {
+        font-size: 15px;
     }
 
-    .amity-logo-premium {
-        width: 180px;
-        height: 85px;
+    .hero-logo {
+        width: 165px;
+        height: 90px;
     }
 
-    .amity-premium-form {
-        padding: 22px 18px;
-        border-radius: 17px;
+    .admission-card {
+        padding: 22px;
+        border-radius: 18px;
     }
 
-    .trust-item {
-        min-height: 85px;
-        border-right: 0;
-        border-bottom: 1px solid #edf0f4;
+    .hero-stat {
+        min-width: 110px;
     }
 
-    .amity-course-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .amity-section-title h2,
-    .amity-why-section .amity-section-title h2,
-    .amity-about-modern h2,
-    .cta-content h2 {
-        font-size: 29px;
-    }
-
-    .amity-feature-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .amity-about-visual {
-        min-height: 350px;
-        margin-top: 20px;
-    }
-
-    .visual-circle {
-        width: 270px;
-        height: 270px;
-    }
-
-    .visual-main-card {
-        width: 250px;
-    }
-
-    .visual-card-one {
-        left: 0;
-    }
-
-    .visual-card-two {
-        right: 0;
-    }
-
-    .amity-hero-buttons {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .amity-primary-btn,
-    .amity-secondary-btn {
-        width: 100%;
+    #courses h2 {
+        font-size: 31px;
     }
 
 }
