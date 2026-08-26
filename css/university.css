@@ -3248,3 +3248,1265 @@ img {
     }
 
 }
+
+/* =========================================================
+   CHANDIGARH UNIVERSITY PREMIUM TEMPLATE
+   ========================================================= */
+
+
+/* =========================================================
+   CU NAVBAR
+   ========================================================= */
+
+.cu-navbar {
+    background: #ffffff;
+    border-bottom: 1px solid #ececf3;
+    padding: 14px 0;
+}
+
+.cu-brand {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f1f2e !important;
+    text-decoration: none;
+}
+
+.cu-brand span {
+    color: #5b2c83;
+    font-weight: 800;
+}
+
+.cu-navbar .nav-link {
+    color: #333342;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: 0.3s ease;
+}
+
+.cu-navbar .nav-link:hover {
+    color: #5b2c83;
+}
+
+
+/* =========================================================
+   PREMIUM HERO
+   ========================================================= */
+
+.cu-premium-hero {
+    position: relative;
+    padding: 80px 0;
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f8f5fc 0%,
+            #ffffff 50%,
+            #fff7ef 100%
+        );
+}
+
+.cu-premium-hero::before {
+    content: "";
+    position: absolute;
+
+    width: 450px;
+    height: 450px;
+
+    top: -200px;
+    right: -120px;
+
+    border-radius: 50%;
+
+    background: rgba(91, 44, 131, 0.08);
+}
+
+.cu-premium-hero::after {
+    content: "";
+    position: absolute;
+
+    width: 300px;
+    height: 300px;
+
+    bottom: -180px;
+    left: -100px;
+
+    border-radius: 50%;
+
+    background: rgba(241, 139, 36, 0.08);
+}
+
+.cu-premium-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* =========================================================
+   HERO BADGE
+   ========================================================= */
+
+.cu-admission-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+
+    padding: 8px 15px;
+
+    margin-bottom: 22px;
+
+    background: #f1eafa;
+
+    color: #5b2c83;
+
+    border: 1px solid #e0d1ef;
+    border-radius: 50px;
+
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.cu-dot {
+    width: 8px;
+    height: 8px;
+
+    background: #f18b24;
+
+    border-radius: 50%;
+
+    box-shadow: 0 0 0 5px rgba(241, 139, 36, 0.12);
+}
+
+
+/* =========================================================
+   UNIVERSITY LOGO
+   ========================================================= */
+
+.cu-logo-box {
+    display: flex;
+    align-items: center;
+
+    width: 150px;
+    min-height: 75px;
+
+    padding: 10px 15px;
+
+    margin-bottom: 25px;
+
+    background: #ffffff;
+
+    border: 1px solid #ece5f3;
+    border-radius: 14px;
+
+    box-shadow: 0 10px 30px rgba(60, 30, 90, 0.07);
+}
+
+.cu-logo-box img {
+    width: 100%;
+    max-height: 52px;
+
+    object-fit: contain;
+}
+
+
+/* =========================================================
+   HERO TEXT
+   ========================================================= */
+
+.cu-hero-content h1 {
+    margin-bottom: 14px;
+
+    color: #20202d;
+
+    font-size: clamp(38px, 5vw, 64px);
+
+    line-height: 1.08;
+
+    font-weight: 800;
+
+    letter-spacing: -2px;
+}
+
+.cu-hero-content h1 span {
+    display: block;
+    color: #5b2c83;
+}
+
+.cu-tagline {
+    max-width: 600px;
+
+    margin-bottom: 18px;
+
+    color: #5f6472;
+
+    font-size: 17px;
+
+    font-weight: 500;
+}
+
+
+/* =========================================================
+   LOCATION
+   ========================================================= */
+
+.cu-location-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+
+    margin-bottom: 24px;
+
+    color: #646979;
+
+    font-size: 12px;
+
+    font-weight: 500;
+}
+
+.cu-divider {
+    color: #c3c3cb;
+}
+
+
+/* =========================================================
+   TRUST BADGES
+   ========================================================= */
+
+.cu-trust-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    margin-bottom: 24px;
+}
+
+.cu-trust-badges div {
+    padding: 8px 13px;
+
+    background: #ffffff;
+
+    border: 1px solid #e8e3ed;
+
+    border-radius: 8px;
+
+    color: #4d4d5d;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+    box-shadow: 0 5px 15px rgba(40, 30, 55, 0.04);
+}
+
+
+/* =========================================================
+   DESCRIPTION
+   ========================================================= */
+
+.cu-description {
+    max-width: 620px;
+
+    margin-bottom: 28px;
+
+    color: #737786;
+
+    font-size: 13px;
+
+    line-height: 1.9;
+}
+
+
+/* =========================================================
+   HERO BUTTONS
+   ========================================================= */
+
+.cu-hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.cu-primary-btn,
+.cu-secondary-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 48px;
+
+    padding: 0 23px;
+
+    border-radius: 9px;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+}
+
+.cu-primary-btn {
+    background: #5b2c83;
+    color: #ffffff;
+
+    box-shadow: 0 10px 25px rgba(91, 44, 131, 0.2);
+}
+
+.cu-primary-btn:hover {
+    background: #482066;
+    color: #ffffff;
+
+    transform: translateY(-2px);
+}
+
+.cu-secondary-btn {
+    background: #ffffff;
+
+    color: #5b2c83;
+
+    border: 1px solid #ded5e7;
+}
+
+.cu-secondary-btn:hover {
+    color: #ffffff;
+    background: #5b2c83;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   ADMISSION CARD
+   ========================================================= */
+
+.cu-admission-card {
+    padding: 30px;
+
+    background: #ffffff;
+
+    border: 1px solid #ece7f1;
+
+    border-radius: 22px;
+
+    box-shadow:
+        0 25px 60px rgba(49, 29, 72, 0.13);
+}
+
+.cu-form-header {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    padding-bottom: 20px;
+
+    margin-bottom: 20px;
+
+    border-bottom: 1px solid #ececf1;
+}
+
+.cu-form-icon {
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 22px;
+
+    border-radius: 13px;
+
+    background: #f2ebf8;
+}
+
+.cu-form-header h3 {
+    margin: 0 0 3px;
+
+    color: #272533;
+
+    font-size: 19px;
+
+    font-weight: 700;
+}
+
+.cu-form-header p {
+    margin: 0;
+
+    color: #878895;
+
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   FORM FIELDS
+   ========================================================= */
+
+.cu-field {
+    margin-bottom: 13px;
+}
+
+.cu-field input,
+.cu-field select {
+    width: 100%;
+
+    height: 48px;
+
+    padding: 0 14px;
+
+    background: #faf9fc;
+
+    border: 1px solid #e5e2e9;
+
+    border-radius: 9px;
+
+    color: #454553;
+
+    outline: none;
+
+    font-size: 12px;
+
+    transition: 0.25s ease;
+}
+
+.cu-field input:focus,
+.cu-field select:focus {
+    background: #ffffff;
+
+    border-color: #5b2c83;
+
+    box-shadow: 0 0 0 4px rgba(91, 44, 131, 0.08);
+}
+
+.cu-field select {
+    cursor: pointer;
+}
+
+
+/* =========================================================
+   SUBMIT BUTTON
+   ========================================================= */
+
+.cu-submit-btn {
+    width: 100%;
+
+    height: 50px;
+
+    border: none;
+
+    border-radius: 9px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #5b2c83,
+            #7a429f
+        );
+
+    color: #ffffff;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    box-shadow: 0 12px 25px rgba(91, 44, 131, 0.2);
+
+    transition: all 0.3s ease;
+}
+
+.cu-submit-btn:hover {
+    transform: translateY(-2px);
+
+    box-shadow: 0 18px 30px rgba(91, 44, 131, 0.28);
+}
+
+.cu-security {
+    margin: 14px 0 0;
+
+    text-align: center;
+
+    color: #92939f;
+
+    font-size: 10px;
+}
+
+
+/* =========================================================
+   TRUST STRIP
+   ========================================================= */
+
+.cu-trust-strip {
+    background: #ffffff;
+
+    border-top: 1px solid #ebe7ef;
+    border-bottom: 1px solid #ebe7ef;
+}
+
+.cu-stat {
+    min-height: 105px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    border-right: 1px solid #ece8ef;
+
+    transition: 0.25s ease;
+}
+
+.cu-stat:hover {
+    background: #faf8fc;
+}
+
+.cu-stat strong {
+    margin-bottom: 4px;
+
+    color: #5b2c83;
+
+    font-size: 20px;
+
+    font-weight: 800;
+}
+
+.cu-stat span {
+    color: #868693;
+
+    font-size: 10px;
+
+    font-weight: 500;
+}
+
+
+/* =========================================================
+   COURSES
+   ========================================================= */
+
+.cu-courses-section {
+    position: relative;
+
+    padding: 90px 0;
+
+    background: #faf9fc;
+}
+
+.cu-section-heading {
+    max-width: 700px;
+
+    margin: 0 auto 45px;
+
+    text-align: center;
+}
+
+.cu-section-heading > span {
+    display: inline-block;
+
+    margin-bottom: 10px;
+
+    color: #f18b24;
+
+    font-size: 10px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+.cu-section-heading h2 {
+    margin-bottom: 13px;
+
+    color: #252431;
+
+    font-size: clamp(30px, 4vw, 44px);
+
+    font-weight: 800;
+
+    letter-spacing: -1.5px;
+}
+
+.cu-section-heading p {
+    margin: 0;
+
+    color: #7d7e89;
+
+    font-size: 13px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   COURSE GRID
+   ========================================================= */
+
+.cu-course-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: 20px;
+}
+
+.cu-course-grid .course-card {
+    position: relative;
+
+    min-height: 165px;
+
+    padding: 25px;
+
+    background: #ffffff;
+
+    border: 1px solid #e9e5ed;
+
+    border-radius: 17px;
+
+    overflow: hidden;
+
+    box-shadow: 0 8px 25px rgba(45, 30, 60, 0.04);
+
+    transition: all 0.3s ease;
+}
+
+.cu-course-grid .course-card::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 4px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #5b2c83,
+            #f18b24
+        );
+
+    transform: scaleX(0);
+
+    transform-origin: left;
+
+    transition: 0.3s ease;
+}
+
+.cu-course-grid .course-card:hover {
+    transform: translateY(-7px);
+
+    box-shadow: 0 20px 45px rgba(55, 30, 75, 0.12);
+}
+
+.cu-course-grid .course-card:hover::before {
+    transform: scaleX(1);
+}
+
+.cu-course-grid .course-card h5 {
+    margin-bottom: 12px;
+
+    color: #292735;
+
+    font-size: 17px;
+
+    font-weight: 700;
+
+    transition: 0.25s ease;
+}
+
+.cu-course-grid .course-card:hover h5 {
+    color: #5b2c83;
+}
+
+.cu-course-grid .course-card small {
+    display: block;
+
+    color: #81818c;
+
+    font-size: 10px;
+
+    line-height: 1.9;
+}
+
+.cu-course-grid .course-card::after {
+    content: "→";
+
+    position: absolute;
+
+    right: 20px;
+    bottom: 18px;
+
+    color: #f18b24;
+
+    font-size: 18px;
+
+    opacity: 0;
+
+    transform: translateX(-7px);
+
+    transition: 0.3s ease;
+}
+
+.cu-course-grid .course-card:hover::after {
+    opacity: 1;
+
+    transform: translateX(0);
+}
+
+
+/* =========================================================
+   WHY SECTION
+   ========================================================= */
+
+.cu-why-section {
+    padding: 100px 0;
+
+    background: #ffffff;
+}
+
+.cu-feature-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 16px;
+
+    margin-top: 30px;
+}
+
+.cu-feature-card {
+    padding: 22px;
+
+    background: #faf9fc;
+
+    border: 1px solid #ece7f1;
+
+    border-radius: 14px;
+
+    transition: 0.3s ease;
+}
+
+.cu-feature-card:hover {
+    transform: translateY(-5px);
+
+    background: #ffffff;
+
+    box-shadow: 0 15px 35px rgba(55, 35, 75, 0.09);
+}
+
+.cu-feature-icon {
+    width: 44px;
+    height: 44px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 15px;
+
+    border-radius: 12px;
+
+    background: #f0e8f6;
+
+    font-size: 20px;
+}
+
+.cu-feature-card h4 {
+    margin-bottom: 8px;
+
+    color: #292735;
+
+    font-size: 15px;
+
+    font-weight: 700;
+}
+
+.cu-feature-card p {
+    margin: 0;
+
+    color: #81818c;
+
+    font-size: 11px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   RIGHT VISUAL
+   ========================================================= */
+
+.cu-visual-section {
+    position: relative;
+
+    min-height: 470px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cu-big-circle {
+    position: absolute;
+
+    width: 360px;
+    height: 360px;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f0e6f7,
+            #fff1e4
+        );
+}
+
+.cu-main-visual-card {
+    position: relative;
+    z-index: 2;
+
+    width: 310px;
+
+    padding: 40px 25px;
+
+    text-align: center;
+
+    background: #ffffff;
+
+    border-radius: 22px;
+
+    box-shadow: 0 25px 60px rgba(52, 30, 70, 0.14);
+}
+
+.cu-main-visual-card img {
+    width: 150px;
+    max-height: 70px;
+
+    object-fit: contain;
+
+    margin-bottom: 25px;
+}
+
+.cu-main-visual-card h3 {
+    margin-bottom: 8px;
+
+    color: #292735;
+
+    font-size: 19px;
+
+    font-weight: 700;
+}
+
+.cu-main-visual-card p {
+    margin: 0;
+
+    color: #888894;
+
+    font-size: 11px;
+}
+
+.cu-floating-card {
+    position: absolute;
+    z-index: 3;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 16px 20px;
+
+    background: #ffffff;
+
+    border-radius: 13px;
+
+    box-shadow: 0 15px 35px rgba(52, 30, 70, 0.1);
+
+    font-size: 18px;
+}
+
+.cu-floating-card strong {
+    margin-top: 5px;
+
+    color: #3a3544;
+
+    font-size: 12px;
+}
+
+.cu-floating-card span {
+    color: #888894;
+
+    font-size: 9px;
+}
+
+.cu-card-one {
+    top: 55px;
+    left: 5%;
+}
+
+.cu-card-two {
+    bottom: 55px;
+    right: 4%;
+}
+
+
+/* =========================================================
+   ABOUT
+   ========================================================= */
+
+.cu-about-section {
+    padding: 90px 0;
+
+    background: #faf9fc;
+}
+
+.cu-mini-title {
+    display: inline-block;
+
+    margin-bottom: 12px;
+
+    color: #f18b24;
+
+    font-size: 10px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+.cu-about-section h2 {
+    margin-bottom: 20px;
+
+    color: #292735;
+
+    font-size: clamp(30px, 4vw, 42px);
+
+    line-height: 1.2;
+
+    font-weight: 800;
+}
+
+.cu-about-section p {
+    color: #777884;
+
+    font-size: 13px;
+
+    line-height: 1.9;
+}
+
+.cu-info-card {
+    display: flex;
+    align-items: center;
+
+    gap: 16px;
+
+    padding: 18px;
+
+    margin-bottom: 14px;
+
+    background: #ffffff;
+
+    border: 1px solid #ece7f0;
+
+    border-radius: 13px;
+
+    transition: 0.25s ease;
+}
+
+.cu-info-card:hover {
+    transform: translateX(5px);
+
+    box-shadow: 0 12px 25px rgba(50, 35, 70, 0.06);
+}
+
+.cu-info-icon {
+    min-width: 43px;
+    height: 43px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #f0e7f6;
+
+    color: #5b2c83;
+
+    font-size: 17px;
+
+    font-weight: 700;
+}
+
+.cu-info-card h4 {
+    margin: 0 0 3px;
+
+    color: #302e3a;
+
+    font-size: 14px;
+
+    font-weight: 700;
+}
+
+.cu-info-card p {
+    margin: 0;
+
+    font-size: 10px;
+}
+
+
+/* =========================================================
+   FINAL CTA
+   ========================================================= */
+
+.cu-final-cta {
+    padding: 95px 0;
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #4a226b,
+            #6c3296
+        );
+}
+
+.cu-cta-content {
+    max-width: 700px;
+
+    margin: auto;
+}
+
+.cu-cta-content > span {
+    display: inline-block;
+
+    margin-bottom: 14px;
+
+    color: #f6a54d;
+
+    font-size: 10px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+.cu-cta-content h2 {
+    margin-bottom: 15px;
+
+    color: #ffffff;
+
+    font-size: clamp(30px, 4vw, 46px);
+
+    font-weight: 800;
+}
+
+.cu-cta-content p {
+    margin-bottom: 28px;
+
+    color: rgba(255,255,255,0.75);
+
+    font-size: 13px;
+}
+
+.cu-cta-button {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 14px 27px;
+
+    background: #ffffff;
+
+    color: #5b2c83;
+
+    border-radius: 9px;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    transition: 0.3s ease;
+}
+
+.cu-cta-button:hover {
+    transform: translateY(-3px);
+
+    color: #5b2c83;
+
+    box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.cu-footer {
+    padding: 22px 0;
+
+    text-align: center;
+
+    background: #301743;
+}
+
+.cu-footer p {
+    margin: 0;
+
+    color: rgba(255,255,255,0.65);
+
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 991px) {
+
+    .cu-premium-hero {
+        padding: 60px 0;
+    }
+
+    .cu-course-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .cu-visual-section {
+        margin-top: 30px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+    .cu-premium-hero {
+        padding: 50px 0;
+    }
+
+    .cu-hero-content h1 {
+        font-size: 42px;
+        letter-spacing: -1px;
+    }
+
+    .cu-admission-card {
+        padding: 22px;
+    }
+
+    .cu-course-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cu-feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cu-courses-section,
+    .cu-why-section,
+    .cu-about-section {
+        padding: 65px 0;
+    }
+
+    .cu-stat {
+        min-height: 80px;
+
+        border-right: none;
+        border-bottom: 1px solid #ece8ef;
+    }
+
+    .cu-trust-strip
+    .col-md-3:last-child
+    .cu-stat {
+        border-bottom: none;
+    }
+
+    .cu-visual-section {
+        min-height: 390px;
+    }
+
+    .cu-big-circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .cu-main-visual-card {
+        width: 270px;
+        padding: 30px 20px;
+    }
+
+    .cu-card-one {
+        top: 20px;
+        left: 0;
+    }
+
+    .cu-card-two {
+        bottom: 20px;
+        right: 0;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+    .cu-hero-buttons {
+        flex-direction: column;
+    }
+
+    .cu-primary-btn,
+    .cu-secondary-btn {
+        width: 100%;
+    }
+
+    .cu-location-row {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    .cu-divider {
+        display: none;
+    }
+
+    .cu-trust-badges {
+        gap: 7px;
+    }
+
+    .cu-trust-badges div {
+        font-size: 9px;
+    }
+
+    .cu-floating-card {
+        padding: 11px 13px;
+    }
+
+    .cu-floating-card span {
+        display: none;
+    }
+
+}
