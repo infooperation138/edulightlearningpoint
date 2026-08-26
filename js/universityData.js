@@ -77,3 +77,70 @@ PG:{
 }
 
 },
+
+"Chandigarh University (Online)": {
+
+    UG: {
+
+        "BBA": [
+            "Human Resource Management",
+            "Marketing",
+            "International Business",
+            "Entrepreneurship"
+        ],
+
+        "BBA Business Analytics": [],
+
+        "BBA ACCA": [],
+
+        "BCA": [],
+
+        "BA Journalism & Mass Communication": []
+
+    },
+
+    PG: {
+
+        "MBA": [
+            "Human Resource Management",
+            "Marketing",
+            "International Business",
+            "Entrepreneurship",
+            "Finance",
+            "Information Technology",
+            "Retail Management",
+            "Operations Management",
+            "Banking & Insurance",
+            "Hospital Management",
+            "Event Management",
+            "Travel & Tourism Management",
+            "Airlines & Airport Management",
+            "Digital Marketing",
+            "Data Science & Artificial Intelligence",
+            "FinTech",
+            "Business Analytics",
+            "Logistics & Supply Chain Management"
+        ],
+
+        "MBA Business Analytics": [],
+
+        "MCA": [
+            "Cloud Computing",
+            "Full Stack Development",
+            "Data Analytics",
+            "Artificial Intelligence & Machine Learning"
+        ],
+
+        "M.Sc. Data Science": [],
+
+        "M.Sc. Mathematics": [],
+
+        "MA English": [],
+
+        "MA Economics": [],
+
+        "MA Journalism & Mass Communication": []
+
+    }
+
+},
