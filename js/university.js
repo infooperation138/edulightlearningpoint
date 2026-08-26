@@ -38,8 +38,17 @@ const universityPages = {
         location: "Jalandhar, Punjab",
         mode: "Online Education",
         approval: "UGC Entitled"
-    }
+    },
 
+    "chandigarh": {
+    name: "Chandigarh University (Online)",
+    logo: "images/universities/chandigarh.png",
+    tagline: "Flexible Online Degree Programs for Career Growth",
+    location: "Mohali, Punjab",
+    mode: "Online Education",
+    approval: "UGC Entitled"
+}
+    
 };
 
 // =========================================
