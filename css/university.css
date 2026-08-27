@@ -4510,3 +4510,832 @@ img {
     }
 
 }
+
+/* =========================================
+   MANGALAYATAN UNIVERSITY PREMIUM DESIGN
+========================================= */
+
+.mang-navbar {
+    background: #ffffff;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.06);
+    padding: 14px 0;
+}
+
+.mang-brand {
+    font-size: 22px;
+    font-weight: 700;
+    color: #252b38 !important;
+}
+
+.mang-brand span {
+    color: #b02a2a;
+    font-weight: 800;
+}
+
+.mang-navbar .nav-link {
+    color: #2d3442 !important;
+    font-weight: 500;
+    margin-left: 18px;
+    transition: 0.3s;
+}
+
+.mang-navbar .nav-link:hover {
+    color: #b02a2a !important;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.mang-hero {
+    position: relative;
+    padding: 85px 0 75px;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 90% 10%, rgba(176, 42, 42, 0.12), transparent 25%),
+        radial-gradient(circle at 10% 90%, rgba(230, 170, 70, 0.12), transparent 30%),
+        linear-gradient(135deg, #f8f9fc, #eef1f7);
+}
+
+.mang-hero::before {
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 70px solid rgba(176, 42, 42, 0.035);
+    right: -150px;
+    top: -180px;
+}
+
+.mang-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* =========================================
+   ADMISSION BADGE
+========================================= */
+
+.mang-admission-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #a51f2d, #d13a3a);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 24px;
+    box-shadow: 0 10px 25px rgba(176, 42, 42, 0.22);
+}
+
+.mang-admission-badge span {
+    font-size: 16px;
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.mang-logo-box {
+    width: 230px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    background: #ffffff;
+    border-radius: 18px;
+    margin-bottom: 28px;
+    box-shadow: 0 12px 35px rgba(30, 40, 60, 0.10);
+}
+
+.mang-logo-box img {
+    max-width: 190px;
+    max-height: 70px;
+    object-fit: contain;
+}
+
+
+/* =========================================
+   HERO TEXT
+========================================= */
+
+.mang-hero h1 {
+    color: #202736;
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+
+.mang-hero h1 span {
+    color: #b02a2a;
+    display: block;
+}
+
+.mang-tagline {
+    font-size: 19px;
+    color: #667085;
+    margin-bottom: 25px;
+}
+
+.mang-location-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    color: #3c4554;
+    font-size: 15px;
+    margin-bottom: 28px;
+}
+
+.mang-location-row div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+/* =========================================
+   HIGHLIGHT BOXES
+========================================= */
+
+.mang-highlight-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.mang-highlight {
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(30, 40, 60, 0.08);
+    border-radius: 15px;
+    padding: 15px 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.mang-highlight:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(30, 40, 60, 0.08);
+}
+
+.highlight-icon {
+    width: 38px;
+    height: 38px;
+    min-width: 38px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(176, 42, 42, 0.10);
+    color: #b02a2a;
+    font-weight: 700;
+}
+
+.mang-highlight strong {
+    display: block;
+    color: #27303f;
+    font-size: 12px;
+}
+
+.mang-highlight span {
+    display: block;
+    color: #7b8492;
+    font-size: 10px;
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.mang-description {
+    color: #596273;
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 680px;
+    margin-bottom: 28px;
+}
+
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.mang-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.mang-primary-btn,
+.mang-secondary-btn {
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.mang-primary-btn {
+    color: #ffffff;
+    background: linear-gradient(135deg, #a51f2d, #d13a3a);
+    box-shadow: 0 10px 25px rgba(176, 42, 42, 0.22);
+}
+
+.mang-primary-btn:hover {
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+.mang-secondary-btn {
+    color: #a51f2d;
+    background: #ffffff;
+    border: 1px solid rgba(176, 42, 42, 0.25);
+}
+
+.mang-secondary-btn:hover {
+    color: #ffffff;
+    background: #a51f2d;
+}
+
+
+/* =========================================
+   FORM CARD
+========================================= */
+
+.mang-form-card {
+    background: rgba(255, 255, 255, 0.94);
+    padding: 32px;
+    border-radius: 24px;
+    box-shadow: 0 25px 60px rgba(25, 35, 55, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.mang-form-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 25px;
+}
+
+.mang-form-icon {
+    width: 50px;
+    height: 50px;
+    background: rgba(176, 42, 42, 0.10);
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+
+.mang-form-header h3 {
+    color: #27303f;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0 0 3px;
+}
+
+.mang-form-header p {
+    color: #7b8492;
+    font-size: 13px;
+    margin: 0;
+}
+
+
+/* =========================================
+   FORM FIELDS
+========================================= */
+
+.mang-input {
+    margin-bottom: 12px;
+}
+
+.mang-input input,
+.mang-input select {
+    width: 100%;
+    height: 52px;
+    padding: 0 15px;
+    border-radius: 10px;
+    border: 1px solid #dbe0e8;
+    background: #ffffff;
+    color: #3d4654;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.mang-input input:focus,
+.mang-input select:focus {
+    border-color: #b02a2a;
+    box-shadow: 0 0 0 4px rgba(176, 42, 42, 0.08);
+}
+
+.mang-input select {
+    cursor: pointer;
+}
+
+
+/* =========================================
+   SUBMIT BUTTON
+========================================= */
+
+.mang-submit-btn {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #a51f2d, #d13a3a);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 5px;
+    transition: 0.3s;
+    box-shadow: 0 10px 22px rgba(176, 42, 42, 0.20);
+}
+
+.mang-submit-btn:hover {
+    transform: translateY(-2px);
+}
+
+.mang-security {
+    text-align: center;
+    margin: 15px 0 0;
+    color: #7b8492;
+    font-size: 11px;
+}
+
+
+/* =========================================
+   TRUST STRIP
+========================================= */
+
+.mang-trust {
+    background: #ffffff;
+    padding: 25px 0;
+    box-shadow: 0 5px 20px rgba(30, 40, 60, 0.05);
+}
+
+.mang-trust-item {
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid #e8ebf0;
+}
+
+.mang-trust-item strong {
+    display: block;
+    color: #a51f2d;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.mang-trust-item span {
+    color: #697386;
+    font-size: 13px;
+}
+
+
+/* =========================================
+   COURSES
+========================================= */
+
+.mang-courses-section {
+    padding: 90px 0;
+    background: #f7f8fb;
+}
+
+.mang-section-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 45px;
+}
+
+.mang-section-heading span {
+    color: #b02a2a;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.mang-section-heading h2 {
+    font-size: 38px;
+    font-weight: 750;
+    color: #252d3a;
+    margin: 10px 0;
+}
+
+.mang-section-heading p {
+    color: #6d7685;
+}
+
+.mang-course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+
+/* Dynamic course cards */
+
+.mang-course-grid .course-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 16px;
+    border: 1px solid #e8ebf0;
+    transition: 0.3s;
+    box-shadow: 0 8px 25px rgba(30, 40, 60, 0.04);
+}
+
+.mang-course-grid .course-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(176, 42, 42, 0.35);
+    box-shadow: 0 18px 40px rgba(30, 40, 60, 0.10);
+}
+
+.mang-course-grid .course-card h5 {
+    color: #a51f2d;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.mang-course-grid .course-card small {
+    color: #697386;
+    line-height: 1.7;
+}
+
+.course-loading {
+    text-align: center;
+    color: #697386;
+    padding: 30px;
+}
+
+
+/* =========================================
+   WHY SECTION
+========================================= */
+
+.mang-why-section {
+    padding: 100px 0;
+    background: #ffffff;
+}
+
+.mang-mini-title {
+    color: #b02a2a;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.mang-why-section h2 {
+    font-size: 43px;
+    line-height: 1.2;
+    color: #27303f;
+    font-weight: 750;
+    margin: 15px 0;
+}
+
+.mang-why-description {
+    color: #697386;
+    line-height: 1.8;
+    max-width: 570px;
+}
+
+.mang-feature-list {
+    margin-top: 35px;
+    display: grid;
+    gap: 15px;
+}
+
+.mang-feature {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background: #f8f9fc;
+    border-radius: 14px;
+}
+
+.mang-feature > div:first-child {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(176, 42, 42, 0.09);
+    border-radius: 12px;
+    font-size: 21px;
+}
+
+.mang-feature h4 {
+    color: #303846;
+    font-size: 15px;
+    margin: 0 0 3px;
+    font-weight: 650;
+}
+
+.mang-feature p {
+    margin: 0;
+    color: #77808f;
+    font-size: 13px;
+}
+
+
+/* =========================================
+   VISUAL SECTION
+========================================= */
+
+.mang-visual-box {
+    min-height: 500px;
+    position: relative;
+    background: linear-gradient(135deg, #f8f9fc, #f1f3f7);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.mang-visual-circle {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    background: rgba(176, 42, 42, 0.08);
+    border-radius: 50%;
+    right: -100px;
+    top: -80px;
+}
+
+.mang-visual-main {
+    position: absolute;
+    width: 280px;
+    padding: 35px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 22px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 25px 60px rgba(30, 40, 60, 0.14);
+}
+
+.mang-visual-main img {
+    width: 180px;
+    max-height: 80px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.mang-visual-main h3 {
+    font-size: 18px;
+    color: #27303f;
+    font-weight: 700;
+}
+
+.mang-visual-main p {
+    color: #77808f;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.mang-floating-card {
+    position: absolute;
+    padding: 14px 18px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 15px 35px rgba(30, 40, 60, 0.10);
+    font-size: 13px;
+    font-weight: 600;
+    color: #3c4554;
+}
+
+.mang-floating-card.one {
+    left: 30px;
+    top: 90px;
+}
+
+.mang-floating-card.two {
+    right: 20px;
+    bottom: 70px;
+}
+
+
+/* =========================================
+   ABOUT SECTION
+========================================= */
+
+.mang-about-section {
+    padding: 90px 0;
+    background: #f8f9fc;
+}
+
+.mang-about-section > .container > .row > div:first-child > span {
+    color: #b02a2a;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.mang-about-section h2 {
+    color: #27303f;
+    font-size: 40px;
+    font-weight: 750;
+    margin: 15px 0 20px;
+}
+
+.mang-about-section p {
+    color: #697386;
+    line-height: 1.8;
+}
+
+.mang-approval-card {
+    display: flex;
+    gap: 18px;
+    padding: 22px;
+    margin-bottom: 15px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(30, 40, 60, 0.06);
+}
+
+.mang-approval-card > div:first-child {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(176, 42, 42, 0.09);
+    color: #b02a2a;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+.mang-approval-card h4 {
+    margin: 0 0 4px;
+    color: #303846;
+    font-size: 17px;
+}
+
+.mang-approval-card p {
+    margin: 0;
+    font-size: 13px;
+}
+
+
+/* =========================================
+   FINAL CTA
+========================================= */
+
+.mang-final-cta {
+    padding: 90px 0;
+    text-align: center;
+    background:
+        linear-gradient(135deg, rgba(120, 20, 30, 0.96), rgba(195, 45, 45, 0.94));
+    color: #ffffff;
+}
+
+.mang-cta-content {
+    max-width: 720px;
+    margin: auto;
+}
+
+.mang-cta-content > span {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    opacity: 0.85;
+}
+
+.mang-cta-content h2 {
+    font-size: 42px;
+    font-weight: 750;
+    margin: 15px 0;
+}
+
+.mang-cta-content p {
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+
+.mang-cta-button {
+    display: inline-block;
+    background: #ffffff;
+    color: #a51f2d;
+    text-decoration: none;
+    padding: 15px 28px;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.mang-cta-button:hover {
+    transform: translateY(-3px);
+    color: #a51f2d;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.mang-footer {
+    background: #202631;
+    color: #c5cbd5;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.mang-footer p {
+    margin: 0;
+    font-size: 13px;
+}
+
+
+/* =========================================
+   MOBILE RESPONSIVE
+========================================= */
+
+@media (max-width: 991px) {
+
+    .mang-hero {
+        padding: 60px 0;
+    }
+
+    .mang-hero h1 {
+        font-size: 42px;
+    }
+
+    .mang-form-card {
+        margin-top: 10px;
+    }
+
+    .mang-course-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mang-visual-box {
+        min-height: 450px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .mang-hero h1 {
+        font-size: 37px;
+    }
+
+    .mang-highlight-boxes {
+        grid-template-columns: 1fr;
+    }
+
+    .mang-location-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .mang-buttons {
+        flex-direction: column;
+    }
+
+    .mang-primary-btn,
+    .mang-secondary-btn {
+        text-align: center;
+    }
+
+    .mang-form-card {
+        padding: 22px;
+        border-radius: 18px;
+    }
+
+    .mang-course-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .mang-section-heading h2,
+    .mang-why-section h2,
+    .mang-about-section h2,
+    .mang-cta-content h2 {
+        font-size: 30px;
+    }
+
+    .mang-trust-item {
+        border-right: none;
+        border-bottom: 1px solid #eeeeee;
+        padding: 15px;
+    }
+
+    .mang-visual-main {
+        width: 240px;
+    }
+
+}
