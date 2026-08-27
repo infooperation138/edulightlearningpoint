@@ -54,7 +54,77 @@ PG:{
 
 },
 
-// ========================================= "Chandigarh University (Online)":{ UG:{ "BBA":["General"], "BCA":["Computer Applications"], "B.Com":["General"], "BA":["English","Psychology"] }, PG:{ "MBA":[ "Marketing Management", "Finance Management", "Human Resource Management", "Business Analytics", "International Business" ], "MCA":[ "Artificial Intelligence", "Machine Learning", "Cyber Security" ], "M.Com":["General"] } }, // =========================================
+// =========================================
+// CHANDIGARH UNIVERSITY ONLINE
+// =========================================
+
+"Chandigarh University (Online)": {
+
+    UG: {
+
+        "BBA": [
+            "Human Resource Management",
+            "Marketing",
+            "International Business",
+            "Entrepreneurship"
+        ],
+
+        "BBA Business Analytics": [],
+
+        "BBA ACCA": [],
+
+        "BCA": [],
+
+        "BA Journalism & Mass Communication": []
+
+    },
+
+    PG: {
+
+        "MBA": [
+            "Human Resource Management",
+            "Marketing",
+            "International Business",
+            "Entrepreneurship",
+            "Finance",
+            "Information Technology",
+            "Retail Management",
+            "Operations Management",
+            "Banking & Insurance",
+            "Hospital Management",
+            "Event Management",
+            "Travel & Tourism Management",
+            "Airlines & Airport Management",
+            "Digital Marketing",
+            "Data Science & Artificial Intelligence",
+            "FinTech",
+            "Business Analytics",
+            "Logistics & Supply Chain Management"
+        ],
+
+        "MBA Business Analytics": [],
+
+        "MCA": [
+            "Cloud Computing",
+            "Full Stack Development",
+            "Data Analytics",
+            "Artificial Intelligence & Machine Learning"
+        ],
+
+        "M.Sc. Data Science": [],
+
+        "M.Sc. Mathematics": [],
+
+        "MA English": [],
+
+        "MA Economics": [],
+
+        "MA Journalism & Mass Communication": []
+
+    }
+
+},
+
 // =========================================
 
 "Mangalayatan University (Online)":{
