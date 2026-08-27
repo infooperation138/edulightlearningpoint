@@ -54,6 +54,7 @@ PG:{
 
 },
 
+// ========================================= "Chandigarh University (Online)":{ UG:{ "BBA":["General"], "BCA":["Computer Applications"], "B.Com":["General"], "BA":["English","Psychology"] }, PG:{ "MBA":[ "Marketing Management", "Finance Management", "Human Resource Management", "Business Analytics", "International Business" ], "MCA":[ "Artificial Intelligence", "Machine Learning", "Cyber Security" ], "M.Com":["General"] } }, // =========================================
 // =========================================
 
 "Mangalayatan University (Online)":{
