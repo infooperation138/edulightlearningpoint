@@ -47,6 +47,15 @@ const universityPages = {
     location: "Mohali, Punjab",
     mode: "Online Education",
     approval: "UGC Entitled"
+},
+
+"mangalayatandistance": {
+    name: "Mangalayatan University (Distance)",
+    logo: "images/universities/mangalayatandistance.png",
+    tagline: "Distance Degree Programs",
+    location: "Aligarh, Uttar Pradesh",
+    mode: "Distance Education",
+    approval: "UGC Approved"
 }
     
 };
