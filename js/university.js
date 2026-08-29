@@ -4,7 +4,7 @@
 
 const universityPages = {
 
-    "mangalayatan-online": {
+    "mangalayatanonline": {
         name: "Mangalayatan University (Online)",
         logo: "images/universities/mangalayatanonline.png",
         tagline: "UGC Approved Online Degree Programs",
