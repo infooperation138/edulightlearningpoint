@@ -144,3 +144,75 @@ PG:{
     }
 
 },
+
+// =========================================
+
+"Mangalayatan University (Online)":{
+
+UG:{
+"BA":["General"],
+
+"BBA":["General"],
+
+"BCA":[
+"General"],
+
+"Diploma":[
+"DCA",
+"DBA",
+"Art & Humanities",
+"JMC",
+"Commerce & Business Studies"
+]
+
+},
+
+PG:{
+
+"MBA":[
+"Marketing Management",
+"Finance Management",
+"Human Resource Management",
+"Operations Management"
+ ],
+ 
+ "MBA Plus":[
+ "Digital Marketing",
+ "Supply Chain Management",
+"Business Analytics",
+"Information Technology"
+],
+
+"MCA":[
+"General"
+],
+
+"MA":[
+"English",
+"Political Science",
+"Education",
+"Public Administration",
+"JMC"
+],
+
+ "PG Diploma":[
+"Computer Applcation",
+"JMC",
+"Business Management",
+"Accounts & Finance",
+"Cyber Security",
+"Cloud Computing",
+"Big Data Analytics",
+ ],
+
+"M.Com":[
+"General"
+],
+
+"M.Sc":[
+"Mathematics"
+]
+
+}
+
+},
