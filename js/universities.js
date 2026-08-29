@@ -9,13 +9,13 @@ page:"amrita.html"
 {
 name:"Mangalayatan University (Online)",
 logo:"images/universities/mangalayatanonline.png",
-page:"mangalayatan-online.html"
+page:"mangalayatanonline.html"
 },
 
 {
 name:"Mangalayatan University (Distance)",
 logo:"images/universities/mangalayatandistance.png",
-page:"mangalayatan-distance.html"
+page:"mangalayatandistance.html"
 },
 
 {
