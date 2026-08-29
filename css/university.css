@@ -5339,3 +5339,881 @@ img {
     }
 
 }
+
+/* =========================================
+   MANGALAYATAN DISTANCE EDUCATION
+   PREMIUM DESIGN
+========================================= */
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.mangd-navbar {
+    background: #ffffff;
+    padding: 14px 0;
+    box-shadow: 0 3px 18px rgba(0, 0, 0, 0.07);
+}
+
+.mangd-brand {
+    font-size: 22px;
+    font-weight: 700;
+    color: #252b38 !important;
+}
+
+.mangd-brand span {
+    color: #a51f2d;
+    font-weight: 800;
+}
+
+.mangd-navbar .nav-link {
+    color: #303846 !important;
+    font-weight: 500;
+    margin-left: 18px;
+    transition: 0.3s;
+}
+
+.mangd-navbar .nav-link:hover {
+    color: #a51f2d !important;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.mangd-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 85px 0;
+    background:
+        radial-gradient(
+            circle at 90% 10%,
+            rgba(165, 31, 45, 0.12),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 5% 90%,
+            rgba(220, 170, 80, 0.12),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #f9fafc,
+            #edf1f6
+        );
+}
+
+.mangd-hero::before {
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border: 70px solid rgba(165, 31, 45, 0.035);
+    border-radius: 50%;
+    right: -160px;
+    top: -180px;
+}
+
+.mangd-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* =========================================
+   ADMISSION BADGE
+========================================= */
+
+.mangd-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 19px;
+    background: linear-gradient(
+        135deg,
+        #a51f2d,
+        #d13a3a
+    );
+    color: #ffffff;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 25px rgba(165, 31, 45, 0.20);
+}
+
+.mangd-badge span {
+    font-size: 18px;
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.mangd-logo-box {
+    width: 230px;
+    min-height: 95px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 18px;
+    margin-bottom: 28px;
+    box-shadow: 0 12px 35px rgba(30, 40, 60, 0.10);
+}
+
+.mangd-logo-box img {
+    max-width: 190px;
+    max-height: 70px;
+    object-fit: contain;
+}
+
+
+/* =========================================
+   HERO TEXT
+========================================= */
+
+.mangd-hero h1 {
+    color: #252d3a;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 15px;
+}
+
+.mangd-hero h1 span {
+    display: block;
+    color: #a51f2d;
+}
+
+.mangd-tagline {
+    color: #697386;
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+
+
+/* =========================================
+   LOCATION
+========================================= */
+
+.mangd-location {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    color: #4d5665;
+    font-size: 15px;
+    margin-bottom: 27px;
+}
+
+.mangd-location div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+/* =========================================
+   HIGHLIGHTS
+========================================= */
+
+.mangd-highlights {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 27px;
+}
+
+.mangd-highlights > div {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 13px 11px;
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(40, 50, 65, 0.08);
+    border-radius: 14px;
+    transition: 0.3s;
+}
+
+.mangd-highlights > div:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(30, 40, 60, 0.08);
+}
+
+.mangd-highlight-icon {
+    width: 37px;
+    height: 37px;
+    min-width: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(165, 31, 45, 0.10);
+    color: #a51f2d;
+    border-radius: 11px;
+}
+
+.mangd-highlights strong {
+    display: block;
+    font-size: 12px;
+    color: #303846;
+}
+
+.mangd-highlights small {
+    display: block;
+    font-size: 10px;
+    color: #7b8492;
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.mangd-description {
+    color: #667085;
+    line-height: 1.8;
+    font-size: 16px;
+    max-width: 670px;
+    margin-bottom: 28px;
+}
+
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.mangd-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.mangd-primary-btn,
+.mangd-secondary-btn {
+    text-decoration: none;
+    padding: 14px 26px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.mangd-primary-btn {
+    color: #ffffff;
+    background: linear-gradient(
+        135deg,
+        #a51f2d,
+        #d13a3a
+    );
+    box-shadow: 0 10px 25px rgba(165, 31, 45, 0.22);
+}
+
+.mangd-primary-btn:hover {
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+.mangd-secondary-btn {
+    color: #a51f2d;
+    background: #ffffff;
+    border: 1px solid rgba(165, 31, 45, 0.25);
+}
+
+.mangd-secondary-btn:hover {
+    color: #ffffff;
+    background: #a51f2d;
+}
+
+
+/* =========================================
+   ADMISSION FORM
+========================================= */
+
+.mangd-form-card {
+    padding: 32px;
+    background: rgba(255, 255, 255, 0.96);
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 25px 60px rgba(30, 40, 60, 0.15);
+}
+
+.mangd-form-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 24px;
+}
+
+.mangd-form-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(165, 31, 45, 0.10);
+    border-radius: 14px;
+    font-size: 23px;
+}
+
+.mangd-form-header h3 {
+    color: #303846;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 3px;
+}
+
+.mangd-form-header p {
+    color: #7b8492;
+    font-size: 13px;
+    margin: 0;
+}
+
+
+/* =========================================
+   FORM INPUTS
+========================================= */
+
+.mangd-input {
+    margin-bottom: 12px;
+}
+
+.mangd-input input,
+.mangd-input select {
+    width: 100%;
+    height: 52px;
+    padding: 0 15px;
+    border: 1px solid #dce1e8;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #404957;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.mangd-input input:focus,
+.mangd-input select:focus {
+    border-color: #a51f2d;
+    box-shadow: 0 0 0 4px rgba(165, 31, 45, 0.08);
+}
+
+.mangd-input select {
+    cursor: pointer;
+}
+
+
+/* =========================================
+   SUBMIT BUTTON
+========================================= */
+
+.mangd-submit-btn {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: #ffffff;
+    font-weight: 600;
+    background: linear-gradient(
+        135deg,
+        #a51f2d,
+        #d13a3a
+    );
+    box-shadow: 0 10px 22px rgba(165, 31, 45, 0.20);
+    transition: 0.3s;
+}
+
+.mangd-submit-btn:hover {
+    transform: translateY(-2px);
+}
+
+.mangd-security {
+    text-align: center;
+    color: #7b8492;
+    font-size: 11px;
+    margin: 15px 0 0;
+}
+
+
+/* =========================================
+   TRUST STRIP
+========================================= */
+
+.mangd-trust {
+    padding: 25px 0;
+    background: #ffffff;
+    box-shadow: 0 5px 20px rgba(30, 40, 60, 0.05);
+}
+
+.mangd-trust-item {
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid #e8ebf0;
+}
+
+.mangd-trust-item strong {
+    display: block;
+    color: #a51f2d;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.mangd-trust-item span {
+    color: #697386;
+    font-size: 12px;
+}
+
+
+/* =========================================
+   COURSES
+========================================= */
+
+.mangd-courses {
+    padding: 90px 0;
+    background: #f7f8fb;
+}
+
+.mangd-section-title {
+    max-width: 700px;
+    margin: 0 auto 45px;
+    text-align: center;
+}
+
+.mangd-section-title > span {
+    color: #a51f2d;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.mangd-section-title h2 {
+    color: #27303f;
+    font-size: 38px;
+    font-weight: 750;
+    margin: 10px 0;
+}
+
+.mangd-section-title p {
+    color: #697386;
+    line-height: 1.7;
+}
+
+.mangd-course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.mangd-course-grid .course-card {
+    background: #ffffff;
+    padding: 25px;
+    border: 1px solid #e8ebf0;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(30, 40, 60, 0.04);
+    transition: 0.3s;
+}
+
+.mangd-course-grid .course-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(165, 31, 45, 0.35);
+    box-shadow: 0 18px 40px rgba(30, 40, 60, 0.10);
+}
+
+.mangd-course-grid .course-card h5 {
+    color: #a51f2d;
+    font-weight: 700;
+}
+
+.mangd-course-grid .course-card small {
+    color: #697386;
+    line-height: 1.7;
+}
+
+.course-loading {
+    text-align: center;
+    color: #697386;
+    padding: 30px;
+}
+
+
+/* =========================================
+   WHY SECTION
+========================================= */
+
+.mangd-why {
+    padding: 95px 0;
+    background: #ffffff;
+}
+
+.mangd-section-title.text-start {
+    text-align: left !important;
+    margin-left: 0;
+}
+
+.mangd-feature-grid {
+    display: grid;
+    gap: 14px;
+}
+
+.mangd-feature {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background: #f8f9fc;
+    border-radius: 14px;
+    transition: 0.3s;
+}
+
+.mangd-feature:hover {
+    transform: translateX(5px);
+}
+
+.mangd-feature-icon {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(165, 31, 45, 0.09);
+    border-radius: 12px;
+    font-size: 21px;
+}
+
+.mangd-feature h4 {
+    color: #303846;
+    font-size: 15px;
+    font-weight: 650;
+    margin: 0 0 4px;
+}
+
+.mangd-feature p {
+    color: #77808f;
+    font-size: 13px;
+    margin: 0;
+}
+
+
+/* =========================================
+   VISUAL AREA
+========================================= */
+
+.mangd-visual {
+    min-height: 480px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    background: linear-gradient(
+        135deg,
+        #f8f9fc,
+        #edf0f5
+    );
+}
+
+.mangd-visual-circle {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    right: -100px;
+    top: -80px;
+    border-radius: 50%;
+    background: rgba(165, 31, 45, 0.08);
+}
+
+.mangd-main-visual-card {
+    position: absolute;
+    width: 280px;
+    padding: 35px 25px;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    border-radius: 22px;
+    box-shadow: 0 25px 60px rgba(30, 40, 60, 0.14);
+}
+
+.mangd-main-visual-card img {
+    width: 180px;
+    max-height: 80px;
+    object-fit: contain;
+    margin-bottom: 18px;
+}
+
+.mangd-main-visual-card h3 {
+    color: #303846;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.mangd-main-visual-card p {
+    color: #77808f;
+    font-size: 13px;
+    margin: 0;
+}
+
+.mangd-floating-card {
+    position: absolute;
+    padding: 15px 18px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 15px 35px rgba(30, 40, 60, 0.10);
+    color: #404957;
+}
+
+.mangd-floating-card strong,
+.mangd-floating-card span {
+    display: block;
+}
+
+.mangd-floating-card strong {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.mangd-floating-card span {
+    font-size: 11px;
+    color: #77808f;
+}
+
+.mangd-card-one {
+    left: 25px;
+    top: 85px;
+}
+
+.mangd-card-two {
+    right: 25px;
+    bottom: 65px;
+}
+
+
+/* =========================================
+   ABOUT
+========================================= */
+
+.mangd-about {
+    padding: 90px 0;
+    background: #f8f9fc;
+}
+
+.mangd-mini-title {
+    color: #a51f2d;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.mangd-about h2 {
+    color: #27303f;
+    font-size: 40px;
+    font-weight: 750;
+    margin: 15px 0 20px;
+}
+
+.mangd-about > .container p {
+    color: #697386;
+    line-height: 1.8;
+}
+
+.mangd-info-card {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 22px;
+    margin-bottom: 15px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(30, 40, 60, 0.06);
+}
+
+.mangd-info-icon {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(165, 31, 45, 0.09);
+    border-radius: 12px;
+    font-size: 21px;
+}
+
+.mangd-info-card h4 {
+    color: #303846;
+    font-size: 17px;
+    margin: 0 0 4px;
+}
+
+.mangd-info-card p {
+    margin: 0;
+    font-size: 13px;
+}
+
+
+/* =========================================
+   CTA
+========================================= */
+
+.mangd-cta {
+    padding: 90px 0;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(
+        135deg,
+        #7f1824,
+        #c52e35
+    );
+}
+
+.mangd-cta-content {
+    max-width: 720px;
+    margin: auto;
+}
+
+.mangd-cta-content > span {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    opacity: 0.85;
+}
+
+.mangd-cta-content h2 {
+    font-size: 42px;
+    font-weight: 750;
+    margin: 15px 0;
+}
+
+.mangd-cta-content p {
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+
+.mangd-cta-btn {
+    display: inline-block;
+    padding: 15px 28px;
+    background: #ffffff;
+    color: #a51f2d;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.mangd-cta-btn:hover {
+    color: #a51f2d;
+    transform: translateY(-3px);
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.mangd-footer {
+    padding: 25px 0;
+    text-align: center;
+    background: #202631;
+    color: #c5cbd5;
+}
+
+.mangd-footer p {
+    margin: 0;
+    font-size: 13px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 991px) {
+
+    .mangd-hero {
+        padding: 65px 0;
+    }
+
+    .mangd-hero h1 {
+        font-size: 42px;
+    }
+
+    .mangd-course-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mangd-form-card {
+        margin-top: 10px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .mangd-hero {
+        padding: 50px 0;
+    }
+
+    .mangd-hero h1 {
+        font-size: 35px;
+    }
+
+    .mangd-highlights {
+        grid-template-columns: 1fr;
+    }
+
+    .mangd-location {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .mangd-buttons {
+        flex-direction: column;
+    }
+
+    .mangd-primary-btn,
+    .mangd-secondary-btn {
+        text-align: center;
+    }
+
+    .mangd-form-card {
+        padding: 22px;
+        border-radius: 18px;
+    }
+
+    .mangd-course-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .mangd-section-title h2,
+    .mangd-about h2,
+    .mangd-cta-content h2 {
+        font-size: 30px;
+    }
+
+    .mangd-trust-item {
+        border-right: none;
+        border-bottom: 1px solid #eeeeee;
+        padding: 15px;
+    }
+
+    .mangd-visual {
+        min-height: 430px;
+    }
+
+    .mangd-main-visual-card {
+        width: 240px;
+    }
+
+    .mangd-card-one {
+        left: 10px;
+    }
+
+    .mangd-card-two {
+        right: 10px;
+    }
+
+}
