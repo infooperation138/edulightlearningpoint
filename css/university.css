@@ -6228,32 +6228,32 @@ img {
    NAVBAR
 ========================================= */
 
-.muj-navbar {
+.manipal-navbar {
     background: #ffffff;
     padding: 14px 0;
     box-shadow: 0 3px 18px rgba(0, 0, 0, 0.07);
     z-index: 1000;
 }
 
-.muj-brand {
+.manipal-brand {
     font-size: 22px;
     font-weight: 700;
     color: #252b38 !important;
 }
 
-.muj-brand span {
+.manipal-brand span {
     color: #c2185b;
     font-weight: 800;
 }
 
-.muj-navbar .nav-link {
+.manipal-navbar .nav-link {
     color: #303846 !important;
     font-weight: 500;
     margin-left: 18px;
     transition: 0.3s;
 }
 
-.muj-navbar .nav-link:hover {
+.manipal-navbar .nav-link:hover {
     color: #c2185b !important;
 }
 
@@ -6262,7 +6262,7 @@ img {
    HERO
 ========================================= */
 
-.muj-hero {
+.manipal-hero {
     position: relative;
     overflow: hidden;
     padding: 85px 0;
@@ -6284,7 +6284,7 @@ img {
         );
 }
 
-.muj-hero::before {
+.manipal-hero::before {
     content: "";
     position: absolute;
     width: 470px;
@@ -6295,7 +6295,7 @@ img {
     top: -190px;
 }
 
-.muj-hero .container {
+.manipal-hero .container {
     position: relative;
     z-index: 2;
 }
@@ -6305,7 +6305,7 @@ img {
    BADGE
 ========================================= */
 
-.muj-badge {
+.manipal-badge {
     display: inline-flex;
     align-items: center;
     gap: 8px;
@@ -6323,7 +6323,7 @@ img {
     box-shadow: 0 10px 25px rgba(194, 24, 91, 0.20);
 }
 
-.muj-badge span {
+.manipal-badge span {
     font-size: 17px;
 }
 
@@ -6332,7 +6332,7 @@ img {
    LOGO
 ========================================= */
 
-.muj-logo-box {
+.manipal-logo-box {
     width: 235px;
     min-height: 100px;
     padding: 15px 20px;
@@ -6345,7 +6345,7 @@ img {
     box-shadow: 0 12px 35px rgba(30, 40, 60, 0.10);
 }
 
-.muj-logo-box img {
+.manipal-logo-box img {
     max-width: 195px;
     max-height: 75px;
     object-fit: contain;
@@ -6356,7 +6356,7 @@ img {
    HERO HEADING
 ========================================= */
 
-.muj-hero h1 {
+.manipal-hero h1 {
     color: #252d3a;
     font-size: 49px;
     font-weight: 800;
@@ -6364,12 +6364,12 @@ img {
     margin-bottom: 15px;
 }
 
-.muj-hero h1 span {
+.manipal-hero h1 span {
     display: block;
     color: #c2185b;
 }
 
-.muj-tagline {
+.manipal-tagline {
     color: #697386;
     font-size: 18px;
     margin-bottom: 22px;
@@ -6380,7 +6380,7 @@ img {
    LOCATION
 ========================================= */
 
-.muj-location {
+.manipal-location {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
@@ -6389,7 +6389,7 @@ img {
     margin-bottom: 27px;
 }
 
-.muj-location div {
+.manipal-location div {
     display: flex;
     align-items: center;
     gap: 6px;
@@ -6400,14 +6400,14 @@ img {
    HIGHLIGHTS
 ========================================= */
 
-.muj-highlights {
+.manipal-highlights {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 12px;
     margin-bottom: 27px;
 }
 
-.muj-highlights > div {
+.manipal-highlights > div {
     display: flex;
     align-items: center;
     gap: 9px;
@@ -6418,12 +6418,12 @@ img {
     transition: 0.3s;
 }
 
-.muj-highlights > div:hover {
+.manipal-highlights > div:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 28px rgba(30, 40, 60, 0.08);
 }
 
-.muj-highlight-icon {
+.manipal-highlight-icon {
     width: 37px;
     height: 37px;
     min-width: 37px;
@@ -6435,13 +6435,13 @@ img {
     border-radius: 11px;
 }
 
-.muj-highlights strong {
+.manipal-highlights strong {
     display: block;
     font-size: 12px;
     color: #303846;
 }
 
-.muj-highlights small {
+.manipal-highlights small {
     display: block;
     font-size: 10px;
     color: #7b8492;
@@ -6452,7 +6452,7 @@ img {
    DESCRIPTION
 ========================================= */
 
-.muj-description {
+.manipal-description {
     color: #667085;
     line-height: 1.8;
     font-size: 16px;
@@ -6465,14 +6465,14 @@ img {
    BUTTONS
 ========================================= */
 
-.muj-buttons {
+.manipal-buttons {
     display: flex;
     flex-wrap: wrap;
     gap: 14px;
 }
 
-.muj-primary-btn,
-.muj-secondary-btn {
+.manipal-primary-btn,
+.manipal-secondary-btn {
     text-decoration: none;
     padding: 14px 27px;
     border-radius: 10px;
@@ -6480,7 +6480,7 @@ img {
     transition: 0.3s;
 }
 
-.muj-primary-btn {
+.manipal-primary-btn {
     color: #ffffff;
     background: linear-gradient(
         135deg,
@@ -6490,18 +6490,18 @@ img {
     box-shadow: 0 10px 25px rgba(194, 24, 91, 0.22);
 }
 
-.muj-primary-btn:hover {
+.manipal-primary-btn:hover {
     color: #ffffff;
     transform: translateY(-3px);
 }
 
-.muj-secondary-btn {
+.manipal-secondary-btn {
     color: #c2185b;
     background: #ffffff;
     border: 1px solid rgba(194, 24, 91, 0.25);
 }
 
-.muj-secondary-btn:hover {
+.manipal-secondary-btn:hover {
     color: #ffffff;
     background: #c2185b;
 }
@@ -6511,7 +6511,7 @@ img {
    FORM CARD
 ========================================= */
 
-.muj-form-card {
+.manipal-form-card {
     padding: 32px;
     background: rgba(255, 255, 255, 0.97);
     border-radius: 24px;
@@ -6519,14 +6519,14 @@ img {
     box-shadow: 0 25px 60px rgba(30, 40, 60, 0.15);
 }
 
-.muj-form-header {
+.manipal-form-header {
     display: flex;
     align-items: center;
     gap: 14px;
     margin-bottom: 24px;
 }
 
-.muj-form-icon {
+.manipal-form-icon {
     width: 50px;
     height: 50px;
     display: flex;
@@ -6537,14 +6537,14 @@ img {
     font-size: 23px;
 }
 
-.muj-form-header h3 {
+.manipal-form-header h3 {
     color: #303846;
     font-size: 22px;
     font-weight: 700;
     margin: 0 0 3px;
 }
 
-.muj-form-header p {
+.manipal-form-header p {
     color: #7b8492;
     font-size: 13px;
     margin: 0;
@@ -6555,12 +6555,12 @@ img {
    FORM INPUTS
 ========================================= */
 
-.muj-input {
+.manipal-input {
     margin-bottom: 12px;
 }
 
-.muj-input input,
-.muj-input select {
+.manipal-input input,
+.manipal-input select {
     width: 100%;
     height: 52px;
     padding: 0 15px;
@@ -6573,13 +6573,13 @@ img {
     transition: 0.3s;
 }
 
-.muj-input input:focus,
-.muj-input select:focus {
+.manipal-input input:focus,
+.manipal-input select:focus {
     border-color: #c2185b;
     box-shadow: 0 0 0 4px rgba(194, 24, 91, 0.08);
 }
 
-.muj-input select {
+.manipal-input select {
     cursor: pointer;
 }
 
@@ -6588,7 +6588,7 @@ img {
    SUBMIT
 ========================================= */
 
-.muj-submit-btn {
+.manipal-submit-btn {
     width: 100%;
     border: none;
     padding: 15px;
@@ -6605,11 +6605,11 @@ img {
     transition: 0.3s;
 }
 
-.muj-submit-btn:hover {
+.manipal-submit-btn:hover {
     transform: translateY(-2px);
 }
 
-.muj-security {
+.manipal-security {
     text-align: center;
     color: #7b8492;
     font-size: 11px;
@@ -6621,26 +6621,26 @@ img {
    TRUST STRIP
 ========================================= */
 
-.muj-trust {
+.manipal-trust {
     padding: 25px 0;
     background: #ffffff;
     box-shadow: 0 5px 20px rgba(30, 40, 60, 0.05);
 }
 
-.muj-trust-item {
+.manipal-trust-item {
     padding: 10px;
     text-align: center;
     border-right: 1px solid #e8ebf0;
 }
 
-.muj-trust-item strong {
+.manipal-trust-item strong {
     display: block;
     color: #c2185b;
     font-size: 16px;
     font-weight: 700;
 }
 
-.muj-trust-item span {
+.manipal-trust-item span {
     color: #697386;
     font-size: 12px;
 }
@@ -6650,43 +6650,43 @@ img {
    COURSES
 ========================================= */
 
-.muj-courses {
+.manipal-courses {
     padding: 90px 0;
     background: #f7f8fb;
 }
 
-.muj-section-title {
+.manipal-section-title {
     max-width: 700px;
     margin: 0 auto 45px;
     text-align: center;
 }
 
-.muj-section-title > span {
+.manipal-section-title > span {
     color: #c2185b;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 1.5px;
 }
 
-.muj-section-title h2 {
+.manipal-section-title h2 {
     color: #27303f;
     font-size: 38px;
     font-weight: 750;
     margin: 10px 0;
 }
 
-.muj-section-title p {
+.manipal-section-title p {
     color: #697386;
     line-height: 1.7;
 }
 
-.muj-course-grid {
+.manipal-course-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 22px;
 }
 
-.muj-course-grid .course-card {
+.manipal-course-grid .course-card {
     position: relative;
     overflow: hidden;
     background: #ffffff;
@@ -6697,7 +6697,7 @@ img {
     transition: 0.3s;
 }
 
-.muj-course-grid .course-card::before {
+.manipal-course-grid .course-card::before {
     content: "";
     position: absolute;
     left: 0;
@@ -6707,19 +6707,19 @@ img {
     background: #c2185b;
 }
 
-.muj-course-grid .course-card:hover {
+.manipal-course-grid .course-card:hover {
     transform: translateY(-6px);
     border-color: rgba(194, 24, 91, 0.30);
     box-shadow: 0 18px 40px rgba(30, 40, 60, 0.10);
 }
 
-.muj-course-grid .course-card h5 {
+.manipal-course-grid .course-card h5 {
     color: #c2185b;
     font-weight: 700;
     margin-bottom: 9px;
 }
 
-.muj-course-grid .course-card small {
+.manipal-course-grid .course-card small {
     color: #697386;
     line-height: 1.7;
 }
@@ -6732,25 +6732,25 @@ img {
 
 
 /* =========================================
-   WHY MUJ
+   WHY manipal
 ========================================= */
 
-.muj-why {
+.manipal-why {
     padding: 95px 0;
     background: #ffffff;
 }
 
-.muj-section-title.text-start {
+.manipal-section-title.text-start {
     text-align: left !important;
     margin-left: 0;
 }
 
-.muj-feature-grid {
+.manipal-feature-grid {
     display: grid;
     gap: 14px;
 }
 
-.muj-feature {
+.manipal-feature {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -6760,11 +6760,11 @@ img {
     transition: 0.3s;
 }
 
-.muj-feature:hover {
+.manipal-feature:hover {
     transform: translateX(5px);
 }
 
-.muj-feature-icon {
+.manipal-feature-icon {
     width: 48px;
     height: 48px;
     min-width: 48px;
@@ -6776,14 +6776,14 @@ img {
     font-size: 21px;
 }
 
-.muj-feature h4 {
+.manipal-feature h4 {
     color: #303846;
     font-size: 15px;
     font-weight: 650;
     margin: 0 0 4px;
 }
 
-.muj-feature p {
+.manipal-feature p {
     color: #77808f;
     font-size: 13px;
     margin: 0;
@@ -6794,7 +6794,7 @@ img {
    VISUAL
 ========================================= */
 
-.muj-visual {
+.manipal-visual {
     min-height: 480px;
     position: relative;
     overflow: hidden;
@@ -6806,7 +6806,7 @@ img {
     );
 }
 
-.muj-visual-circle {
+.manipal-visual-circle {
     position: absolute;
     width: 370px;
     height: 370px;
@@ -6816,7 +6816,7 @@ img {
     background: rgba(194, 24, 91, 0.08);
 }
 
-.muj-main-visual-card {
+.manipal-main-visual-card {
     position: absolute;
     width: 285px;
     padding: 35px 25px;
@@ -6829,26 +6829,26 @@ img {
     box-shadow: 0 25px 60px rgba(30, 40, 60, 0.14);
 }
 
-.muj-main-visual-card img {
+.manipal-main-visual-card img {
     width: 185px;
     max-height: 85px;
     object-fit: contain;
     margin-bottom: 18px;
 }
 
-.muj-main-visual-card h3 {
+.manipal-main-visual-card h3 {
     color: #303846;
     font-size: 18px;
     font-weight: 700;
 }
 
-.muj-main-visual-card p {
+.manipal-main-visual-card p {
     color: #77808f;
     font-size: 13px;
     margin: 0;
 }
 
-.muj-floating-card {
+.manipal-floating-card {
     position: absolute;
     padding: 15px 18px;
     background: #ffffff;
@@ -6857,27 +6857,27 @@ img {
     color: #404957;
 }
 
-.muj-floating-card strong,
-.muj-floating-card span {
+.manipal-floating-card strong,
+.manipal-floating-card span {
     display: block;
 }
 
-.muj-floating-card strong {
+.manipal-floating-card strong {
     font-size: 13px;
     margin-top: 5px;
 }
 
-.muj-floating-card span {
+.manipal-floating-card span {
     font-size: 11px;
     color: #77808f;
 }
 
-.muj-card-one {
+.manipal-card-one {
     left: 25px;
     top: 85px;
 }
 
-.muj-card-two {
+.manipal-card-two {
     right: 25px;
     bottom: 65px;
 }
@@ -6887,31 +6887,31 @@ img {
    ABOUT
 ========================================= */
 
-.muj-about {
+.manipal-about {
     padding: 90px 0;
     background: #f8f9fc;
 }
 
-.muj-mini-title {
+.manipal-mini-title {
     color: #c2185b;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 1.5px;
 }
 
-.muj-about h2 {
+.manipal-about h2 {
     color: #27303f;
     font-size: 40px;
     font-weight: 750;
     margin: 15px 0 20px;
 }
 
-.muj-about p {
+.manipal-about p {
     color: #697386;
     line-height: 1.8;
 }
 
-.muj-info-card {
+.manipal-info-card {
     display: flex;
     align-items: center;
     gap: 18px;
@@ -6922,7 +6922,7 @@ img {
     box-shadow: 0 8px 25px rgba(30, 40, 60, 0.06);
 }
 
-.muj-info-icon {
+.manipal-info-icon {
     width: 48px;
     height: 48px;
     min-width: 48px;
@@ -6934,13 +6934,13 @@ img {
     font-size: 21px;
 }
 
-.muj-info-card h4 {
+.manipal-info-card h4 {
     color: #303846;
     font-size: 17px;
     margin: 0 0 4px;
 }
 
-.muj-info-card p {
+.manipal-info-card p {
     margin: 0;
     font-size: 13px;
 }
@@ -6950,7 +6950,7 @@ img {
    CTA
 ========================================= */
 
-.muj-cta {
+.manipal-cta {
     padding: 90px 0;
     text-align: center;
     color: #ffffff;
@@ -6961,30 +6961,30 @@ img {
     );
 }
 
-.muj-cta-content {
+.manipal-cta-content {
     max-width: 720px;
     margin: auto;
 }
 
-.muj-cta-content > span {
+.manipal-cta-content > span {
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
     opacity: 0.85;
 }
 
-.muj-cta-content h2 {
+.manipal-cta-content h2 {
     font-size: 42px;
     font-weight: 750;
     margin: 15px 0;
 }
 
-.muj-cta-content p {
+.manipal-cta-content p {
     opacity: 0.9;
     margin-bottom: 30px;
 }
 
-.muj-cta-btn {
+.manipal-cta-btn {
     display: inline-block;
     padding: 15px 28px;
     background: #ffffff;
@@ -6995,7 +6995,7 @@ img {
     transition: 0.3s;
 }
 
-.muj-cta-btn:hover {
+.manipal-cta-btn:hover {
     color: #c2185b;
     transform: translateY(-3px);
 }
@@ -7005,14 +7005,14 @@ img {
    FOOTER
 ========================================= */
 
-.muj-footer {
+.manipal-footer {
     padding: 25px 0;
     text-align: center;
     background: #202631;
     color: #c5cbd5;
 }
 
-.muj-footer p {
+.manipal-footer p {
     margin: 0;
     font-size: 13px;
 }
@@ -7024,15 +7024,15 @@ img {
 
 @media (max-width: 991px) {
 
-    .muj-hero {
+    .manipal-hero {
         padding: 65px 0;
     }
 
-    .muj-hero h1 {
+    .manipal-hero h1 {
         font-size: 42px;
     }
 
-    .muj-course-grid {
+    .manipal-course-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -7041,66 +7041,66 @@ img {
 
 @media (max-width: 767px) {
 
-    .muj-hero {
+    .manipal-hero {
         padding: 50px 0;
     }
 
-    .muj-hero h1 {
+    .manipal-hero h1 {
         font-size: 35px;
     }
 
-    .muj-highlights {
+    .manipal-highlights {
         grid-template-columns: 1fr;
     }
 
-    .muj-location {
+    .manipal-location {
         flex-direction: column;
         gap: 10px;
     }
 
-    .muj-buttons {
+    .manipal-buttons {
         flex-direction: column;
     }
 
-    .muj-primary-btn,
-    .muj-secondary-btn {
+    .manipal-primary-btn,
+    .manipal-secondary-btn {
         text-align: center;
     }
 
-    .muj-form-card {
+    .manipal-form-card {
         padding: 22px;
         border-radius: 18px;
     }
 
-    .muj-course-grid {
+    .manipal-course-grid {
         grid-template-columns: 1fr;
     }
 
-    .muj-section-title h2,
-    .muj-about h2,
-    .muj-cta-content h2 {
+    .manipal-section-title h2,
+    .manipal-about h2,
+    .manipal-cta-content h2 {
         font-size: 30px;
     }
 
-    .muj-trust-item {
+    .manipal-trust-item {
         border-right: none;
         border-bottom: 1px solid #eeeeee;
         padding: 15px;
     }
 
-    .muj-visual {
+    .manipal-visual {
         min-height: 430px;
     }
 
-    .muj-main-visual-card {
+    .manipal-main-visual-card {
         width: 240px;
     }
 
-    .muj-card-one {
+    .manipal-card-one {
         left: 10px;
     }
 
-    .muj-card-two {
+    .manipal-card-two {
         right: 10px;
     }
 
