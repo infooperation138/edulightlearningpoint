@@ -67,10 +67,6 @@ const universityPages = {
     approval: "UGC Entitled"
 },
 
-// =========================================
-// SUBHARTI UNIVERSITY DISTANCE
-// =========================================
-
 "subharti": {
 
     name: "Swami Vivekanand Subharti University",
