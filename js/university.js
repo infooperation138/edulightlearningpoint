@@ -65,7 +65,21 @@ const universityPages = {
     location: "Jaipur, Rajasthan",
     mode: "Online Education",
     approval: "UGC Entitled"
-}
+},
+
+// =========================================
+// SUBHARTI UNIVERSITY DISTANCE
+// =========================================
+
+"subharti-distance": {
+
+    name: "Swami Vivekanand Subharti University",
+    logo: "images/universities/subharti.png",
+    tagline: "UGC Recognized Distance Education Programs",
+    location: "Meerut, Uttar Pradesh",
+    mode: "Distance Education",
+    approval: "UGC Entitled"
+ }
 };
 
 // =========================================
