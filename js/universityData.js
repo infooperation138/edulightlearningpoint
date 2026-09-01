@@ -217,32 +217,3 @@ PG:{
 
 },
 
-// =========================================
-
-"Manipal University Jaipur (Online)":{
-
-UG:{
-"BBA":["General"],
-"BCA":["Computer Applications"],
-"B.Com":["General"]
-},
-
-PG:{
-"MBA":[
-"Marketing Management",
-"Finance Management",
-"Human Resource Management",
-"Analytics",
-"Operations Management"
-],
-
-"MCA":[
-"Cloud Computing",
-"Cyber Security",
-"Artificial Intelligence"
-],
-
-"M.Com":["General"]
-}
-
-},
