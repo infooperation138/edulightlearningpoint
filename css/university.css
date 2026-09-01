@@ -6217,3 +6217,891 @@ img {
     }
 
 }
+
+/* =========================================
+   MANIPAL UNIVERSITY JAIPUR ONLINE
+   PREMIUM TEMPLATE
+========================================= */
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.muj-navbar {
+    background: #ffffff;
+    padding: 14px 0;
+    box-shadow: 0 3px 18px rgba(0, 0, 0, 0.07);
+    z-index: 1000;
+}
+
+.muj-brand {
+    font-size: 22px;
+    font-weight: 700;
+    color: #252b38 !important;
+}
+
+.muj-brand span {
+    color: #c2185b;
+    font-weight: 800;
+}
+
+.muj-navbar .nav-link {
+    color: #303846 !important;
+    font-weight: 500;
+    margin-left: 18px;
+    transition: 0.3s;
+}
+
+.muj-navbar .nav-link:hover {
+    color: #c2185b !important;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.muj-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 85px 0;
+    background:
+        radial-gradient(
+            circle at 90% 10%,
+            rgba(194, 24, 91, 0.12),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 5% 90%,
+            rgba(65, 105, 225, 0.10),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #fafbfe,
+            #eef1f7
+        );
+}
+
+.muj-hero::before {
+    content: "";
+    position: absolute;
+    width: 470px;
+    height: 470px;
+    border: 70px solid rgba(194, 24, 91, 0.035);
+    border-radius: 50%;
+    right: -170px;
+    top: -190px;
+}
+
+.muj-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* =========================================
+   BADGE
+========================================= */
+
+.muj-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 19px;
+    background: linear-gradient(
+        135deg,
+        #a91450,
+        #d52b72
+    );
+    color: #ffffff;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 25px rgba(194, 24, 91, 0.20);
+}
+
+.muj-badge span {
+    font-size: 17px;
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.muj-logo-box {
+    width: 235px;
+    min-height: 100px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 18px;
+    margin-bottom: 28px;
+    box-shadow: 0 12px 35px rgba(30, 40, 60, 0.10);
+}
+
+.muj-logo-box img {
+    max-width: 195px;
+    max-height: 75px;
+    object-fit: contain;
+}
+
+
+/* =========================================
+   HERO HEADING
+========================================= */
+
+.muj-hero h1 {
+    color: #252d3a;
+    font-size: 49px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 15px;
+}
+
+.muj-hero h1 span {
+    display: block;
+    color: #c2185b;
+}
+
+.muj-tagline {
+    color: #697386;
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+
+
+/* =========================================
+   LOCATION
+========================================= */
+
+.muj-location {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    color: #4d5665;
+    font-size: 15px;
+    margin-bottom: 27px;
+}
+
+.muj-location div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+/* =========================================
+   HIGHLIGHTS
+========================================= */
+
+.muj-highlights {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 27px;
+}
+
+.muj-highlights > div {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 13px 11px;
+    background: rgba(255, 255, 255, 0.80);
+    border: 1px solid rgba(40, 50, 65, 0.08);
+    border-radius: 14px;
+    transition: 0.3s;
+}
+
+.muj-highlights > div:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(30, 40, 60, 0.08);
+}
+
+.muj-highlight-icon {
+    width: 37px;
+    height: 37px;
+    min-width: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(194, 24, 91, 0.10);
+    color: #c2185b;
+    border-radius: 11px;
+}
+
+.muj-highlights strong {
+    display: block;
+    font-size: 12px;
+    color: #303846;
+}
+
+.muj-highlights small {
+    display: block;
+    font-size: 10px;
+    color: #7b8492;
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.muj-description {
+    color: #667085;
+    line-height: 1.8;
+    font-size: 16px;
+    max-width: 670px;
+    margin-bottom: 28px;
+}
+
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.muj-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.muj-primary-btn,
+.muj-secondary-btn {
+    text-decoration: none;
+    padding: 14px 27px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.muj-primary-btn {
+    color: #ffffff;
+    background: linear-gradient(
+        135deg,
+        #a91450,
+        #d52b72
+    );
+    box-shadow: 0 10px 25px rgba(194, 24, 91, 0.22);
+}
+
+.muj-primary-btn:hover {
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+.muj-secondary-btn {
+    color: #c2185b;
+    background: #ffffff;
+    border: 1px solid rgba(194, 24, 91, 0.25);
+}
+
+.muj-secondary-btn:hover {
+    color: #ffffff;
+    background: #c2185b;
+}
+
+
+/* =========================================
+   FORM CARD
+========================================= */
+
+.muj-form-card {
+    padding: 32px;
+    background: rgba(255, 255, 255, 0.97);
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.85);
+    box-shadow: 0 25px 60px rgba(30, 40, 60, 0.15);
+}
+
+.muj-form-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 24px;
+}
+
+.muj-form-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(194, 24, 91, 0.10);
+    border-radius: 14px;
+    font-size: 23px;
+}
+
+.muj-form-header h3 {
+    color: #303846;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 3px;
+}
+
+.muj-form-header p {
+    color: #7b8492;
+    font-size: 13px;
+    margin: 0;
+}
+
+
+/* =========================================
+   FORM INPUTS
+========================================= */
+
+.muj-input {
+    margin-bottom: 12px;
+}
+
+.muj-input input,
+.muj-input select {
+    width: 100%;
+    height: 52px;
+    padding: 0 15px;
+    border: 1px solid #dce1e8;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #404957;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.muj-input input:focus,
+.muj-input select:focus {
+    border-color: #c2185b;
+    box-shadow: 0 0 0 4px rgba(194, 24, 91, 0.08);
+}
+
+.muj-input select {
+    cursor: pointer;
+}
+
+
+/* =========================================
+   SUBMIT
+========================================= */
+
+.muj-submit-btn {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: #ffffff;
+    font-weight: 600;
+    background: linear-gradient(
+        135deg,
+        #a91450,
+        #d52b72
+    );
+    box-shadow: 0 10px 22px rgba(194, 24, 91, 0.20);
+    transition: 0.3s;
+}
+
+.muj-submit-btn:hover {
+    transform: translateY(-2px);
+}
+
+.muj-security {
+    text-align: center;
+    color: #7b8492;
+    font-size: 11px;
+    margin: 15px 0 0;
+}
+
+
+/* =========================================
+   TRUST STRIP
+========================================= */
+
+.muj-trust {
+    padding: 25px 0;
+    background: #ffffff;
+    box-shadow: 0 5px 20px rgba(30, 40, 60, 0.05);
+}
+
+.muj-trust-item {
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid #e8ebf0;
+}
+
+.muj-trust-item strong {
+    display: block;
+    color: #c2185b;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.muj-trust-item span {
+    color: #697386;
+    font-size: 12px;
+}
+
+
+/* =========================================
+   COURSES
+========================================= */
+
+.muj-courses {
+    padding: 90px 0;
+    background: #f7f8fb;
+}
+
+.muj-section-title {
+    max-width: 700px;
+    margin: 0 auto 45px;
+    text-align: center;
+}
+
+.muj-section-title > span {
+    color: #c2185b;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.muj-section-title h2 {
+    color: #27303f;
+    font-size: 38px;
+    font-weight: 750;
+    margin: 10px 0;
+}
+
+.muj-section-title p {
+    color: #697386;
+    line-height: 1.7;
+}
+
+.muj-course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.muj-course-grid .course-card {
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 25px;
+    border: 1px solid #e8ebf0;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(30, 40, 60, 0.04);
+    transition: 0.3s;
+}
+
+.muj-course-grid .course-card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background: #c2185b;
+}
+
+.muj-course-grid .course-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(194, 24, 91, 0.30);
+    box-shadow: 0 18px 40px rgba(30, 40, 60, 0.10);
+}
+
+.muj-course-grid .course-card h5 {
+    color: #c2185b;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+.muj-course-grid .course-card small {
+    color: #697386;
+    line-height: 1.7;
+}
+
+.course-loading {
+    text-align: center;
+    color: #697386;
+    padding: 30px;
+}
+
+
+/* =========================================
+   WHY MUJ
+========================================= */
+
+.muj-why {
+    padding: 95px 0;
+    background: #ffffff;
+}
+
+.muj-section-title.text-start {
+    text-align: left !important;
+    margin-left: 0;
+}
+
+.muj-feature-grid {
+    display: grid;
+    gap: 14px;
+}
+
+.muj-feature {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background: #f8f9fc;
+    border-radius: 14px;
+    transition: 0.3s;
+}
+
+.muj-feature:hover {
+    transform: translateX(5px);
+}
+
+.muj-feature-icon {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(194, 24, 91, 0.09);
+    border-radius: 12px;
+    font-size: 21px;
+}
+
+.muj-feature h4 {
+    color: #303846;
+    font-size: 15px;
+    font-weight: 650;
+    margin: 0 0 4px;
+}
+
+.muj-feature p {
+    color: #77808f;
+    font-size: 13px;
+    margin: 0;
+}
+
+
+/* =========================================
+   VISUAL
+========================================= */
+
+.muj-visual {
+    min-height: 480px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    background: linear-gradient(
+        135deg,
+        #f8f9fc,
+        #edf0f5
+    );
+}
+
+.muj-visual-circle {
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    right: -105px;
+    top: -85px;
+    border-radius: 50%;
+    background: rgba(194, 24, 91, 0.08);
+}
+
+.muj-main-visual-card {
+    position: absolute;
+    width: 285px;
+    padding: 35px 25px;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    border-radius: 22px;
+    box-shadow: 0 25px 60px rgba(30, 40, 60, 0.14);
+}
+
+.muj-main-visual-card img {
+    width: 185px;
+    max-height: 85px;
+    object-fit: contain;
+    margin-bottom: 18px;
+}
+
+.muj-main-visual-card h3 {
+    color: #303846;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.muj-main-visual-card p {
+    color: #77808f;
+    font-size: 13px;
+    margin: 0;
+}
+
+.muj-floating-card {
+    position: absolute;
+    padding: 15px 18px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 15px 35px rgba(30, 40, 60, 0.10);
+    color: #404957;
+}
+
+.muj-floating-card strong,
+.muj-floating-card span {
+    display: block;
+}
+
+.muj-floating-card strong {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.muj-floating-card span {
+    font-size: 11px;
+    color: #77808f;
+}
+
+.muj-card-one {
+    left: 25px;
+    top: 85px;
+}
+
+.muj-card-two {
+    right: 25px;
+    bottom: 65px;
+}
+
+
+/* =========================================
+   ABOUT
+========================================= */
+
+.muj-about {
+    padding: 90px 0;
+    background: #f8f9fc;
+}
+
+.muj-mini-title {
+    color: #c2185b;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.muj-about h2 {
+    color: #27303f;
+    font-size: 40px;
+    font-weight: 750;
+    margin: 15px 0 20px;
+}
+
+.muj-about p {
+    color: #697386;
+    line-height: 1.8;
+}
+
+.muj-info-card {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 22px;
+    margin-bottom: 15px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(30, 40, 60, 0.06);
+}
+
+.muj-info-icon {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(194, 24, 91, 0.09);
+    border-radius: 12px;
+    font-size: 21px;
+}
+
+.muj-info-card h4 {
+    color: #303846;
+    font-size: 17px;
+    margin: 0 0 4px;
+}
+
+.muj-info-card p {
+    margin: 0;
+    font-size: 13px;
+}
+
+
+/* =========================================
+   CTA
+========================================= */
+
+.muj-cta {
+    padding: 90px 0;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(
+        135deg,
+        #8e1648,
+        #d52b72
+    );
+}
+
+.muj-cta-content {
+    max-width: 720px;
+    margin: auto;
+}
+
+.muj-cta-content > span {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    opacity: 0.85;
+}
+
+.muj-cta-content h2 {
+    font-size: 42px;
+    font-weight: 750;
+    margin: 15px 0;
+}
+
+.muj-cta-content p {
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+
+.muj-cta-btn {
+    display: inline-block;
+    padding: 15px 28px;
+    background: #ffffff;
+    color: #c2185b;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.muj-cta-btn:hover {
+    color: #c2185b;
+    transform: translateY(-3px);
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.muj-footer {
+    padding: 25px 0;
+    text-align: center;
+    background: #202631;
+    color: #c5cbd5;
+}
+
+.muj-footer p {
+    margin: 0;
+    font-size: 13px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 991px) {
+
+    .muj-hero {
+        padding: 65px 0;
+    }
+
+    .muj-hero h1 {
+        font-size: 42px;
+    }
+
+    .muj-course-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .muj-hero {
+        padding: 50px 0;
+    }
+
+    .muj-hero h1 {
+        font-size: 35px;
+    }
+
+    .muj-highlights {
+        grid-template-columns: 1fr;
+    }
+
+    .muj-location {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .muj-buttons {
+        flex-direction: column;
+    }
+
+    .muj-primary-btn,
+    .muj-secondary-btn {
+        text-align: center;
+    }
+
+    .muj-form-card {
+        padding: 22px;
+        border-radius: 18px;
+    }
+
+    .muj-course-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .muj-section-title h2,
+    .muj-about h2,
+    .muj-cta-content h2 {
+        font-size: 30px;
+    }
+
+    .muj-trust-item {
+        border-right: none;
+        border-bottom: 1px solid #eeeeee;
+        padding: 15px;
+    }
+
+    .muj-visual {
+        min-height: 430px;
+    }
+
+    .muj-main-visual-card {
+        width: 240px;
+    }
+
+    .muj-card-one {
+        left: 10px;
+    }
+
+    .muj-card-two {
+        right: 10px;
+    }
+
+}
