@@ -56,8 +56,16 @@ const universityPages = {
     location: "Aligarh, Uttar Pradesh",
     mode: "Distance Education",
     approval: "UGC Approved"
+},
+
+"manipal": {
+    name: "Manipal University Jaipur (Online)",
+    logo: "images/universities/manipal.png",
+    tagline: "UGC Entitled Online Degree Programs",
+    location: "Jaipur, Rajasthan",
+    mode: "Online Education",
+    approval: "UGC Entitled"
 }
-    
 };
 
 // =========================================
