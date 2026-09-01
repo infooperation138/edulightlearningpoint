@@ -71,7 +71,7 @@ const universityPages = {
 // SUBHARTI UNIVERSITY DISTANCE
 // =========================================
 
-"subharti-distance": {
+"subharti": {
 
     name: "Swami Vivekanand Subharti University",
     logo: "images/universities/subharti.png",
