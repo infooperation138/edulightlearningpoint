@@ -7105,3 +7105,894 @@ img {
     }
 
 }
+
+/* =========================================
+   SUBHARTI / UNIVERSITY PREMIUM CSS
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #182033;
+    background: #ffffff;
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.university-navbar {
+    background: rgba(255,255,255,0.96);
+    border-bottom: 1px solid #edf0f5;
+    min-height: 58px;
+    z-index: 1000;
+}
+
+.university-navbar .navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+    color: #182033;
+}
+
+.university-navbar .navbar-brand span {
+    color: #c51f3c;
+}
+
+.university-navbar .nav-link {
+    color: #202636;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.university-navbar .nav-link:hover {
+    color: #c51f3c;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.university-premium-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 60px 0 70px;
+    background:
+        radial-gradient(circle at 90% 15%, rgba(197,31,60,0.10), transparent 28%),
+        linear-gradient(135deg, #f8faff 0%, #ffffff 55%, #fff8fa 100%);
+}
+
+.university-premium-hero::before {
+    content: "";
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    border: 1px solid rgba(197,31,60,0.10);
+    border-radius: 50%;
+    right: -180px;
+    top: -180px;
+}
+
+.university-premium-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* =========================================
+   OPEN BADGE
+========================================= */
+
+.university-open-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 18px;
+    margin-bottom: 24px;
+    border-radius: 30px;
+    background: #fff0f3;
+    color: #c51f3c;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #ffd8df;
+}
+
+.university-open-badge span {
+    font-size: 11px;
+}
+
+
+/* =========================================
+   UNIVERSITY LOGO
+========================================= */
+
+.university-logo-premium {
+    width: 205px;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #e8ebf1;
+    box-shadow: 0 12px 35px rgba(20,30,55,0.08);
+    margin-bottom: 28px;
+    padding: 15px;
+}
+
+.university-logo-premium img {
+    max-width: 100%;
+    max-height: 75px;
+    object-fit: contain;
+}
+
+
+/* =========================================
+   HERO TITLE
+========================================= */
+
+.university-premium-hero h1 {
+    margin: 0;
+    max-width: 720px;
+    font-size: clamp(44px, 5vw, 70px);
+    line-height: 0.98;
+    letter-spacing: -2.5px;
+    font-weight: 800;
+    color: #111827;
+}
+
+.university-premium-hero h1 span {
+    display: block;
+    color: #c51f3c;
+}
+
+
+/* =========================================
+   TAGLINE
+========================================= */
+
+.university-premium-tagline {
+    margin: 20px 0 16px;
+    font-size: 18px;
+    color: #667085;
+}
+
+
+/* =========================================
+   LOCATION
+========================================= */
+
+.university-location {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 24px;
+    color: #39445a;
+    font-size: 14px;
+}
+
+
+/* =========================================
+   BADGES
+========================================= */
+
+.university-premium-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-bottom: 25px;
+}
+
+.university-premium-badges div {
+    padding: 8px 13px;
+    border-radius: 9px;
+    background: #ffffff;
+    border: 1px solid #e1e5ec;
+    color: #344054;
+    font-size: 12px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(20,30,55,0.04);
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.university-hero-description {
+    max-width: 650px;
+    color: #667085;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+
+/* =========================================
+   HERO BUTTONS
+========================================= */
+
+.university-hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.university-primary-btn,
+.university-secondary-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all .25s ease;
+}
+
+.university-primary-btn {
+    background: #c51f3c;
+    color: #ffffff;
+    box-shadow: 0 12px 25px rgba(197,31,60,0.20);
+}
+
+.university-primary-btn:hover {
+    background: #a91731;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.university-secondary-btn {
+    background: #ffffff;
+    color: #c51f3c;
+    border: 1px solid #e7c2ca;
+}
+
+.university-secondary-btn:hover {
+    background: #fff5f7;
+    color: #a91731;
+}
+
+
+/* =========================================
+   ADMISSION CARD
+========================================= */
+
+.admission-card {
+    background: rgba(255,255,255,0.98);
+    border: 1px solid #e8ebf1;
+    border-radius: 24px;
+    padding: 28px;
+    box-shadow: 0 25px 60px rgba(20,30,55,0.12);
+    position: relative;
+}
+
+.admission-card::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff0f3;
+    right: -35px;
+    top: -35px;
+    z-index: -1;
+}
+
+
+/* =========================================
+   FORM HEADER
+========================================= */
+
+.form-top {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-bottom: 22px;
+}
+
+.form-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff0f3;
+    font-size: 22px;
+}
+
+.form-top h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1b2436;
+}
+
+.form-top p {
+    margin: 3px 0 0;
+    color: #8a93a5;
+    font-size: 12px;
+}
+
+
+/* =========================================
+   FORM INPUTS
+========================================= */
+
+.university-input {
+    margin-bottom: 12px;
+}
+
+.university-input input,
+.university-input select {
+    width: 100%;
+    height: 52px;
+    padding: 0 15px;
+    border-radius: 10px;
+    border: 1px solid #dfe4ec;
+    background: #ffffff;
+    color: #273043;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    outline: none;
+    transition: all .2s ease;
+}
+
+.university-input input::placeholder {
+    color: #9aa3b3;
+}
+
+.university-input input:focus,
+.university-input select:focus {
+    border-color: #c51f3c;
+    box-shadow: 0 0 0 3px rgba(197,31,60,0.08);
+}
+
+
+/* =========================================
+   SUBMIT BUTTON
+========================================= */
+
+.university-submit-btn {
+    width: 100%;
+    height: 52px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+    background: #c51f3c;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 12px 25px rgba(197,31,60,0.18);
+    transition: all .25s ease;
+}
+
+.university-submit-btn:hover {
+    background: #a91731;
+    transform: translateY(-1px);
+}
+
+
+/* =========================================
+   SECURITY
+========================================= */
+
+.form-security {
+    margin: 13px 0 0;
+    text-align: center;
+    color: #8992a3;
+    font-size: 10px;
+}
+
+
+/* =========================================
+   TRUST STRIP
+========================================= */
+
+.university-trust-strip {
+    background: #ffffff;
+    border-top: 1px solid #edf0f4;
+    border-bottom: 1px solid #edf0f4;
+    padding: 25px 0;
+}
+
+.trust-item {
+    text-align: center;
+    padding: 5px 15px;
+    border-right: 1px solid #edf0f4;
+}
+
+.trust-item strong {
+    display: block;
+    color: #c51f3c;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.trust-item span {
+    display: block;
+    margin-top: 3px;
+    color: #7c8595;
+    font-size: 11px;
+}
+
+
+/* =========================================
+   SECTION TITLE
+========================================= */
+
+.university-section-title {
+    margin-bottom: 38px;
+}
+
+.university-section-title > span {
+    display: inline-block;
+    margin-bottom: 9px;
+    color: #c51f3c;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.university-section-title h2 {
+    margin: 0 0 10px;
+    font-size: clamp(30px, 4vw, 45px);
+    line-height: 1.1;
+    letter-spacing: -1px;
+    font-weight: 700;
+    color: #182033;
+}
+
+.university-section-title p {
+    margin: 0;
+    color: #747e91;
+    font-size: 14px;
+}
+
+
+/* =========================================
+   COURSES
+========================================= */
+
+.university-modern-courses {
+    padding: 80px 0;
+    background: #f9fafc;
+}
+
+.university-course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.university-course-grid > div {
+    background: #ffffff;
+    border: 1px solid #e7eaf0;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 8px 25px rgba(20,30,55,0.04);
+    transition: all .25s ease;
+}
+
+.university-course-grid > div:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(20,30,55,0.08);
+}
+
+.course-loading {
+    color: #7b8495;
+    font-size: 13px;
+}
+
+
+/* =========================================
+   WHY SECTION
+========================================= */
+
+.university-why-section {
+    padding: 90px 0;
+    background: #ffffff;
+}
+
+.university-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.university-feature {
+    padding: 20px;
+    border: 1px solid #e8ebf0;
+    border-radius: 15px;
+    background: #ffffff;
+    transition: all .25s ease;
+}
+
+.university-feature:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(20,30,55,0.07);
+}
+
+.feature-icon {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff0f3;
+    border-radius: 11px;
+    font-size: 19px;
+    margin-bottom: 13px;
+}
+
+.university-feature h4 {
+    margin: 0 0 6px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.university-feature p {
+    margin: 0;
+    color: #7a8495;
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   ABOUT VISUAL
+========================================= */
+
+.university-about-visual {
+    position: relative;
+    min-height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visual-circle {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    background: #fff4f6;
+    border: 1px solid #ffe0e6;
+}
+
+.visual-main-card {
+    position: relative;
+    z-index: 3;
+    width: 300px;
+    padding: 28px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #e7eaf0;
+    box-shadow: 0 25px 55px rgba(20,30,55,0.12);
+}
+
+.visual-main-card img {
+    width: 170px;
+    max-height: 85px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.visual-main-card h3 {
+    margin: 0 0 7px;
+    font-size: 18px;
+}
+
+.visual-main-card p {
+    margin: 0;
+    color: #8790a0;
+    font-size: 11px;
+}
+
+.visual-card {
+    position: absolute;
+    z-index: 4;
+    padding: 14px 17px;
+    background: #ffffff;
+    border: 1px solid #e7eaf0;
+    border-radius: 13px;
+    box-shadow: 0 15px 35px rgba(20,30,55,0.10);
+    font-size: 13px;
+}
+
+.visual-card strong {
+    display: block;
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+.visual-card span {
+    display: block;
+    color: #8a93a3;
+    font-size: 9px;
+}
+
+.visual-card-one {
+    top: 40px;
+    left: 15px;
+}
+
+.visual-card-two {
+    right: 15px;
+    bottom: 45px;
+}
+
+
+/* =========================================
+   ABOUT MODERN
+========================================= */
+
+.university-about-modern {
+    padding: 85px 0;
+    background: #f9fafc;
+}
+
+.about-mini-title {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #c51f3c;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+
+.university-about-modern h2 {
+    margin: 0 0 18px;
+    max-width: 620px;
+    font-size: 42px;
+    line-height: 1.15;
+    letter-spacing: -1px;
+}
+
+.university-about-modern p {
+    max-width: 650px;
+    color: #6f798c;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   APPROVAL CARD
+========================================= */
+
+.approval-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    margin-bottom: 14px;
+    background: #ffffff;
+    border: 1px solid #e7eaf0;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(20,30,55,0.04);
+}
+
+.approval-icon {
+    flex-shrink: 0;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: #fff0f3;
+    color: #c51f3c;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.approval-card h4 {
+    margin: 0 0 4px;
+    font-size: 14px;
+}
+
+.approval-card p {
+    margin: 0;
+    color: #8790a0;
+    font-size: 10px;
+}
+
+
+/* =========================================
+   FINAL CTA
+========================================= */
+
+.university-final-cta {
+    padding: 75px 0;
+    background:
+        radial-gradient(circle at 15% 30%, rgba(255,255,255,0.10), transparent 25%),
+        linear-gradient(135deg, #9f1730, #c51f3c);
+}
+
+.cta-content {
+    text-align: center;
+    color: #ffffff;
+}
+
+.cta-content > span {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    opacity: .85;
+}
+
+.cta-content h2 {
+    margin: 0 0 12px;
+    font-size: clamp(30px, 4vw, 45px);
+    font-weight: 700;
+}
+
+.cta-content p {
+    margin: 0 auto 25px;
+    max-width: 600px;
+    font-size: 13px;
+    opacity: .9;
+}
+
+.university-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0 25px;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #b31b37;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all .25s ease;
+}
+
+.university-cta-btn:hover {
+    transform: translateY(-2px);
+    color: #8f142b;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.university-footer {
+    padding: 22px 0;
+    background: #121827;
+    color: #aeb5c2;
+    text-align: center;
+}
+
+.university-footer p {
+    margin: 0;
+    font-size: 11px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 991px) {
+
+    .university-premium-hero {
+        padding: 45px 0 55px;
+    }
+
+    .university-premium-hero h1 {
+        font-size: 52px;
+    }
+
+    .admission-card {
+        margin-top: 15px;
+    }
+
+    .university-course-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .university-premium-hero {
+        padding: 35px 0 45px;
+    }
+
+    .university-premium-hero h1 {
+        font-size: 42px;
+        letter-spacing: -1.5px;
+    }
+
+    .university-premium-tagline {
+        font-size: 15px;
+    }
+
+    .university-logo-premium {
+        width: 180px;
+        height: 95px;
+    }
+
+    .university-premium-badges {
+        gap: 7px;
+    }
+
+    .university-hero-buttons {
+        width: 100%;
+    }
+
+    .university-primary-btn,
+    .university-secondary-btn {
+        flex: 1;
+    }
+
+    .admission-card {
+        padding: 21px;
+        border-radius: 18px;
+    }
+
+    .university-course-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .university-feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .university-about-visual {
+        min-height: 380px;
+    }
+
+    .visual-circle {
+        width: 270px;
+        height: 270px;
+    }
+
+    .visual-main-card {
+        width: 260px;
+    }
+
+    .visual-card-one {
+        left: 0;
+    }
+
+    .visual-card-two {
+        right: 0;
+    }
+
+    .university-about-modern h2 {
+        font-size: 32px;
+    }
+
+    .trust-item {
+        border-right: none;
+        border-bottom: 1px solid #edf0f4;
+        padding: 15px;
+    }
+
+    .trust-item:last-child {
+        border-bottom: none;
+    }
+
+}
