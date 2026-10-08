@@ -67,7 +67,7 @@ const universityPages = {
     approval: "UGC Entitled"
 },
 
-"subharti-distance": {
+"subharti": {
 
     name: "Swami Vivekanand Subharti University",
     logo: "images/universities/subharti.png",
