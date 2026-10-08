@@ -217,3 +217,53 @@ PG:{
 
 },
 
+// =========================================
+// SWAMI VIVEKANAND SUBHARTI UNIVERSITY
+// DISTANCE
+// =========================================
+
+"Swami Vivekanand Subharti University": {
+
+    UG: {
+
+        "BA": [
+            "General"
+        ],
+
+        "B.Com": [
+            "General"
+        ],
+
+        "BCA": [
+            "Computer Applications"
+        ]
+
+    },
+
+    PG: {
+
+        "MA": [
+            "English",
+            "Hindi",
+            "Economics",
+            "Political Science"
+        ],
+
+        "M.Com": [
+            "General"
+        ],
+
+        "MBA": [
+            "Marketing Management",
+            "Finance Management",
+            "Human Resource Management",
+            "International Business"
+        ],
+
+        "MCA": [
+            "Computer Applications"
+        ]
+
+    }
+
+},
